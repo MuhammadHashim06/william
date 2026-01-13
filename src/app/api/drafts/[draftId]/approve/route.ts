@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSession } from "@/lib/auth";
 import { DraftActionsService } from "@/services/draft_actions.service";
-import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
+import { Prisma } from "@prisma/client";
 
 export async function POST(req: NextRequest, ctx: { params: Promise<{ draftId: string }> }) {
     try {
@@ -18,7 +18,7 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ draftId: s
         return NextResponse.json({ ok: true });
     } catch (e: unknown) {
         console.error("Approve Draft Error:", e);
-        const msg = e instanceof Error ? e.message : String(e);
+        const msg = e instanceof Prisma.PrismaClientKnownRequestError ? e.message : String(e);
         return NextResponse.json(
             { ok: false, error: msg },
             { status: 400 }

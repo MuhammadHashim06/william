@@ -1,0 +1,55 @@
+{
+  "name": "william",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "worker:ingest": "tsx workers/ingest.worker.ts",
+    "worker:classify": "tsx workers/classify.worker.ts",
+    "worker:draft": "tsx workers/draft.worker.ts",
+    "worker:extract": "tsx workers/extract.worker.ts",
+    "worker:escalation": "tsx workers/escalation/index.ts",
+    "worker:retry": "tsx workers/retry/index.ts",
+    "workers:dev": "npm-run-all -p worker:ingest worker:classify worker:draft worker:escalation worker:retry"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.13.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@prisma/adapter-mariadb": "^7.2.0",
+    "@prisma/client": "^7.2.0",
+    "jose": "^6.1.3",
+    "mammoth": "^1.11.0",
+    "mariadb": "^3.4.5",
+    "next": "16.1.1",
+    "node-cron": "^4.2.1",
+    "openai": "^6.15.0",
+    "pino": "^10.1.0",
+    "pino-pretty": "^13.1.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "xlsx": "^0.18.5",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.27",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "npm-run-all": "^4.1.5",
+    "prisma": "^7.2.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

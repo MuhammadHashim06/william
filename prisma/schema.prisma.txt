@@ -1,0 +1,307 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+/**
+ * Users and roles
+ */
+enum UserRole {
+  ADMIN
+  USER
+}
+
+/**
+ * Processing state for pipeline orchestration
+ */
+enum ThreadProcessingStatus {
+  NEW
+  CLASSIFIED
+  DRAFTED
+  DONE
+  FAILED
+}
+
+/**
+ * Attachment extraction state (no skipping, but failures are tracked)
+ */
+enum AttachmentStatus {
+  PENDING
+  EXTRACTED
+  FAILED
+}
+
+/**
+ * Audit actions (append-only)
+ */
+enum AuditAction {
+  AI_CLASSIFIED
+  AI_DRAFTED
+  AI_EXTRACTED
+
+  STAGE_CHANGED
+  OWNER_CHANGED
+
+  DRAFT_CREATED
+  DRAFT_EDITED
+  DRAFT_APPROVED
+  DRAFT_SENT
+  DRAFT_DISCARDED
+
+  ESCALATION_TRIGGERED
+
+  GRAPH_INGESTED_MESSAGE
+  GRAPH_CREATED_DRAFT
+  GRAPH_SENT_DRAFT
+  GRAPH_ERROR
+  OPENAI_ERROR
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  displayName String?
+  initials    String   @unique
+  password    String
+  role        UserRole @default(USER)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  notesCreated  Note[] @relation("NoteCreatedBy")
+
+  ownedThreads   Thread[] @relation("ThreadOwner")
+  createdDrafts  Draft[]  @relation("DraftCreatedBy")
+  editedDrafts   Draft[]  @relation("DraftEditedBy")
+  auditEvents    AuditLog[]
+}
+
+model Inbox {
+  id           String  @id @default(cuid())
+  key          String  @unique
+  emailAddress String
+  isEscalation Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  threads Thread[]
+  cursor  InboxCursor?
+
+  @@unique([emailAddress, isEscalation])
+}
+
+model InboxCursor {
+  id        String @id @default(cuid())
+  inboxId   String @unique
+  inbox     Inbox  @relation(fields: [inboxId], references: [id], onDelete: Cascade)
+
+  deltaLink String?  @db.LongText
+  lastSyncAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Thread {
+  id                 String @id @default(cuid())
+  inboxId            String
+  inbox              Inbox  @relation(fields: [inboxId], references: [id], onDelete: Cascade)
+
+  graphConversationId String
+  subject            String?
+  lastMessageAt      DateTime?
+
+  // Scope: exactly one department per email/thread
+  department         String // validated against src/domain/enums.ts Department
+  stage              String // validated against STAGES_BY_DEPARTMENT
+  needsReview        Boolean @default(false)
+
+  responseRequired   Boolean @default(true)
+  draftTypeSuggested String? // DraftType enum value suggested by AI
+
+  ownerUserId        String?
+  owner              User?   @relation("ThreadOwner", fields: [ownerUserId], references: [id], onDelete: SetNull)
+  notes        Note[]
+
+  processingStatus   ThreadProcessingStatus @default(NEW)
+
+  // SLA
+  slaDueAt           DateTime?
+  slaBreachedAt      DateTime?
+
+  metadata           Json?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  messages     EmailMessage[]
+  drafts       Draft[]
+  escalations  Escalation[]
+  auditLogs    AuditLog[]
+
+  @@unique([inboxId, graphConversationId])
+  @@index([department])
+  @@index([stage])
+  @@index([ownerUserId])
+  @@index([slaDueAt])
+  @@index([processingStatus])
+}
+
+model EmailMessage {
+  id        String   @id @default(cuid())
+  threadId  String
+  thread    Thread   @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  graphMessageId String @unique
+  receivedAt     DateTime
+
+  fromJson       Json
+  toJson         Json
+  ccJson         Json?
+  subject        String?
+  bodyPreview    String? @db.LongText
+  bodyHtml       String? @db.LongText
+
+  hasAttachments Boolean @default(false)
+  attachments    Attachment[]
+  auditLogs      AuditLog[]
+
+  createdAt      DateTime @default(now())
+
+  @@index([threadId])
+  @@index([receivedAt])
+}
+
+model Attachment {
+  id             String   @id @default(cuid())
+  messageId      String
+  message        EmailMessage @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  graphAttachmentId String
+  name           String
+  contentType    String
+  size           Int
+  isInline       Boolean @default(false)
+
+  // Local storage path after download
+  localPath      String? @db.LongText
+
+  // Conversion/Extraction result
+  status         AttachmentStatus @default(PENDING)
+  extractionText String? @db.LongText
+  imagePaths     Json?   // Arrary of local image paths if converted
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([messageId])
+  @@index([status])
+}
+
+model Draft {
+  id                 String @id @default(cuid())
+  threadId            String
+  thread              Thread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  draftType           String  // validated against DraftType in enums.ts
+  status              String  // validated against DraftStatus in enums.ts
+
+  version             Int @default(1)
+
+  // Outlook draft id (Graph message id for the draft)
+  graphDraftMessageId String? @unique
+
+  subject             String?
+  toJson              Json
+  ccJson              Json?
+  bodyHtml            String? @db.LongText
+  bodyText            String? @db.LongText
+
+  createdByUserId     String?
+  createdBy           User? @relation("DraftCreatedBy", fields: [createdByUserId], references: [id], onDelete: SetNull)
+
+  lastEditedByUserId  String?
+  lastEditedBy        User? @relation("DraftEditedBy", fields: [lastEditedByUserId], references: [id], onDelete: SetNull)
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  auditLogs           AuditLog[]
+  escalations         Escalation[]
+
+  @@index([threadId])
+  @@index([status])
+  @@index([draftType])
+}
+
+model Escalation {
+  id          String @id @default(cuid())
+  threadId     String
+  thread       Thread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  department   String // Department enum validated in app
+  reason       String
+  triggeredAt  DateTime @default(now())
+
+  draftId      String?
+  draft        Draft? @relation(fields: [draftId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([threadId])
+  @@index([department])
+}
+
+model AuditLog {
+  id          String @id @default(cuid())
+
+  threadId    String?
+  thread      Thread? @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  messageId   String?
+  message     EmailMessage? @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  draftId     String?
+  draft       Draft? @relation(fields: [draftId], references: [id], onDelete: Cascade)
+
+  actorUserId String?
+  actor       User? @relation(fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  action      AuditAction
+  payload     Json?
+
+  createdAt DateTime @default(now())
+
+  @@index([threadId])
+  @@index([messageId])
+  @@index([draftId])
+  @@index([actorUserId])
+  @@index([action])
+}
+
+// Add this new model anywhere (usually near Draft/Escalation models)
+
+model Note {
+  id              String   @id @default(cuid())
+
+  threadId         String
+  thread           Thread   @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  createdByUserId  String?
+  createdBy        User?    @relation("NoteCreatedBy", fields: [createdByUserId], references: [id], onDelete: SetNull)
+
+  description      String   @db.LongText
+
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([threadId])
+  @@index([createdByUserId])
+  @@index([createdAt])
+}

@@ -1,0 +1,377 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+/**
+ * Users and roles
+ */
+enum UserRole {
+  ADMIN
+  USER
+}
+
+/**
+ * Processing state for pipeline orchestration
+ */
+enum ThreadProcessingStatus {
+  NEW
+  CLASSIFIED
+  DRAFTED
+  DONE
+  FAILED
+}
+
+/**
+ * Attachment extraction state (no skipping, but failures are tracked)
+ */
+enum AttachmentStatus {
+  PENDING
+  EXTRACTED
+  FAILED
+}
+
+/**
+ * Audit actions (append-only)
+ */
+enum AuditAction {
+  AI_CLASSIFIED
+  AI_DRAFTED
+  AI_EXTRACTED
+
+  STAGE_CHANGED
+  OWNER_CHANGED
+
+  DRAFT_CREATED
+  DRAFT_EDITED
+  DRAFT_APPROVED
+  DRAFT_SENT
+  DRAFT_DISCARDED
+
+  ESCALATION_TRIGGERED
+
+  GRAPH_INGESTED_MESSAGE
+  GRAPH_CREATED_DRAFT
+  GRAPH_SENT_DRAFT
+  GRAPH_ERROR
+  OPENAI_ERROR
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  displayName String?
+  initials    String   @unique
+
+  // Version 2 addition
+  password    String
+
+  role        UserRole @default(USER)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  ownedThreads   Thread[]   @relation("ThreadOwner")
+  createdDrafts  Draft[]    @relation("DraftCreatedBy")
+  editedDrafts   Draft[]    @relation("DraftEditedBy")
+  auditEvents    AuditLog[]
+
+  // Version 2 addition
+  notesCreated   Note[]     @relation("NoteCreatedBy")
+  casesCreated   Case[]     @relation("CaseCreatedBy")
+}
+
+model Inbox {
+  id           String  @id @default(cuid())
+  key          String  @unique
+  emailAddress String
+  isEscalation Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  threads Thread[]
+  cursor  InboxCursor?
+
+  @@unique([emailAddress, isEscalation])
+}
+
+model InboxCursor {
+  id         String @id @default(cuid())
+  inboxId    String @unique
+  inbox      Inbox  @relation(fields: [inboxId], references: [id], onDelete: Cascade)
+
+  deltaLink  String?   @db.LongText
+  lastSyncAt DateTime?
+
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Thread {
+  id                  String @id @default(cuid())
+  inboxId             String
+  inbox               Inbox  @relation(fields: [inboxId], references: [id], onDelete: Cascade)
+
+  graphConversationId String
+  subject             String?
+  lastMessageAt       DateTime?
+
+  department          String
+  stage               String
+  needsReview         Boolean @default(false)
+
+  responseRequired    Boolean @default(true)
+  draftTypeSuggested  String?
+
+  ownerUserId         String?
+  owner               User?   @relation("ThreadOwner", fields: [ownerUserId], references: [id], onDelete: SetNull)
+
+  processingStatus    ThreadProcessingStatus @default(NEW)
+
+  slaDueAt            DateTime?
+  slaBreachedAt       DateTime?
+
+  // Version 2 addition
+  metadata            Json?
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  messages            EmailMessage[]
+  drafts              Draft[]
+  escalations         Escalation[]
+  auditLogs           AuditLog[]
+
+  // Version 2 addition
+  caseId              String?
+  case                Case?   @relation(fields: [caseId], references: [id], onDelete: SetNull)
+
+  // Version 2 addition
+  notes               Note[]
+
+  @@unique([inboxId, graphConversationId])
+  @@index([department])
+  @@index([stage])
+  @@index([ownerUserId])
+  @@index([slaDueAt])
+  @@index([processingStatus])
+  @@index([caseId])
+}
+
+model EmailMessage {
+  id                 String @id @default(cuid())
+  threadId            String
+  thread              Thread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  graphMessageId      String @unique
+
+  // Version 1 field restored
+  internetMessageId   String? @db.LongText
+
+  fromJson            Json
+  toJson              Json
+  ccJson              Json?
+
+  // Version 1 fields restored (and keep Version 2 idea)
+  sentAt              DateTime?
+  receivedAt          DateTime?
+
+  subject             String?
+  bodyPreview         String? @db.LongText
+  bodyHtml            String? @db.LongText
+
+  // Version 1 field restored
+  bodyText            String? @db.LongText
+
+  hasAttachments      Boolean @default(false)
+
+  createdAt           DateTime @default(now())
+
+  // Version 1 field restored
+  updatedAt           DateTime @updatedAt
+
+  attachments         Attachment[]
+  auditLogs           AuditLog[]
+
+  @@index([threadId])
+  @@index([receivedAt])
+}
+
+model Attachment {
+  id                 String @id @default(cuid())
+  messageId           String
+  message             EmailMessage @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  graphAttachmentId   String
+
+  // Version 1 naming retained
+  filename            String
+
+  // Version 1 field restored
+  mimeType            String?
+
+  // Version 1 field restored
+  sizeBytes           Int?
+
+  // Version 1 idempotency field restored
+  contentHash         String?
+
+  // Version 2 addition
+  isInline            Boolean @default(false)
+
+  // Version 2 addition
+  localPath           String? @db.LongText
+
+  status              AttachmentStatus @default(PENDING)
+
+  // Version 1 extraction result restored
+  extractedJson       Json?
+
+  // Version 2 addition
+  extractionText      String? @db.LongText
+
+  // Version 2 addition
+  imagePaths          Json?
+
+  // Version 1 error tracking restored
+  lastError           String? @db.LongText
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  // Version 1 unique idempotency restored
+  @@unique([messageId, graphAttachmentId])
+  @@index([messageId])
+  @@index([status])
+}
+
+model Draft {
+  id                 String @id @default(cuid())
+  threadId            String
+  thread              Thread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  draftType           String
+  status              String
+
+  version             Int @default(1)
+
+  graphDraftMessageId String? @unique
+
+  subject             String?
+  toJson              Json
+  ccJson              Json?
+  bodyHtml            String? @db.LongText
+  bodyText            String? @db.LongText
+
+  createdByUserId     String?
+  createdBy           User? @relation("DraftCreatedBy", fields: [createdByUserId], references: [id], onDelete: SetNull)
+
+  lastEditedByUserId  String?
+  lastEditedBy        User? @relation("DraftEditedBy", fields: [lastEditedByUserId], references: [id], onDelete: SetNull)
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  auditLogs           AuditLog[]
+  escalations         Escalation[]
+
+  @@index([threadId])
+  @@index([status])
+  @@index([draftType])
+}
+
+model Escalation {
+  id          String @id @default(cuid())
+  threadId     String
+  thread       Thread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  department   String
+  reason       String
+  triggeredAt  DateTime @default(now())
+
+  draftId      String?
+  draft        Draft? @relation(fields: [draftId], references: [id], onDelete: SetNull)
+
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([threadId])
+  @@index([department])
+}
+
+model AuditLog {
+  id          String @id @default(cuid())
+
+  threadId    String?
+  thread      Thread? @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  messageId   String?
+  message     EmailMessage? @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  draftId     String?
+  draft       Draft? @relation(fields: [draftId], references: [id], onDelete: Cascade)
+
+  actorUserId String?
+  actor       User? @relation(fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  action      AuditAction
+  payload     Json?
+
+  createdAt   DateTime @default(now())
+
+  @@index([threadId])
+  @@index([messageId])
+  @@index([draftId])
+  @@index([actorUserId])
+  @@index([action])
+}
+
+// Version 2 addition
+model Note {
+  id              String   @id @default(cuid())
+
+  threadId         String
+  thread           Thread   @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  createdByUserId  String?
+  createdBy        User?    @relation("NoteCreatedBy", fields: [createdByUserId], references: [id], onDelete: SetNull)
+
+  description      String   @db.LongText
+
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([threadId])
+  @@index([createdByUserId])
+  @@index([createdAt])
+}
+
+// Version 2 addition: Cases
+model Case {
+  id              String   @id @default(cuid())
+
+  caseNumber      Int      @unique @default(autoincrement()) // Human readable ID
+
+  status          String   @default("OPEN") // OPEN, CLOSED, etc.
+  priority        String   @default("MEDIUM")
+
+  title           String?
+  description     String?  @db.LongText
+
+  threads         Thread[]
+
+  createdByUserId String?
+  createdBy       User?    @relation("CaseCreatedBy", fields: [createdByUserId], references: [id], onDelete: SetNull)
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([status])
+  @@index([createdByUserId])
+}

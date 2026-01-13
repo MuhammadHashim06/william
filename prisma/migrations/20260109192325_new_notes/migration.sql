@@ -1,20 +1,20 @@
 -- DropForeignKey
-ALTER TABLE `draft` DROP FOREIGN KEY `fk_draft_created_by`;
+ALTER TABLE `Draft` DROP FOREIGN KEY `fk_draft_created_by`;
 
 -- DropForeignKey
-ALTER TABLE `draft` DROP FOREIGN KEY `fk_draft_last_edited_by`;
+ALTER TABLE `Draft` DROP FOREIGN KEY `fk_draft_last_edited_by`;
 
 -- DropForeignKey
-ALTER TABLE `draft` DROP FOREIGN KEY `fk_draft_thread`;
+ALTER TABLE `Draft` DROP FOREIGN KEY `fk_draft_thread`;
 
 -- AlterTable
-ALTER TABLE `attachment` ADD COLUMN `extractionText` LONGTEXT NULL,
+ALTER TABLE `Attachment` ADD COLUMN `extractionText` LONGTEXT NULL,
     ADD COLUMN `imagePaths` JSON NULL,
     ADD COLUMN `isInline` BOOLEAN NOT NULL DEFAULT false,
     ADD COLUMN `localPath` LONGTEXT NULL;
 
 -- AlterTable
-ALTER TABLE `thread` ADD COLUMN `metadata` JSON NULL;
+ALTER TABLE `Thread` ADD COLUMN `metadata` JSON NULL;
 
 -- CreateTable
 CREATE TABLE `Note` (
@@ -50,4 +50,4 @@ ALTER TABLE `Note` ADD CONSTRAINT `Note_threadId_fkey` FOREIGN KEY (`threadId`) 
 ALTER TABLE `Note` ADD CONSTRAINT `Note_createdByUserId_fkey` FOREIGN KEY (`createdByUserId`) REFERENCES `User`(`id`) ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- RenameIndex
-ALTER TABLE `draft` RENAME INDEX `uq_draft_graph_message_id` TO `Draft_graphDraftMessageId_key`;
+ALTER TABLE `Draft` RENAME INDEX `uq_draft_graph_message_id` TO `Draft_graphDraftMessageId_key`;

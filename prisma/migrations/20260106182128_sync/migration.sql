@@ -1,5 +1,5 @@
 -- DropIndex
-DROP INDEX `EmailMessage_internetMessageId_idx` ON `emailmessage`;
+DROP INDEX `EmailMessage_internetMessageId_idx` ON `EmailMessage`;
 
 -- AlterTable
-ALTER TABLE `emailmessage` MODIFY `internetMessageId` LONGTEXT NULL;
+ALTER TABLE `EmailMessage` MODIFY `internetMessageId` LONGTEXT NULL;

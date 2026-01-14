@@ -28,6 +28,7 @@ export default function LoginPage() {
                 throw new Error(data.error || 'Login failed');
             }
 
+            router.refresh();
             router.push('/dashboard');
         } catch (err: any) {
             setError(err.message);

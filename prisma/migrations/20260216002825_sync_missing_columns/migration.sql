@@ -1,5 +1,5 @@
 -- AlterTable
-ALTER TABLE `thread` ADD COLUMN `caseId` VARCHAR(191) NULL;
+ALTER TABLE `Thread` ADD COLUMN `caseId` VARCHAR(191) NULL;
 
 -- CreateTable
 CREATE TABLE `Case` (

@@ -102,12 +102,17 @@ export async function listInboxMessages(sharedInboxUpn: string, top = 5): Promis
 
 export async function getMessage(sharedInboxUpn: string, messageId: string): Promise<GraphMessage> {
     const g = await graphClient();
-    return g
-        .api(`/users/${encodeURIComponent(sharedInboxUpn)}/messages/${messageId}`)
-        .select(
-            "id,subject,conversationId,receivedDateTime,sentDateTime,from,toRecipients,ccRecipients,body,bodyPreview,hasAttachments,internetMessageId"
-        )
-        .get();
+    try {
+        return await g
+            .api(`/users/${encodeURIComponent(sharedInboxUpn)}/messages/${messageId}`)
+            .select(
+                "id,subject,conversationId,receivedDateTime,sentDateTime,from,toRecipients,ccRecipients,body,bodyPreview,hasAttachments,internetMessageId"
+            )
+            .get();
+    } catch (e: any) {
+        console.error(`[Graph] getMessage failed for ${messageId}:`, e.message, e.cause, e.stack);
+        throw e;
+    }
 }
 
 export async function listConversationMessages(
@@ -180,6 +185,7 @@ export async function deltaInboxMessages(
         ? deltaLink
         : `/users/${encodeURIComponent(sharedInboxUpn)}/mailFolders/Inbox/messages/delta?$select=id,subject,conversationId,receivedDateTime,from,hasAttachments,bodyPreview,internetMessageId`;
 
+    console.log(`[Graph] Fetching delta: ${url}`);
     return g.api(url).get();
 }
 
@@ -271,6 +277,7 @@ export async function deltaInboxMessagesFrom(
         `?$select=id,subject,conversationId,receivedDateTime,from,hasAttachments,bodyPreview,internetMessageId` +
         `&$filter=receivedDateTime ge ${fromIso}`;
 
+    console.log(`[Graph] Fetching delta (filtered): ${url}`);
     return g.api(url).get();
 }
 

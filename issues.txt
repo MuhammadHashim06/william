@@ -1,0 +1,18 @@
+Issues Fixed in this Session:
+
+1. Database Connection Failure
+   - Problem: The application was failing to connect to the MariaDB database using the native Prisma client.
+   - Fix: Switched `src/lib/db.ts` to use `@prisma/adapter-mariadb`, matching the working configuration in `prisma/seed.ts`. This involved instantiating `PrismaMariaDb` with the `DATABASE_URL` and passing it to `PrismaClient`.
+
+2. Schema Synchronization / Missing Columns (`caseId`)
+   - Problem: The worker failed with `Invalid prisma.thread.upsert()` because the database schema was out of sync with the Prisma schema file. Specifically, the `caseId` column and `Case` table were missing in the actual database, despite being defined in `schema.prisma`.
+   - Fix: Ran `npx prisma migrate dev --name sync_missing_columns` to generate a new migration file (`20260216002825_sync_missing_columns`). This formalizes the schema changes (adding `caseId`, `Case` table, etc.) so that future database resets will apply them automatically.
+
+3. Graph API "Fetch Failed" Error
+   - Problem: The worker initially failed with a generic `fetch failed` error when trying to connect to `graph.microsoft.com`.
+   - Fix: While the root cause appeared to be transient or environment-related, we validated connectivity using custom debug scripts (`debug-ingest.js`, `test-fetch.js`, `test-graph.ts`). Ensuring a clean environment and restarting the worker resolved the connectivity issue. The worker now successfully pages through mailbox deltas.
+
+4. Ingestion Lookback Period Ignored
+   - Problem: The worker was supposed to fetch only the past 7 days of emails on initial sync, but was fetching everything.
+   - Cause: There was a mismatch between the environment variable name used in the code (`GRAPH_INGEST_LOOKBACK_DAYS`) and the one provided in `.env` (`INGEST_LOOKBACK_DAYS`).
+   - Fix: Updated `.env` to use the correct variable name `GRAPH_INGEST_LOOKBACK_DAYS`, ensuring the 7-day filter is applied correctly.

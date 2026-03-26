@@ -1,0 +1,203 @@
+Total rows in table: 566
+Inspecting last 50 entries (Rows 517 to 566):
+
+Row 517:
+  Data: ["BEJ823755SLP_",45667,45667,"Cherry Dazzell","929-346-9232/212-397-2237","cherry.dazzell@nycit.org","Early Intervention","T2G","Open","_","_","BEJ",823755,"SLP","3*30","English","_","_","_","Manhattan","NY",10018,"New York","_","_","_",25]
+  ✅ Complete
+----------------------------------------
+Row 518:
+  Data: ["BILLY, EDWARD OT746 SACKMAN STREET PRIVAT",45667,45667,"Evelyn Rodriguez","718-535-3100 ext: 3438 ","erodriguez@Americareny.com ","The Americare Companies","TDP","Open","","","BILLY, EDWARD ","","OT","","",16656,"","746 SACKMAN STREET PRIVAT","","",11212,"","","718-345-1127","",14]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Mandate, Language, Notes, City, NY, County, CaregiverName, Location
+----------------------------------------
+Row 519:
+  Data: ["Derek Rodriguez Cotua911529PT318 W. 51st St. Apt. 570",45680,45680,"Martha Rosario","347-389-4113","martha.rosario@kingscrosstherapy.com","Early Intervention","T2G","Open","","","Derek Rodriguez Cotua",911529,"PT","2*30","SPANISH",45273,"","318 W. 51st St. Apt. 570","Manhattan","",10019,"","Arianny Cotua Romero","646-322-5493","",19]
+  ❌ MISSING: StaffedName, StaffedDate, Notes, NY, County, Location
+----------------------------------------
+Row 520:
+  Data: ["C.EST1641 FOWLER AVE BRONX, NY ",45667,45667,"Jade Osorio"," 718-646-1900 ext. 1415/929-745-9466","josorio@primehhs.com","Primehhs","TDP","Open","","","C.E","","ST","","",37673,"","1641 FOWLER AVE BRONX, NY ","","",10462,"","","","",13]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Mandate, Language, Notes, City, NY, County, CaregiverName, PhoneNumber, Location
+----------------------------------------
+Row 521:
+  Data: ["CABRERA, HUNTER__574 WEST 161ST ST 2A ",45667,45667,"Jade Osorio","718-646-1900 ext. 1415/ 929-745-9466","josorio@primehhs.com","Prime HHS","TDP","Open","","","CABRERA, HUNTER","_","_","_","",43979,"","574 WEST 161ST ST 2A ","NEW YORK","",10032,"","SHANIA",3476019785,"",18]
+  ❌ MISSING: StaffedName, StaffedDate, Language, Notes, NY, County, Location
+----------------------------------------
+Row 522:
+  Data: ["Cohen, ChaimOT1113 YORK AVENUE  26E ",45667,45667,"Anila Belshaku","718- 387- 1800 Ext. 317","anila.belshaku@ehcny.org","Excellent Home Care Services","TDP","Open","","","Cohen, Chaim","","OT","","",42253,"","1113 YORK AVENUE  26E ","","",10065,"","","","",13]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Mandate, Language, Notes, City, NY, County, CaregiverName, PhoneNumber, Location
+----------------------------------------
+Row 523:
+  Data: ["Ethan Cela Loja_OT1447 Doris Street, Apt. 1A",45667,45667,"Michelle Garcia","347-534-5501","mgarcia@beantownei.com","Early Intervention","T2G","Open","","","Ethan Cela Loja","_","OT","1*30","",44779,"","1447 Doris Street, Apt. 1A","Bronx","",10462,"","_","929-593-0713","",18]
+  ❌ MISSING: StaffedName, StaffedDate, Language, Notes, NY, County, Location
+----------------------------------------
+Row 524:
+  Data: ["Ethan Cela Loja_ST1447 Doris Street, Apt. 1A",45667,45667,"Michelle Garcia","347-534-5501","mgarcia@beantownei.com","Early Intervention","T2G","Open","","","Ethan Cela Loja","_","ST","2*30","",44779,"","1447 Doris Street, Apt. 1A","Bronx","",10462,"","_","929-593-0713","",18]
+  ❌ MISSING: StaffedName, StaffedDate, Language, Notes, NY, County, Location
+----------------------------------------
+Row 525:
+  Data: ["F.AST49 BRUCKNER BLVD BRONX, NY ",45667,45667,"Jade Osorio"," 718-646-1900 ext. 1415/929-745-9466","josorio@primehhs.com","Primehhs","TDP","Open","","","F.A","","ST","","",42117,"","49 BRUCKNER BLVD BRONX, NY ","","",10454,"","","","",13]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Mandate, Language, Notes, City, NY, County, CaregiverName, PhoneNumber, Location
+----------------------------------------
+Row 526:
+  Data: ["G.GSI2518 Westervelt Ave",45667,45667,"Kia P.","917.727.0799 ","services.request1@gmail.com","Early Intervention","T2G","Open","","","G.G","","SI","2*30","","","","2518 Westervelt Ave","","","10469 ","","Perla ","914.839.9208","",15]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Language, DateOfBirth, Notes, City, NY, County, Location
+----------------------------------------
+Row 527:
+  Data: ["G.GSLP2518 Westervelt Ave",45667,45667,"Kia P.","917.727.0799 ","services.request1@gmail.com","Early Intervention","T2G","Open","","","G.G","","SLP","2*30","","","","2518 Westervelt Ave","","","10469 ","","Perla ","914.839.9208","",15]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Language, DateOfBirth, Notes, City, NY, County, Location
+----------------------------------------
+Row 528:
+  Data: ["HALL , STEVEOT798 DREW STREET APT  A",45667,45667,"Evelyn Rodriguez","718-535-3100 ext: 3438 ","erodriguez@Americareny.com ","The Americare Companies","TDP","Open","","","HALL , STEVE","","OT","","",24019,"","798 DREW STREET APT  A","","",11208,"","","347-413-5661","",14]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Mandate, Language, Notes, City, NY, County, CaregiverName, Location
+----------------------------------------
+Row 529:
+  Data: ["D.C.PT",45681,45681,"Martha Rosario","347-389-4113","martha.rosario@kingscrosstherapy.com","Early Intervention","T2G","Open","","","D.C.","","PT","2*30","SPANISH","","","","","",10019,"","","","",13]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, DateOfBirth, Notes, StreetAddress, City, NY, County, CaregiverName, PhoneNumber, Location
+----------------------------------------
+Row 530:
+  Data: ["JO 893892SLP",45667,45667,"Cherry Dazzell"," (929) 346-9232","cdazzell@abckidsny.com","Early Intervention","T2G","Open","","","JO ",893892,"SLP","3*30","English ","","","","Bronx","",10469,"Bronx","","","",16]
+  ❌ MISSING: StaffedName, StaffedDate, DateOfBirth, Notes, StreetAddress, NY, CaregiverName, PhoneNumber, Location
+----------------------------------------
+Row 531:
+  Data: ["Juan Angamarca953587ST4201 Gleane Street #3rd Floor",45667,45667,"Michelle Garcia","347-534-5501","mgarcia@beantownei.com","Early Intervention","T2G","Open","","","Juan Angamarca",953587,"ST","2*30","Bilingual Spanish "," 01/11/2023","","4201 Gleane Street #3rd Floor","Elmhurst","",11373,"","Luz Mizhquiri ","347 665 7293 ","",19]
+  ❌ MISSING: StaffedName, StaffedDate, Notes, NY, County, Location
+----------------------------------------
+Row 532:
+  Data: ["L.POT1153 Pennsylvania Ave",45667,45667,"Kia P.","917.727.0799 ","services.request1@gmail.com","Early Intervention","T2G","Open","","","L.P","","OT","1*30","","","","1153 Pennsylvania Ave","","",11239,"","Liz ","917.982.9793","",15]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Language, DateOfBirth, Notes, City, NY, County, Location
+----------------------------------------
+Row 533:
+  Data: ["L.PSLP1153 Pennsylvania Ave",45667,45667,"Kia P.","917.727.0799 ","services.request1@gmail.com","Early Intervention","T2G","Open","","","L.P","","SLP","2*30","","","","1153 Pennsylvania Ave","","",11239,"","Liz ","917.982.9793","",15]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Language, DateOfBirth, Notes, City, NY, County, Location
+----------------------------------------
+Row 534:
+  Data: ["LSA912844OT445 W 153rd St",45667,45667,"Sonia Sheikh","(212) 662-9200 Ext 1108","ssheikh@ecamail.org","Early Intervention","T2G","Open","_","_","LSA",912844,"OT","2*30","_",44611,"_","445 W 153rd St","Manhattan","NY",10031,"New York","Jessal","646 944 8161","_",25]
+  ✅ Complete
+----------------------------------------
+Row 535:
+  Data: ["LSA912844ST/Feeding445 W 153rd St",45667,45667,"Sonia Sheikh","(212) 662-9200 Ext 1108","ssheikh@ecamail.org","Early Intervention","T2G","Open","_","_","LSA",912844,"ST/Feeding","2*30","_",44611,"_","445 W 153rd St","Manhattan","NY",10031,"New York","Jessal","646 944 8161","_",25]
+  ✅ Complete
+----------------------------------------
+Row 536:
+  Data: ["Luke Daniel Diaz OrtizSI1299 Rodman Place Apt#6L",45667,45667,"Michelle Garcia","347-534-5501","mgarcia@beantownei.com","Early Intervention","T2G","Open","","","Luke Daniel Diaz Ortiz","","SI","2*30","",44912,"","1299 Rodman Place Apt#6L","","",10460,"","Liaury Diaz-Ortiz","929 240 9033 ","",16]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Language, Notes, City, NY, County, Location
+----------------------------------------
+Row 537:
+  Data: ["Luke Daniel Diaz OrtizST1299 Rodman Place Apt#6L",45667,45667,"Michelle Garcia","347-534-5501","mgarcia@beantownei.com","Early Intervention","T2G","Open","","","Luke Daniel Diaz Ortiz","","ST","2*30","",44912,"","1299 Rodman Place Apt#6L","","",10460,"","Liaury Diaz-Ortiz","929 240 9033 ","",16]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Language, Notes, City, NY, County, Location
+----------------------------------------
+Row 538:
+  Data: ["WILLIAMSON, HPT606 W 57TH ST 917",45701,45701,"Ivy Tu","212-356-4200","itu@extendedhc.net","Extended Home Care","TDP","Open","","","WILLIAMSON, H","","PT","","","5 y/o","M/T/TH/F AFTER 3:30 PM","606 W 57TH ST 917","","",10019,"","","","",14]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Mandate, Language, City, NY, County, CaregiverName, PhoneNumber, Location
+----------------------------------------
+Row 539:
+  Data: ["N.BOT2525 UNIVERSITY AVE BRONX, NY ",45667,45667,"Jade Osorio"," 718-646-1900 ext. 1415/929-745-9466","josorio@primehhs.com","Primehhs","TDP","Open","","","N.B","","OT","","",40489,"","2525 UNIVERSITY AVE BRONX, NY ","","",10468,"","","","",13]
+  ❌ MISSING: StaffedName, StaffedDate,   Program ID, Mandate, Language, Notes, City, NY, County, CaregiverName, PhoneNumber, Location
+----------------------------------------
+Row 540:
+  Data: ["RW-TEST-1770799317824","","","ReadWrite Test","","","","","Open","","","","","","","","","","","","","","","","","",""]
+  ❌ MISSING: EntryDate, ReferralDate, CustomerPhone, CustomerEmail, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, Notes, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 541:
+  Data: ["RW-TEST-1770983259866","","","ReadWrite Test","","","","","Open","","","","","","","","","","","","","","","","","",""]
+  ❌ MISSING: EntryDate, ReferralDate, CustomerPhone, CustomerEmail, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, Notes, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 542:
+  Data: ["REF-1771263348479",46069,46066,"Evelyn Rodriguez","","erodriguez@Americareny.com","","","Open","","","","","","","","","Hello @Americare TDP","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 543:
+  Data: ["REF-1771263372979",46069,46067,"Nelia Markovtsii","","nmarkovtsii@americareny.com","","","Open","","","","","","","","","Hello,\r\nThank you for the update, adding @Bryant to assist\r\nThank you\r\n\r\n\r\nNelia Markovtsii\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3486\r\nE. nmarkovtsii@americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENT","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 544:
+  Data: ["REF-1771263415595",46069,46066,"Marvin Jake Villanueva","","mvillanueva@Americareny.com","","","Open","","","","","","","","","Please be advised, OT services are needed within 02/22/2026 - 02/26/2026 to ensure continuation of services/prevent discharge.\r\n\r\nThank you\r\n\r\n\r\n\r\nMarvin Jake Villanueva\r\nPediatric Quality Reviewer RN","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 545:
+  Data: ["REF-1771263531274",46069,46063,"Viktoriia Tsyhankova","","vtsyhankova@Americareny.com","","","Open","","","","","","","","","Hello,\r\n\r\nThank you for checking\r\n\r\n\r\nViktoriia Tsyhankova\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3313\r\nE. vtsyhankova@Americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY NOTICE: This e-mail/fax an","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 546:
+  Data: ["REF-1771263545931",46069,46063,"Mary Andresakis","","MAndresakis@Americareny.com","","","Open","","","","","","","","","OT 2 x week  2/10-3/16/26\r\n\r\n  covering for Zlat\r\n\r\n\r\nMary Andresakis\r\nQuality Reviewer RN\r\nP. 718-535-3100 ext: 3443\r\nE. MAndresakis@Americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY NOTICE: This e-mail/f","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 547:
+  Data: ["REF-1771263568673",46069,46063,"Nelia Markovtsii","","nmarkovtsii@americareny.com","","","Open","","","","","","","","","Good morning ,\r\nThank   you for the update\r\n\r\n\r\nNelia Markovtsii\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3486\r\nE. nmarkovtsii@americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY NOTICE: This e-mail/","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 548:
+  Data: ["REF-1771263617270",46069,46062,"Zlat Frog","","zfrog@Americareny.com","","","Open","","","","","","","","","@Sauveta Surprise please see below for your case ArequipaSanchez, Jayden - name in subject is wrong.\r\n\r\nThank you\r\n\r\n\r\nZlat Frog\r\nPediatric Quality Reviewer RN\r\nP. 718-535-3100 ext: 3132\r\nE. zfrog@Ame","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 549:
+  Data: ["REF-1771263631020",46069,46069,"Malky Porges","","malky.porges@ehcny.org","","","Open","","","","","","","","","Hi,\r\n\r\nPT revisits approved to be seen as follows as per order: New cert 2.13.2026-4.13.2026\r\n\r\n\r\n  *   PT 3x a week revisit valid 2.13.2026 to 4.11.2026\r\n  *   PT 2x 4.12.26 and 4.13.26\r\n\r\nReminder:","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 550:
+  Data: ["REF-1771263715302",46069,46066,"Cassandra Acevedo","","cassandra.acevedo@ehcny.org","","","Open","","","","","","","","","Thank you !!\r\n________________________________\r\nFrom: Excellent TDP <excellent@therapydepotonline.com>\r\nSent: Wednesday, February 11, 2026 4:32 PM\r\nTo: Cassandra Acevedo <cassandra.acevedo@ehcny.org>","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 551:
+  Data: ["REF-1771263735359",46069,46065,"Cassandra Acevedo","","cassandra.acevedo@ehcny.org","","","Open","","","","","","","","","Please advise for any of the following therapies - OT PT or ST\r\n\r\nPARRA , OLIVER - 20Y\r\n\r\n1130 Bay Ridge Parkway\r\nBrooklyn, ny 11219\r\n\r\nMon - Friday after 3pm or weekends\r\n\r\nThank you,\r\n\r\nExcellent Ho","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 552:
+  Data: ["REF-1771264021561",46069,46069,"Deon Wilson","","DeWilson@extendedhc.net","","","Open","","","","","","","","","Good Afternoon,\r\n\r\nPlease update status of OT EVAL scheduled for 2/11/26\r\n\r\nThanks\r\n\r\n\r\nSincerely,\r\n\r\nDeon Richard Wilson\r\n\r\nRehabilitation Manager Assistant\r\n\r\nExtended Home Care\r\n\r\n212-356-4200\r\n\r\n(","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 553:
+  Data: ["REF-1771264038108",46069,46069,"Alissa Mohanlall","","amohanlall@extendedhc.net","","","Open","","","","","","","","","Good morning,\r\n\r\nPlease see below for pending IDD cases in Queens in need of PT. Please let me know if you can accept this case\r\n\r\n\r\nLIMSKY, MIRIAM\r\n155-55 Cross Bay Blvd\r\nHOWARD BEACH\r\n11414\r\nQN\r\n78","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 554:
+  Data: ["REF-1771264051352",46069,46069,"Alissa Mohanlall","","amohanlall@extendedhc.net","","","Open","","","","","","","","","Good morning,\r\n\r\nPlease see below for pending IDD cases in Long Island in need of PT.  Please let me know if you can accept this case\r\n\r\nMARSALISI, NICHOLAS   J\r\n33 BRIARCLIFF ROAD\r\nSHOREHAM\r\n11786\r\nS","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 555:
+  Data: ["REF-1771264066510",46069,46069,"Demario Dawkins","","ddawkins@extendedhc.net","","","Open","","","","","","","","","Good Morning,\r\nI have this open case for OT if your providers are interested\r\nPatient\r\nAddress1\r\nCity\r\nState\r\nZip\r\nCounty\r\nOT Needed\r\nDOB\r\nAge\r\nRODRIGUEZ, JASON B\r\n7 DEKALB AVE\r\nBROOKLYN\r\nNY\r\n11201\r\nB","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 556:
+  Data: ["REF-1771264114133",46069,46065,"Jermanei Roc","","jroc@extendedhc.net","","","Open","","","","","","","","","Good morning,\r\n\r\nThe following services are requested and authorized as specified below. Confirmation of personnel qualifications and planned start and/or change date is required to commencement of se","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 557:
+  Data: ["REF-1771264366071",46069,46065,"Yana Kapitan","","ykapitan@americareny.com","","","Open","","","","","","","","","The attachment is a small Instagram icon image (32x32) and contains no readable healthcare/referral information.","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 558:
+  Data: ["OJINNAKA, COLLINE CPT/SN16809 110TH AVE PH",46069,46065,"Cassandra Acevedo","(917) 627-6009","cassandra.acevedo@ehcny.org","","","Open","","","OJINNAKA, COLLINE C","","PT/SN","","",40039,"Patient Information Report (Excellent Home Care Services - Pediatric) for Colline C Ojinaka (female, DOB 08/14/2009) residing at 16809 110th Ave PH, Jamaica, NY 11433, Queens County. Referral shows readmission with referring physician Victoria Ojo; current service location is client's home. Patient contacts include Cornelius Ojinaka (father, emergency) and Faith. (mother, primary caregiver). Active routine visits authorization includes disciplines PT (29 visits per period) and SN (5 visits per period). Diagnoses include autistic disorder, ADHD, developmental speech/language disorder, iron deficiency anemia, anxiety disorder, vitamin D deficiency, hypertrophy of tonsils, excessive/frequent menstruation, anorexia, and need for assistance with personal care; allergy to amoxicillin.","16809 110TH AVE PH","JAMAICA","NY",11433,"QUEENS","FAITH .","(917) 627-6009","",""]
+  ❌ MISSING: CustomerCompany, ReferralType, StaffedName, StaffedDate,   Program ID, Mandate, Language, Location, Column1
+----------------------------------------
+Row 559:
+  Data: ["ZAMILUS, RODNEYSN/HHA/PT (ST requested/needed)699 OCEAN AVE 2E",46069,46063,"Jenthel Reyes","","jereyes@extendedhc.net","","","Open","","","ZAMILUS, RODNEY","","SN/HHA/PT (ST requested/needed)","","",35827,"Patient Information Facesheet for ZAMILUS, RODNEY (male, age 28) with service address 699 Ocean Ave Apt 2E, Brooklyn NY 11226, cell phone (718) 200-4628, county BK. Referral/source includes Anchor Health LHCSA (community). Current orders include HHA services (5 days/6 hours Monday–Friday for 9 weeks effective 01/13/2026–03/13/2026), Skilled Nursing (1 month x2 visits for recertification effective 01/13/2026–03/13/2026), and PT evaluation (1 week x1 effective 02/10/2026–02/16/2026). Diagnoses include autistic disorder, unspecified intellectual disabilities, and specific developmental disorder of motor function. Emergency contact listed: DERESROSIERS, RONALD (929-378-8395).","699 OCEAN AVE 2E","BROOKLYN","NY",11226,"BK","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate,   Program ID, Mandate, Language, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 560:
+  Data: ["REF-1771270315253",46069,46062,"Evelyn Rodriguez","","erodriguez@Americareny.com","","","Open","","","","","","","","","#NAME?","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 561:
+  Data: ["REF-1771270472890",46069,46063,"Viktoriia Tsyhankova","","vtsyhankova@Americareny.com","","","Open","","","","","","","","","Hello,\r\n\r\nThank you for checking\r\n\r\n\r\nViktoriia Tsyhankova\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3313\r\nE. vtsyhankova@Americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY NOTICE: This e-mail/fax an","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 562:
+  Data: ["REF-1771270484483",46069,46063,"Mary Andresakis","","MAndresakis@Americareny.com","","","Open","","","","","","","","","OT 2 x week  2/10-3/16/26\r\n\r\n  covering for Zlat\r\n\r\n\r\nMary Andresakis\r\nQuality Reviewer RN\r\nP. 718-535-3100 ext: 3443\r\nE. MAndresakis@Americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY NOTICE: This e-mail/f","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 563:
+  Data: ["REF-1771270498169",46069,46063,"Nelia Markovtsii","","nmarkovtsii@americareny.com","","","Open","","","","","","","","","Good morning ,\r\nThank   you for the update\r\n\r\n\r\nNelia Markovtsii\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3486\r\nE. nmarkovtsii@americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY NOTICE: This e-mail/","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 564:
+  Data: ["REF-1771270650608",46069,46059,"Yana Kapitan","","ykapitan@americareny.com","","","Open","","","","","","","","","Good afternoon @Americare TDP,","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 565:
+  Data: ["REF-1771270699226",46069,46066,"Cassandra Acevedo","","cassandra.acevedo@ehcny.org","","","Open","","","","","","","","","Thank you !!\r\n________________________________\r\nFrom: Excellent TDP <excellent@therapydepotonline.com>\r\nSent: Wednesday, February 11, 2026 4:32 PM\r\nTo: Cassandra Acevedo <cassandra.acevedo@ehcny.org>","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------
+Row 566:
+  Data: ["REF-1771270722563",46069,46065,"Cassandra Acevedo","","cassandra.acevedo@ehcny.org","","","Open","","","","","","","","","Please advise for any of the following therapies - OT PT or ST\r\n\r\nPARRA , OLIVER - 20Y\r\n\r\n1130 Bay Ridge Parkway\r\nBrooklyn, ny 11219\r\n\r\nMon - Friday after 3pm or weekends\r\n\r\nThank you,\r\n\r\nExcellent Ho","","","","","","","","",""]
+  ❌ MISSING: CustomerPhone, CustomerCompany, ReferralType, StaffedName, StaffedDate, ChildName,   Program ID, ServiceType, Mandate, Language, DateOfBirth, StreetAddress, City, NY, ZipCode, County, CaregiverName, PhoneNumber, Location, Column1
+----------------------------------------

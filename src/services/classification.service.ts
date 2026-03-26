@@ -457,6 +457,7 @@ type ClassificationResult = {
     confidence: number;
     responseRequired?: boolean;
     draftTypeSuggested?: string | null;
+    isStaffingRequest?: boolean;
 };
 
 function isThreadForClassification(x: unknown): x is ThreadForClassification {
@@ -509,6 +510,29 @@ export async function classifyThread(threadId: string) {
     // Latest message full, older minimal.
     const MAX_OLDER = 2;
     const ordered = thread.messages; // assuming newest-first in your repo
+    if (ordered.length === 0) {
+        console.warn(`[classify] Thread ${threadId} has no messages, marking as classified to stop re-polling.`);
+        // Mark as classified so the worker stops re-polling this thread
+        await markThreadClassified({
+            threadId,
+            department: "STAFFING",
+            stage: "OPEN_PENDING",
+            needsReview: true,
+        });
+        // Store reason in metadata
+        const existing = await prisma.thread.findUnique({
+            where: { id: threadId },
+            select: { metadata: true },
+        });
+        const meta = (existing?.metadata ?? {}) as Record<string, unknown>;
+        await prisma.thread.update({
+            where: { id: threadId },
+            data: {
+                metadata: { ...meta, skippedReason: "NO_MESSAGES", isStaffingRequest: false },
+            },
+        });
+        return;
+    }
     const latest = ordered[0];
     const older = ordered.slice(1, 1 + MAX_OLDER);
 
@@ -569,7 +593,7 @@ Choose One Single Department:
 
 Choose a VALID STAGE BY DEPARTMENT (you MUST follow this):
 - If Department = STAFFING, stage MUST be one of:
-  OPEN_PENDING, REQUEST_CONTACT_INFO, CONTACT_INFO_SENT, PROVIDER_SCHEDULED, STAFFED
+  OPEN_PENDING, REQUEST_CONTACT_INFO, CONTACT_INFO_SENT, PROVIDER_SCHEDULED, STAFFED, FOLLOWING_UP, COMPLETE
 - If Department = CASE_MANAGEMENT, stage MUST be one of:
   FOLLOWING_UP, COMPLETE
 - If Department = BILLING, stage MUST be one of:
@@ -578,19 +602,41 @@ Choose a VALID STAGE BY DEPARTMENT (you MUST follow this):
 You may receive "extractedAttachments" which contain previously extracted structured data.
 Use that extracted content heavily if email body is sparse.
 
+If department is STAFFING, you MUST also determine "isStaffingRequest":
+- Set to TRUE if the email contains referral information for a child/patient needing therapy services.
+  Common patterns for referral emails:
+  * Contains a child/patient NAME + date of birth
+  * Mentions therapy disciplines (OT, ST, PT, ABA, Speech, Occupational Therapy, etc.)
+  * Contains address information for the child/family
+  * Contains program IDs or case numbers
+  * Mentions mandates or service frequencies (e.g. "2x30", "3*30")
+  * Uses words like "referral", "new case", "authorization", "need a provider", "availability"
+  * Comes from customer/agency email domains (metrochildren, rootstogrow, youngqueep, etc.)
+  * Forwards referral forms or referral PDFs
+  * Any email where someone is requesting services for a child/patient
+- Set to FALSE ONLY for:
+  * Internal-only messages between staff (no patient/child info)
+  * Pure scheduling confirmations with no new referral data
+  * Invoice/billing emails
+  * Auto-replies, out-of-office, or delivery failure notifications
+- When in doubt, set to TRUE (it is better to include a referral than miss one).
+- If department is NOT STAFFING, omit this field or set to false.
+
 Output JSON schema:
 {
   "department": "STAFFING|CASE_MANAGEMENT|BILLING",
   "stage": "<VALID_STAGE_FOR_DEPARTMENT>",
   "confidence": 0.0-1.0,
   "responseRequired": true|false,
-  "draftTypeSuggested": "<string|null>"
+  "draftTypeSuggested": "<string|null>",
+  "isStaffingRequest": true|false   // STAFFING dept only
 }
 
 Rules:
 - Pick exactly ONE department and ONE valid stage.
 - Do not invent values or choose stages that are not listed for that department.
-- FOLLOWING_UP is not a valid stage for Staffing Department.
+- For STAFFING, always include "isStaffingRequest".
+- IMPORTANT: When determining isStaffingRequest, err on the side of TRUE if patient/child data is present.
 `;
 
     const user = JSON.stringify({
@@ -629,6 +675,23 @@ Rules:
         needsReview: (result.confidence ?? 0) < 0.75,
     });
 
+    // Persist isStaffingRequest in thread metadata (no schema migration needed)
+    const isStaffingRequest = result.department === "STAFFING" ? (result.isStaffingRequest ?? false) : false;
+    const existingThread = await prisma.thread.findUnique({
+        where: { id: threadId },
+        select: { metadata: true },
+    });
+    const existingMeta = (existingThread?.metadata ?? {}) as Record<string, unknown>;
+    await prisma.thread.update({
+        where: { id: threadId },
+        data: {
+            metadata: {
+                ...existingMeta,
+                isStaffingRequest,
+            },
+        },
+    });
+
     await audit(AuditAction.AI_CLASSIFIED, {
         threadId,
         payload: {
@@ -638,15 +701,17 @@ Rules:
             responseRequired: result.responseRequired ?? true,
             draftTypeSuggested: result.draftTypeSuggested ?? null,
             extractedAttachmentCount: extractedCtx.length,
+            isStaffingRequest,
         },
     });
 
     // Create Automated Note for AI Classification
+    const requestNote = isStaffingRequest ? ' (Staffing Request — will sync to spreadsheet)' : '';
     await prisma.note.create({
         data: {
             threadId,
             createdByUserId: null, // System/AI
-            description: `[AI] Classified thread as ${result.department} / ${result.stage.replace(/_/g, ' ')}`
+            description: `[AI] Classified thread as ${result.department} / ${result.stage.replace(/_/g, ' ')}${requestNote}`
         }
     });
 }

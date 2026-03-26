@@ -1,0 +1,52 @@
+[dotenv@17.2.4] injecting env (27) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+🔐 Getting access token...
+🌐 Resolving SharePoint site...
+✅ Site found: THERAPYDEPOTTEAMSITE
+📁 Getting document libraries...
+✅ Found library: "STAFFING"
+📄 Locating Excel file...
+📊 Verifying Excel table...
+✅ Table found: UnstaffedRef
+
+🧱 Table columns:
+   1. UniqueIdentifier
+   2. EntryDate
+   3. ReferralDate
+   4. CustomerName
+   5. CustomerPhone
+   6. CustomerEmail
+   7. CustomerCompany
+   8. ReferralType
+   9. Status
+   10. StaffedName
+   11. StaffedDate
+   12. ChildName
+   13.   Program ID
+   14. ServiceType
+   15. Mandate
+   16. Language
+   17. DateOfBirth
+   18. Notes
+   19. StreetAddress
+   20. City
+   21. NY
+   22. ZipCode
+   23. County
+   24. CaregiverName
+   25. PhoneNumber
+   26. Location
+   27. Column1
+
+📋 Existing data (first 10 rows):
+   Total rows: 539
+   Row 1: ["Alexander OT35-29 98th St",45660,45659,"Phillip Gresbach","718-535-3100 ext: 3433 ","pgresbach@Americareny.com ","The Americare Companies","TDP","Open","","","Alexander ","","OT","","","","OT is available as case 3808","35-29 98th St","Queens","",11368,"","","","",14]
+   Row 2: ["Alexander ST35-29 98th St",45660,45659,"Phillip Gresbach","718-535-3100 ext: 3433 ","pgresbach@Americareny.com ","The Americare Companies","TDP","Open","","","Alexander ","","ST","","","","ST is available as case 3809","35-29 98th St","Queens","",11368,"","","","",14]
+   Row 3: ["Bastone, J. A ST?334 E 108 St, NY NY",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Bastone, J. A ","","ST","","","37 Y/O","","?334 E 108 St, NY NY","","",10029,"","","","",13]
+   Row 4: ["Bastone, J. AOT334 E 108 St, NY NY",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Bastone, J. A","","OT","","","37 Y/O","","334 E 108 St, NY NY","","",10029,"","","","",13]
+   Row 5: ["Cleckley, S. ZOT1760 Madison Ave, NY NY",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Cleckley, S. Z","","OT","","","9 Y/O","","1760 Madison Ave, NY NY","","",10029,"","","","",13]
+   Row 6: ["Duran Jr, D.ST3071 Park Ave, BX NY",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Duran Jr, D.","","ST","","","19 Y/O","","3071 Park Ave, BX NY","","",10451,"","","","",13]
+   Row 7: ["Fernandez, M. X OT71 Columbia St, NY NY",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Fernandez, M. X ","","OT","","","12 Y/O","","71 Columbia St, NY NY","","",10002,"","","","",13]
+   Row 8: ["Fernandez, M. XST71 Columbia St, NY NY ",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Fernandez, M. X","","ST","","","12 Y/O","","71 Columbia St, NY NY ","","",10002,"","","","",13]
+   Row 9: ["Gutowski, T. S ST523 E 14th st, NY NY",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Gutowski, T. S ","","ST","","","26Y/O","","523 E 14th st, NY NY","","",10009,"","","","",13]
+   Row 10: ["Gutowski, T. SOT523 E 14th st, NY NY",45660,45659,"Nick Kim Son","212-356-4200 x3331","nkimson@extendedhc.net","Extended Home Care","TDP","Open","","","Gutowski, T. S","","OT","","","26 Y/O","","523 E 14th st, NY NY","","",10009,"","","","",13]
+✍️ Writing rows to Excel...

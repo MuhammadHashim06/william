@@ -1,0 +1,61 @@
+{
+  "extracted": {
+    "document_type": "email_message",
+    "source": {
+      "filename": "email_body.txt",
+      "content_type": "text/plain"
+    },
+    "message": {
+      "timestamp": null,
+      "subject": null,
+      "body": "Good morning,\n\nMy wife noticed that paycheck didn’t hit this pay period. Is there a change in my payroll schedule now that I transitioned from W-2 to 1099?\n\nSent from my iPhone",
+      "signature": {
+        "text": "Sent from my iPhone",
+        "staffed_name_candidate": null
+      }
+    },
+    "people": {
+      "sender": {
+        "name": null,
+        "role": "employee/contractor (implied)",
+        "employment_change": {
+          "from": "W-2",
+          "to": "1099"
+        }
+      },
+      "other_mentioned": [
+        {
+          "relationship": "wife",
+          "name": null,
+          "notes": "Noticed paycheck didn’t hit this pay period"
+        }
+      ]
+    },
+    "topic": {
+      "category": "payroll",
+      "issue": "Paycheck not received for current pay period",
+      "question": "Is there a change in payroll schedule after transitioning from W-2 to 1099?"
+    },
+    "healthcare_data": {
+      "patient": null,
+      "provider": null,
+      "diagnoses": [],
+      "plan_of_care": null
+    }
+  },
+  "sharepoint_mapping": {
+    "StaffedName": null,
+    "StaffedDate": null,
+    "Location": null,
+    "CustomerCompany": null,
+    "Mandate": null,
+    "ProgramID": null,
+    "ServiceType": null,
+    "Language": null,
+    "ChildName": null,
+    "DateOfBirth": null,
+    "CaregiverName": null,
+    "CaregiverPhone": null
+  },
+  "confidence": 0.22
+}

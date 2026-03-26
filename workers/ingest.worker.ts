@@ -1,4 +1,3 @@
-import "dotenv/config";
 import { IngestionService } from "@/services/ingestion.service";
 
 async function sleep(ms: number) {
@@ -12,7 +11,7 @@ function errorToMessage(e: unknown): string {
 
 async function main() {
     // simple loop for dev
-    for (;;) {
+    for (; ;) {
         try {
             await IngestionService.runOnce();
             // eslint-disable-next-line no-console

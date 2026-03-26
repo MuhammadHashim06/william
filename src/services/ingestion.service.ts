@@ -56,6 +56,7 @@ export class IngestionService {
             // - If we already have a deltaLink, always use it (incremental).
             // - Only apply lookback on FIRST sync (no cursor yet).
             // - Always page through @odata.nextLink and persist ONLY final @odata.deltaLink.
+            console.log(`[Ingest] Processing inbox: ${inbox.emailAddress} (cursor: ${!!cursor?.deltaLink})`);
             const { items, deltaLink } = cursor?.deltaLink
                 ? await fetchDeltaAll(inbox.emailAddress, cursor.deltaLink)
                 : lookbackDays

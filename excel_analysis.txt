@@ -1,0 +1,57 @@
+Sheet Name: UNSTAFFED REFERRALS 12.4.25
+Total Rows: 1919
+Headers:
+0: UniqueIdentifier
+1: EntryDate
+2: ReferralDate
+3: CustomerName
+4: CustomerPhone
+5: CustomerEmail
+6: CustomerCompany
+7: ReferralType
+8: Status
+9: StaffedName
+10: StaffedDate
+11: ChildName
+12:   Program ID
+13: ServiceType
+14: Mandate
+15: Language
+16: DateOfBirth
+17: Notes
+18: StreetAddress
+19: City
+20: NY
+21: ZipCode
+22: County
+23: CaregiverName
+24: PhoneNumber
+25: Location
+
+First Data Row (Index 1):
+0 [UniqueIdentifier]: Alexander OT35-29 98th St
+1 [EntryDate]: 45660
+2 [ReferralDate]: 45659
+3 [CustomerName]: Phillip Gresbach
+4 [CustomerPhone]: 718-535-3100 ext: 3433 
+5 [CustomerEmail]: pgresbach@Americareny.com 
+6 [CustomerCompany]: The Americare Companies
+7 [ReferralType]: TDP
+8 [Status]: Open
+9 [StaffedName]: undefined
+10 [StaffedDate]: undefined
+11 [ChildName]: Alexander 
+12 [  Program ID]: undefined
+13 [ServiceType]: OT
+14 [Mandate]: undefined
+15 [Language]: undefined
+16 [DateOfBirth]: undefined
+17 [Notes]: OT is available as case 3808
+18 [StreetAddress]: 35-29 98th St
+19 [City]: Queens
+20 [NY]: undefined
+21 [ZipCode]: 11368
+22 [County]: undefined
+23 [CaregiverName]: undefined
+24 [PhoneNumber]: undefined
+25 [Location]: undefined

@@ -1,0 +1,8 @@
+
+Testing Manual-Token...
+❌ Manual-Token Failed: Insufficient privileges to complete the operation.
+   Status: 403
+
+Testing Azure-Token...
+❌ Azure-Token Failed: Insufficient privileges to complete the operation.
+   Status: 403

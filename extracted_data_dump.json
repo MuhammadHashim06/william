@@ -1,0 +1,4760 @@
+[
+  {
+    "id": "cmm5nqb5g00k834uhia4u2jw6",
+    "filename": "db814c83-807c-4e03-a474-c294a9b31348 (2).pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "document": {
+          "patient": {
+            "sex": "Male",
+            "name": {
+              "full": "Steven Levy",
+              "last": "Levy",
+              "first": "Steven"
+            },
+            "date_of_birth": "04/29/2021"
+          },
+          "therapy": {
+            "time_in": "2:24 PM",
+            "soc_date": "08/24/2025",
+            "time_out": "2:54 PM",
+            "discipline": "Speech Therapy",
+            "visit_date": "02/17/2026",
+            "therapist_name": "Madison Lounsbury",
+            "referring_diagnosis_codes": [
+              "F79",
+              "R47.9"
+            ],
+            "precautions_contraindications": "None",
+            "patient_chief_complaint_or_goal": "Increase communication skills."
+          },
+          "document_type": "ST Note (Speech Therapy) - Revisit (pediatric)",
+          "session_content": {
+            "long_term_goals": [
+              "Child will improve expressive language skills.",
+              "Child will improve receptive language skills.",
+              "Child will improve pragmatic language skills."
+            ],
+            "short_term_goals": [
+              "Child will label/identify 26 letters of the alphabet.",
+              "Child will answer/ask Wh- questions.",
+              "Child will take turns in conversation."
+            ],
+            "narrative_progress": "SLP prompted child to label lowercase letters and match to capital letters. Child independently labeled 18/26 letters and matched 22/26 letters. SLP prompted child assign attributes (which word describes picture) across 20 trials. Child independently answered 13/20 questions; SLP provided prompts to increase accuracy.",
+            "treatment_rendered": [
+              "Worked on identifying/labeling letters.",
+              "Worked on answering wh- questions."
+            ],
+            "response_to_treatment": "Child required cues to increase focus."
+          },
+          "signatures_and_timestamps": {
+            "patient_signature_datetime": "02/17/2026 02:56:17 PM",
+            "therapist_signature_datetime": "02/17/2026 02:56:56 PM",
+            "supervisor_signature_datetime": "02/18/2026 01:37:57 PM"
+          },
+          "locations_listed_on_letterhead": [
+            {
+              "fax": "212.833.2428",
+              "zip": "10001",
+              "city": "New York",
+              "phone": "212.356.4200",
+              "state": "NY",
+              "street": "360 West 31st Street, Suite 304"
+            },
+            {
+              "fax": "718.891.4242",
+              "zip": "11235",
+              "city": "Brooklyn",
+              "phone": "718.891.0808",
+              "state": "NY",
+              "street": "2617 East 16th Street, 2nd floor"
+            }
+          ]
+        },
+        "email_body": {
+          "summary": "Sender reports an error for Steven Levy's speech therapy visit on 2/17. Originally submitted in ProviderSoft for 2:54–3:24pm, but actual time is 2:24–2:54pm; requests correction.",
+          "systems_mentioned": [
+            "ProviderSoft"
+          ],
+          "visit_time_correction": {
+            "service": "Speech Therapy",
+            "child_name": "Steven Levy",
+            "visit_date": "02/17",
+            "correct_time_range": "2:24 PM - 2:54 PM",
+            "incorrect_time_range_submitted": "2:54 PM - 3:24 PM"
+          }
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email requests correction of ST visit time on 02/17 from 2:54–3:24pm (submitted in ProviderSoft) to 2:24–2:54pm. PDF ST note shows visit date 02/17/2026 with Time In 2:24 PM and Time Out 2:54 PM. Dx codes: F79, R47.9. SOC date 08/24/2025.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": "Steven Levy",
+        "ProgramID": null,
+        "DateOfBirth": "04/29/2021",
+        "ServiceType": "ST",
+        "StaffedDate": null,
+        "StaffedName": "Madison Lounsbury",
+        "CustomerName": null,
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": null
+      }
+    },
+    "createdAt": "2026-02-28T01:43:31.059Z",
+    "message": {
+      "subject": "Steven Levy Speech Therapy visit 2/17",
+      "receivedAt": "2026-02-25T03:05:30.000Z",
+      "thread": {
+        "id": "cmm5nqarn00k434uh3cyvo93x",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nqaem00k334uhxws1kk3k",
+    "filename": "2026_0207_EXT_THOMASFELIX, ALISHA_04732294_COTAVISIT.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "DONE.\r\n\r\nRespectfully,\r\n\r\nVilma L. DiGilio, COTA/L\r\nCell.: (315)746-0241\r\n\r\nSent from my iPad\r\n\r\nOn Feb 24, 2026, at 3:57 PM, Billing Department <billing@therapydepotonline.com> wrote:\r\n\r\nï»¿\r\n\r\nDear Provider,\r\n\r\n\r\nDuring review, it was found that the visit",
+          "sender": {
+            "name": "Billing Department",
+            "email": "billing@therapydepotonline.com"
+          },
+          "signature": {
+            "name": "Vilma L. DiGilio",
+            "phone": "(315)746-0241",
+            "device": "Sent from my iPad",
+            "credentials": "COTA/L"
+          }
+        },
+        "documents": [
+          {
+            "visit": {
+              "time_in": "7:03 PM",
+              "time_out": "7:33 PM",
+              "therapist": {
+                "name": "Vilma Digilio",
+                "credentials": "COTA/L"
+              },
+              "discipline": "OT",
+              "visit_code": "R",
+              "visit_date": "2/7/2026",
+              "note_attached": "YES",
+              "visit_code_meaning": "Re-Visit"
+            },
+            "patient": {
+              "sex": "Female",
+              "name": {
+                "full": "ThomasFelix, Alisha",
+                "last": "ThomasFelix",
+                "first": "Alisha"
+              },
+              "diagnosis": [
+                {
+                  "code": "F84.0",
+                  "description": null
+                }
+              ],
+              "patient_id": "04732294",
+              "age_at_visit": "22 yr, 2 mo",
+              "date_of_birth": "11/13/2003"
+            },
+            "filename": "2026_0207_EXT_THOMASFELIX, ALISHA_04732294_COTAVISIT.pdf",
+            "care_episode": {
+              "soc_date": "12/19/2026",
+              "onset_date": "12/17/2025"
+            },
+            "document_type": "OT Visit Note / Professional Activity Report",
+            "clinical_notes": {
+              "vitals": {
+                "pre_treatment": {
+                  "bp": "NT: Parent refused",
+                  "resp": "WNL",
+                  "pulse": "WNL"
+                },
+                "post_treatment": {
+                  "bp": "NT: Parent refused",
+                  "resp": "WNL",
+                  "pulse": "WNL"
+                }
+              },
+              "session_summary": "Alisha was seen today for OT. Alisha was generally cooperative during today’s session and participated in: (1) Fine Motor Skills (FMS) training using a school-based vocabulary worksheet (copying words five times each, alphabetizing, using words in sentences). Deficits observed: reduced fine motor coordination, decreased handwriting legibility, impaired pacing/task persistence, inconsistent letter formation. Adaptive adjustments were required for writing utensil to improve grasp/control. (2) Cognitive & Social Skills training with structured cognitive-social scenarios (school/home/community). Difficulties noted with abstract reasoning, perspective-taking, flexible problem-solving; maximum verbal cues needed to expand responses/provide logical explanations. Required consistent verbal cueing for posture/body mechanics, pacing, safety awareness; attention variable and required redirection.",
+              "patient_chief_complaint": "“I still help them with ADL’s.”"
+            },
+            "agency_header_locations": [
+              {
+                "fax": "212.563.9124",
+                "phone": "212.356.4200",
+                "address": "360 West 31st St. Suite 304, New York, NY 10001"
+              },
+              {
+                "fax": "718.891.4242",
+                "phone": "718.891.0808",
+                "address": "2617 East 16th St. 2nd Floor, Brooklyn, NY 11235"
+              },
+              {
+                "fax": "718.982.1368",
+                "phone": "718.982.1360",
+                "address": "900 South Ave, Suite 301, Staten Island, NY 10314"
+              }
+            ]
+          }
+        ],
+        "referral_context": {
+          "notes": "Content appears to be a billing/visit documentation exchange and an OT revisit note, not a new referral. No child address/caregiver/location/mandate/frequency information found.",
+          "referral_present": false
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "OT Revisit/Professional Activity Report. Visit date 2/7/2026, time in 7:03 PM, time out 7:33 PM. Dx code F84.0. Patient ID/ProgramID 04732294. Therapist Vilma Digilio (COTA/L).",
+        "State": "NY",
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": "Alisha ThomasFelix",
+        "ProgramID": "04732294",
+        "DateOfBirth": "11/13/2003",
+        "ServiceType": "OT",
+        "StaffedDate": null,
+        "StaffedName": "Vilma Digilio",
+        "CustomerName": "Vilma L. DiGilio",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "billing@therapydepotonline.com",
+        "CustomerPhone": "(315)746-0241",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot Online (Billing Department)"
+      }
+    },
+    "createdAt": "2026-02-28T01:43:30.092Z",
+    "message": {
+      "subject": "Re: ThomasFelix, Alisha, 02/07/26",
+      "receivedAt": "2026-02-25T05:29:51.000Z",
+      "thread": {
+        "id": "cmm5nqa0m00jz34uhlekad9hg",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nq7nd00jg34uhmkqljlab",
+    "filename": "2026_0208NERI, AARON895571EI (2).pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Hi Sabina,\r\n\r\nCan you assist the provider in adding the visit note and enable this visit under unverified feed for EI visit so that we can verify the same.\r\n\r\nThanks,\r\nAmit\r\n________________________________\r\nFrom: KAREN HERNANDEZ <karenh3276@gmail.com>\r\nS",
+          "request_summary": "Request to assist provider in adding the visit note and enabling the visit under unverified feed for an EI visit so it can be verified.",
+          "sender_email_mentioned": "karenh3276@gmail.com",
+          "sender_names_mentioned": [
+            "Amit",
+            "Karen Hernandez",
+            "Sabina"
+          ]
+        },
+        "language": null,
+        "caregiver": {
+          "name": null,
+          "phone": null,
+          "relationship_to_child": "Mother"
+        },
+        "documents": [
+          {
+            "type": "NYC Early Intervention Program Session Note (Home/Facility) - Version 2",
+            "child": {
+              "dob": "8/9/2023",
+              "name": "Neri, Aaron",
+              "ei_number": "895571",
+              "sex_at_birth": "Male"
+            },
+            "service": {
+              "icd10": "R62.0",
+              "cpt_codes": [
+                "97530"
+              ],
+              "intensity": "2",
+              "discipline": "COTA",
+              "signatures": {
+                "parent_signature_datetime": "02-08-2026 02:40:21 pm",
+                "interventionist_signature_present": true,
+                "interventionist_signature_datetime": "02-08-2026 02:38:27 pm",
+                "parent_caregiver_signature_present": true
+              },
+              "service_type": "EI - COTA Visit",
+              "session_date": "2/8/2026",
+              "session_time": {
+                "end": "2:30 PM",
+                "start": "2:00 PM"
+              },
+              "delivery_mode": "In-person",
+              "interventionist": {
+                "npi": "1710437298",
+                "name": "Hernandez, Karen",
+                "credentials": "COTA"
+              },
+              "date_note_written": "2/8/2026",
+              "outcomes_and_notes": {
+                "ifsp_outcome_1": "Aaron will use his eye and hand to coordination to improve his grasping skills so that he can manipulate toys, crayons and spoon in order to gain independence to perform daily activities.",
+                "session_summary": "Aaron was observed matching and stacking shapes on shape sorter with gestural. Aaron pointed at the shapes to request them with gestural. Aaron pretended eating chocolate and strawberry cake during cooking activity. Aaron was able to put fruits on the birthday cake. Aaron matched, pushed and pulled sheep by color with gestural. Aaron imitated a sheep’s sound with gestural. Aaron followed one step instruction during session.",
+                "between_visits_plan": "Parent agreed to engage Aaron in matching shapes on busy book with gestural. Aaron will pointed at the shapes to request them with gestural.",
+                "developmental_steps": [
+                  "Improve ability to engage in visual motor activities such as 9 piece large puzzles with wrist.",
+                  "Color by grasping crayon between thumb and pad of index finger and crayon resting on middle finger.",
+                  "Imitating lines when handwriting, and spoon feeding.",
+                  "Improve sensory challenges to respond to instructions.",
+                  "Rotate to fit into respected spacing, using one hand to stabilize puzzle while other hand places piece."
+                ]
+              },
+              "session_participants": [
+                "Child",
+                "Parent/caregiver"
+              ],
+              "ifsp_service_location": "Home/Community",
+              "relationship_to_child": "Mother",
+              "supervising_clinician": {
+                "credentials": "OTR",
+                "license_certification_number": "019605"
+              },
+              "license_certification_number": "009090"
+            },
+            "provider_agency": {
+              "name": "Therapists 2 Go Occupational Physical & Speech Language Pathologists, PLLC"
+            }
+          },
+          {
+            "type": "NYC Early Intervention Program Service Log",
+            "child": {
+              "dob": "8/9/2023",
+              "name": "Neri, Aaron",
+              "ei_number": "895571"
+            },
+            "service": {
+              "mode": "In-person",
+              "cpt_code": "97530",
+              "end_time": "2:30 PM",
+              "start_time": "2:00 PM",
+              "service_type": "EI - COTA Visit",
+              "date_of_service": "2/8/2026",
+              "interventionist": {
+                "npi": "1710437298",
+                "name": "Hernandez, Karen",
+                "discipline": "COTA"
+              },
+              "service_authorization_number": "A8955718264571",
+              "date_signed_by_parent_caregiver": "02-08-2026 02:40:36 pm",
+              "parent_caregiver_signature_present": true
+            },
+            "provider_agency": {
+              "name": "Therapists 2 Go Occupational Physical & Speech Language Pathologists, PLLC"
+            }
+          }
+        ],
+        "referral_type": "Early Intervention",
+        "patient_address": null
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "EI session note/service log for EI - COTA Visit (OT assistant) on 02/08/2026 2:00 PM–2:30 PM, in-person. ICD-10 R62.0; CPT 97530. Provider agency: Therapists 2 Go Occupational Physical & Speech Language Pathologists, PLLC. Parent/caregiver relationship: Mother. Service Authorization #: A8955718264571.",
+        "State": null,
+        "County": null,
+        "Mandate": "1*30",
+        "ZipCode": null,
+        "Language": null,
+        "Location": "Home/Community",
+        "ChildName": "Neri, Aaron",
+        "ProgramID": "895571",
+        "DateOfBirth": "08/09/2023",
+        "ServiceType": "OT",
+        "StaffedDate": "02/08/2026",
+        "StaffedName": "Hernandez, Karen",
+        "CustomerName": "Amit",
+        "ReferralType": "Early Intervention",
+        "CaregiverName": null,
+        "CustomerEmail": "karenh3276@gmail.com",
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": null
+      }
+    },
+    "createdAt": "2026-02-28T01:43:26.519Z",
+    "message": {
+      "subject": "Fw: Neri, Aaron, 02/08/26",
+      "receivedAt": "2026-02-25T19:19:18.000Z",
+      "thread": {
+        "id": "cmm5nq78q00jb34uhwpk3m01m",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nq7n100jf34uhsv4m48nt",
+    "filename": "image.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Hi Sabina,\r\n\r\nCan you assist the provider in adding the visit note and enable this visit under unverified feed for EI visit so that we can verify the same.\r\n\r\nThanks,\r\nAmit\r\n________________________________\r\nFrom: KAREN HERNANDEZ <karenh3276@gmail.com>\r\nS",
+          "request_summary": "Request to assist provider in adding visit note and enable visit under unverified feed for EI visit verification.",
+          "sender_mentioned": {
+            "name": "KAREN HERNANDEZ",
+            "email": "karenh3276@gmail.com"
+          }
+        },
+        "attachment": {
+          "type": "image",
+          "filename": "image.png",
+          "ocr_text": "Neri, Aaron 895571 02/08/2026 02:00 PM - 02:30 PM 1 Attended Hernandez, Karen Home/Community EI - COTA Visit",
+          "visit_record": {
+            "child": {
+              "name": "Aaron Neri"
+            },
+            "visit": {
+              "date": "02/08/2026",
+              "units": "1",
+              "status": "Attended",
+              "service": "EI - COTA Visit",
+              "end_time": "02:30 PM",
+              "location": "Home/Community",
+              "start_time": "02:00 PM",
+              "provider_or_staff_name_listed": "Karen Hernandez"
+            },
+            "program": {
+              "id": "895571"
+            }
+          }
+        },
+        "referral_context": {
+          "service_type_inferred": "OT (COTA)",
+          "referral_type_inferred": "Early Intervention (EI)"
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email requests help adding visit note and enabling EI visit in unverified feed for verification. Visit shown as attended on 02/08/2026 02:00 PM-02:30 PM; EI - COTA Visit; program/case ID 895571.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": "Home/Community",
+        "ChildName": "Aaron Neri",
+        "ProgramID": "895571",
+        "DateOfBirth": null,
+        "ServiceType": "OT (COTA)",
+        "StaffedDate": "02/08/2026",
+        "StaffedName": "Karen Hernandez",
+        "CustomerName": "Amit",
+        "ReferralType": "Early Intervention",
+        "CaregiverName": null,
+        "CustomerEmail": "karenh3276@gmail.com",
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": null
+      }
+    },
+    "createdAt": "2026-02-28T01:43:26.507Z",
+    "message": {
+      "subject": "Fw: Neri, Aaron, 02/08/26",
+      "receivedAt": "2026-02-25T19:19:18.000Z",
+      "thread": {
+        "id": "cmm5nq78q00jb34uhwpk3m01m",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nq3ni00ii34uhzt4dqyq0",
+    "filename": "Invoice for co-signing COTO notes.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "As per, William I'm sending the invoices for notes signed in  January and February",
+          "sender": {
+            "name": null,
+            "email": null,
+            "phone": null,
+            "company": null
+          },
+          "recipient_context": {
+            "mentioned_name": "William"
+          }
+        },
+        "document": {
+          "type": "invoice",
+          "notes": "Invoice(s) for co-signing COTA notes signed in January and February. Multiple pages list names and dates; rate appears to be $10.00 per note.",
+          "vendor": {
+            "ein": "71-1048416",
+            "npi": "1952739252",
+            "company_name": "Aulden Services, Inc",
+            "service_line": "Occupational Therapy Services",
+            "provider_name": "Aulrica Thomas, OTR/L"
+          },
+          "filename": "Invoice for co-signing COTO notes.pdf",
+          "billed_to": {
+            "company_name": "Therapy Depot, Inc"
+          },
+          "line_items": [
+            {
+              "date": "1/23/26",
+              "name": "Bronfield, Alwon",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/25/26",
+              "name": "Nussbaum, Leah",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/26/26",
+              "name": "Nussbaum, Leah",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/2/26",
+              "name": "Nussbaum, Javier",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/27/26",
+              "name": "Nussbaum, Javier",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/26/26",
+              "name": "Redam, Zaman",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/29/26",
+              "name": "Redam, Zaman",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/25/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/29/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/26/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/26/26",
+              "name": "Ghatan, Ray",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/27/26",
+              "name": "Ghatan, Ray",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/24/26",
+              "name": "Vagas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/25/26",
+              "name": "Vagas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/23/26",
+              "name": "Vagas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/31/26",
+              "name": "Vagas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Rafailov, Michael",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/29/26",
+              "name": "Rafailov, Michel",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/30/26",
+              "name": "Rafailov, Michael",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/27/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/1/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/2/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/2/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/1/26",
+              "name": "Ghatan, Ben",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/2/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Redam, Zaman",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/1/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/2/26",
+              "name": "Nussbaum, Leah",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Nussbaum, Leah",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/2/26",
+              "name": "Nussbaum, Javier",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Nussbaum, Javier",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/1/26",
+              "name": "Nussbaum, Javier",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/1/26",
+              "name": "Nussbaum, Leah",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/1/26",
+              "name": "Vagas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/2/26",
+              "name": "Vagas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Vagas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/1/26",
+              "name": "Ghatan, Ray",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Ghatan, Ray",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Ghatan, Ray",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Ghatan, Ben",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Ghatan, Ben",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "12/9/25",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Shrapnel, River",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/30/26",
+              "name": "Shrapnel, River",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/31/26",
+              "name": "Shrapnel, River",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/3/26",
+              "name": "Shrapnel, River",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Shrapnel, River",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/26/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Reyeed, Keon",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Reyeed, Keon",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Singh, Kiaan",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/29/26",
+              "name": "Singh, Kiaan",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Singh, Kiaan",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Bhola, Viren",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Buyan, Jaron",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/10/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/31/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/31/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/2/26",
+              "name": "Rafailov, Michel",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Rafailov, Michel",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/11/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/11/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Rafailov, Michel",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Reyeed, Keon",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Reyeed, Keon",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/10/26",
+              "name": "Reyeed, Keon",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Sikder, Aaniz",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Sikder, Aaniz",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Singh, Kiaan",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/9/26",
+              "name": "Singh, Kiaan",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/10/26",
+              "name": "Bhola, Viren",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Sikder, Aaniz",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/10/26",
+              "name": "Sikder, Aaniz",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Oji, Efosa",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/5/26",
+              "name": "Oji, Efosa",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Oji, Efosa",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/6/26",
+              "name": "Bronfield, Alwon",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Buyan, Jaron",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/28/26",
+              "name": "Cedor, Samuel",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/29/26",
+              "name": "Cedor, Samuel",
+              "rate": "10.00"
+            },
+            {
+              "date": "1/29/26",
+              "name": "Buyan, Jaron",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/4/26",
+              "name": "Buyan, Jaron",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/11/26",
+              "name": "Bhola, Viren",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/12/26",
+              "name": "Oji, Efosa",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/11/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/8/26",
+              "name": "Vargas, Oliver",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/10/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/10/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/10/26",
+              "name": "Ramirez, Cris",
+              "rate": "10.00"
+            },
+            {
+              "date": "2/10/26",
+              "name": "Ghatan, Ori",
+              "rate": "10.00"
+            }
+          ],
+          "totals_seen": [
+            {
+              "total": "160.00",
+              "pages_context": "most pages"
+            },
+            {
+              "total": "40.00",
+              "pages_context": "last page"
+            }
+          ],
+          "invoice_meta": {
+            "rate": "10.00",
+            "currency": "USD",
+            "invoice_date": null,
+            "invoice_number": "001"
+          },
+          "service_description": "Co-signing COTA Notes"
+        },
+        "referral_relevance": {
+          "reason": "This appears to be a billing/invoice document for co-signing COTA notes, not a child therapy referral. Names listed appear to be related to notes signed, but no DOB, address, mandate, or referral details are provided.",
+          "is_referral": false
+        }
+      },
+      "confidence": 0.63,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Invoice for co-signing COTA notes (Jan–Feb). Vendor: Aulden Services, Inc / Aulrica Thomas, OTR/L. Billed to: Therapy Depot, Inc. Rate $10.00 per note. Totals shown: $160.00 on most pages; $40.00 on last page. Email mentions sending invoices for notes signed in January and February; mentions 'William'.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": "OT",
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Aulrica Thomas, OTR/L",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Aulden Services, Inc"
+      }
+    },
+    "createdAt": "2026-02-28T01:43:21.340Z",
+    "message": {
+      "subject": "Aulrica Thomas OTR/L (invoice for co-signing COTA notes)",
+      "receivedAt": "2026-02-27T03:27:18.000Z",
+      "thread": {
+        "id": "cmm5nq39700ie34uh1w44ammr",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nq19l00hx34uhalnyy00e",
+    "filename": "SvcRep-TherapyDepot-02272026.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Hi,\r\n\r\nPlease, find attached Service Report pay date 2/27/26.\r\n\r\nThank you.\r\n\r\n\r\n   Nafisa Istamova\r\n     Jr. Accountant\r\nPrime Home Health Services, LLC\r\n3125 Emmons Avenue\r\nBrooklyn, NY 11235\r\nTel.: (718) 646-1900 ext: 2626",
+          "type": "service_report_submission",
+          "sender": {
+            "name": "Nafisa Istamova",
+            "phone": "(718) 646-1900 ext: 2626",
+            "title": "Jr. Accountant",
+            "address": {
+              "zip": "11235",
+              "city": "Brooklyn",
+              "state": "NY",
+              "street": "3125 Emmons Avenue"
+            },
+            "company": "Prime Home Health Services, LLC"
+          },
+          "pay_date_referenced": "02/27/2026"
+        },
+        "attachment": {
+          "header": {
+            "report_date": "02/17/2026",
+            "report_time": "11:59 AM",
+            "organization": "Prime Home Health Services, LLC",
+            "entered_date_range": {
+              "to": "02/16/2026",
+              "from": "02/03/2026"
+            },
+            "report_id_or_batch": "20260227",
+            "services_date_range": {
+              "to": "02/15/2026",
+              "from": "04/21/2022"
+            }
+          },
+          "filename": "SvcRep-TherapyDepot-02272026.pdf",
+          "document_type": "Therapy Depot Service Report",
+          "totals_summary": {
+            "amount": "$7,875.00",
+            "discipline_rollup": [
+              {
+                "amount": 5460,
+                "visits": 52,
+                "discipline": "OT"
+              },
+              {
+                "amount": 2415,
+                "visits": 23,
+                "discipline": "ST"
+              },
+              {
+                "amount": 0,
+                "visits": 0,
+                "discipline": "PT"
+              }
+            ],
+            "grand_totals_units": "82.67",
+            "grand_totals_visits": "75"
+          },
+          "patients_mentioned": [
+            {
+              "name": "Chan, Vivian",
+              "dates_in": [
+                "01/21/2026",
+                "01/28/2026",
+                "02/02/2026",
+                "02/04/2026"
+              ],
+              "personnel": [
+                "Bordan, Christophe"
+              ],
+              "service_ids": [
+                "STVBC"
+              ]
+            },
+            {
+              "name": "Digilio, Vilma",
+              "dates_in": [
+                "01/22/2026",
+                "01/23/2026",
+                "01/24/2026",
+                "01/29/2026"
+              ],
+              "personnel": [
+                "Matar, Kareem"
+              ],
+              "service_ids": [
+                "COTAVBC"
+              ]
+            },
+            {
+              "name": "Hernandez, Karen",
+              "dates_in": [
+                "01/07/2026",
+                "01/23/2026",
+                "01/24/2026",
+                "01/25/2026",
+                "01/26/2026",
+                "01/28/2026",
+                "01/29/2026"
+              ],
+              "personnel": [
+                "Aguilarlus, Daniel F"
+              ],
+              "service_ids": [
+                "COTAVBC"
+              ]
+            },
+            {
+              "name": "Khandaker, Mikael",
+              "dates_in": [
+                "01/09/2026",
+                "01/23/2026",
+                "01/24/2026",
+                "01/25/2026",
+                "01/28/2026",
+                "01/30/2026",
+                "01/29/2026"
+              ],
+              "personnel": [
+                "(appears as personnel under Wardlaw, Telisa section; also listed in COTA section)"
+              ],
+              "service_ids": [
+                "COTAVBC",
+                "OTVBREEVLC"
+              ]
+            },
+            {
+              "name": "Ribera, Josue",
+              "dates_in": [
+                "01/23/2026",
+                "01/24/2026",
+                "01/25/2026",
+                "01/26/2026",
+                "01/28/2026",
+                "01/29/2026",
+                "02/04/2026",
+                "02/06/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "COTAVBC"
+              ]
+            },
+            {
+              "name": "Jan, Silvie",
+              "dates_in": [
+                "02/02/2026",
+                "02/05/2026",
+                "02/09/2026",
+                "02/12/2026"
+              ],
+              "personnel": [
+                "Levinsky, Andrea"
+              ],
+              "service_ids": [
+                "STVBC",
+                "STVBREEVLC"
+              ]
+            },
+            {
+              "name": "Khrin, Viktoria",
+              "dates_in": [
+                "02/04/2026",
+                "02/05/2026"
+              ],
+              "personnel": [
+                "Lounsbury, Madison"
+              ],
+              "service_ids": [
+                "STVBC"
+              ]
+            },
+            {
+              "name": "Rohach, Maksym",
+              "dates_in": [
+                "02/02/2026",
+                "02/06/2026",
+                "01/22/2026",
+                "01/30/2026"
+              ],
+              "personnel": [
+                "Tongol, Don Nelden (OT section)"
+              ],
+              "service_ids": [
+                "STVBC",
+                "OTVBC"
+              ]
+            },
+            {
+              "name": "Sanuyev, Sophia",
+              "dates_in": [
+                "02/04/2026",
+                "02/06/2026",
+                "02/13/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "STVBREEVLC",
+                "STVBC"
+              ]
+            },
+            {
+              "name": "Saydaliev, Alisher",
+              "dates_in": [
+                "02/02/2026",
+                "02/03/2026",
+                "02/04/2026",
+                "02/05/2026",
+                "02/09/2026",
+                "02/10/2026",
+                "02/11/2026",
+                "02/12/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "STVBC"
+              ]
+            },
+            {
+              "name": "Ali, Saleem",
+              "dates_in": [
+                "02/05/2026",
+                "02/12/2026"
+              ],
+              "personnel": [
+                "Matatova, Nelya"
+              ],
+              "service_ids": [
+                "COTAVBC"
+              ]
+            },
+            {
+              "name": "Mordohayev, Maor",
+              "dates_in": [
+                "02/05/2026",
+                "02/09/2026",
+                "02/12/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "COTAVBC"
+              ]
+            },
+            {
+              "name": "Carlucci, Antonio",
+              "dates_in": [
+                "02/02/2026",
+                "02/03/2026",
+                "02/04/2026",
+                "02/05/2026",
+                "02/06/2026",
+                "02/09/2026",
+                "02/10/2026",
+                "02/11/2026",
+                "02/12/2026",
+                "02/13/2026"
+              ],
+              "personnel": [
+                "Morcilla, Diana"
+              ],
+              "service_ids": [
+                "OTVBC"
+              ]
+            },
+            {
+              "name": "Shah, Muhammad Y",
+              "dates_in": [
+                "01/30/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "OTVBREEVLC"
+              ]
+            },
+            {
+              "name": "Wei, Ethan",
+              "dates_in": [
+                "01/21/2026",
+                "01/28/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "OTVBC",
+                "OTVBREEVLC"
+              ]
+            },
+            {
+              "name": "Zeibak, Zain",
+              "dates_in": [
+                "01/21/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "OTVBC"
+              ]
+            },
+            {
+              "name": "Zhao, Joven",
+              "dates_in": [
+                "01/21/2026",
+                "01/28/2026",
+                "02/02/2026"
+              ],
+              "personnel": [],
+              "service_ids": [
+                "OTVBC",
+                "OTVBREEVLC"
+              ]
+            }
+          ],
+          "organization_codes_seen": [
+            "PHHS/PHHS/PHHSPED/{ ALL }",
+            "PHHS/PHHS/PHHSBK/OPWDD"
+          ]
+        },
+        "referral_assessment": {
+          "reason": "This appears to be a Therapy Depot service/pay report (billing/service log), not a child therapy referral. It lists multiple patient names and service entries but does not include typical referral demographics (DOB, address, caregiver, mandate).",
+          "is_referral": false
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email indicates attached Therapy Depot Service Report with pay date 2/27/26. Attachment is a multi-patient service report for Prime Home Health Services, LLC (report date 02/17/2026) with OT/ST service entries and totals; not a referral document and contains no child demographics/mandate info.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nafisa Istamova",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": "(718) 646-1900 ext: 2626",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Prime Home Health Services, LLC"
+      }
+    },
+    "createdAt": "2026-02-28T01:43:18.247Z",
+    "message": {
+      "subject": "Service Report pay 2/27/2026",
+      "receivedAt": "2026-02-27T16:10:22.000Z",
+      "thread": {
+        "id": "cmm5nq0tv00ht34uhpcqfc86c",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nput900he34uhgx5lxlzu",
+    "filename": "Johnson, Kahlil - OT DC visit and DC OASIS - 12.15.25.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "attachment": {
+          "visit": {
+            "time_in": "12:40 PM",
+            "soc_date": "11/19/2025",
+            "time_out": "01:10 PM",
+            "discipline": "OT",
+            "visit_date": "12/15/2025",
+            "visit_type": "OT/DC Summary"
+          },
+          "patient": {
+            "sex": "Male",
+            "name": {
+              "full": "Johnson, Kahlil",
+              "last": "Johnson",
+              "first": "Kahlil"
+            },
+            "age_at_visit": 48,
+            "date_of_birth": "02/07/1977"
+          },
+          "filename": "Johnson, Kahlil - OT DC visit and DC OASIS - 12.15.25.pdf",
+          "diagnosis": {
+            "referring_diagnosis_code": "M62.81",
+            "referring_diagnosis_description": "Muscle weakness (generalized) (description inferred from ICD-10 code; not explicitly written on provided text)"
+          },
+          "therapist": {
+            "name": "Don Nelden Tongol",
+            "credentials": "MS, OTR/L"
+          },
+          "document_type": "OT Discharge visit note + OASIS-E1 Discharge (DC) assessment",
+          "oasis_dc_assessment": {
+            "discharge_date": "12/15/2025",
+            "assessment_completed_date": "12/15/2025",
+            "reason_for_assessment_code": "9",
+            "reason_for_assessment_text": "Discharge from agency",
+            "discipline_of_person_completing_assessment_code": "4",
+            "discipline_of_person_completing_assessment_text": "OT"
+          },
+          "organization_on_form": "Revival Home Health Care",
+          "clinical_notes_highlights": {
+            "pmh": "HTN, T2DM; s/p surgical correction for Charcot’s Joint on left ankle and foot",
+            "vitals": {
+              "pre_tx": {
+                "bp": "124/82",
+                "resp": 19,
+                "pulse": 78
+              },
+              "post_tx": {
+                "bp": "120/78",
+                "resp": 21,
+                "pulse": 81
+              }
+            },
+            "hearing": "HOH (hard of hearing) checked",
+            "chief_complaint": "I can't move around due WB restrictions",
+            "homebound_status": true,
+            "discharge_disposition": "Discharged from Occupational therapy when goals met; able to go to outpatient therapy; independent with HEP (home exercise program)",
+            "prior_level_of_function": "Patient is a 48 y/o male with weakness and balance deficits and was independent with all ADLs/Self-care and IADLs",
+            "treatment_rendered_checked": [
+              "Safety Instructions",
+              "Ther. Ex",
+              "Balance/Coordination Exercises",
+              "ADL training",
+              "Transfer Training",
+              "Therapeutic Modalities"
+            ]
+          }
+        },
+        "email_body": {
+          "text": "Hello Therapy Depot\nYou previously informed us that visits were missed on 12/10 and 12/17 (or weeks of those dates)\nBut you just submitted a DC visit note for 12/15\nPlease clarify\n\n47\nTHERAPY DEPOT,OT\nJOHNSON, KAHLIL\n12/10/2025\nOT11\nSUBSEQUENT",
+          "entities": {
+            "code_snippets": [
+              "47",
+              "OT11",
+              "SUBSEQUENT"
+            ],
+            "discipline_mentioned": "OT",
+            "patient_name_mentioned": "Johnson, Kahlil",
+            "provider_agency_or_vendor_mentioned": "Therapy Depot"
+          },
+          "request_type": "Clarification / discrepancy about missed OT visits vs submitted discharge (DC) visit note",
+          "mentioned_missed_visit_dates": [
+            "12/10/2025",
+            "12/17/2025"
+          ],
+          "mentioned_submitted_dc_visit_date": "12/15/2025"
+        },
+        "referral_relevance": {
+          "reason": "This appears to be a post-service documentation/visit clarification email with OT discharge paperwork (adult home health), not a pediatric therapy referral.",
+          "is_referral": false
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email requests clarification: previously reported missed visits 12/10 and 12/17, but DC visit note submitted for 12/15. Attachment shows OT/DC Summary visit dated 12/15/2025 for patient Johnson, Kahlil (DOB 02/07/1977) from Revival Home Health Care; therapist Don Nelden Tongol (MS, OTR/L).",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": "Home",
+        "ChildName": "Johnson, Kahlil",
+        "ProgramID": null,
+        "DateOfBirth": "02/07/1977",
+        "ServiceType": "OT",
+        "StaffedDate": "12/15/2025",
+        "StaffedName": "Don Nelden Tongol",
+        "CustomerName": null,
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": null
+      }
+    },
+    "createdAt": "2026-02-28T01:43:09.883Z",
+    "message": {
+      "subject": "RE: [External]Johnson, Kahlil, 12/15/25, OT DC Oasis, Brooklyn",
+      "receivedAt": "2026-02-22T01:26:17.000Z",
+      "thread": {
+        "id": "cmm5npqvy00gg34uh9g72f8jr",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5npu3400hb34uhfjkj7rnc",
+    "filename": "REECE CHERYL - OTRV 12.11.25.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "document": {
+          "pain": {
+            "location": "N/A"
+          },
+          "plan": {
+            "next_visit_date": "12/12/2025",
+            "rehab_prognosis": "Good",
+            "discharge_potential": [
+              "Maximum Potential achieved",
+              "Independent with HEP"
+            ],
+            "notice_of_medicare_non_coverage_given": "N/A"
+          },
+          "header": {
+            "time_in": "01:00 PM",
+            "soc_date": "11/10/2025",
+            "time_out": "01:30 PM",
+            "therapist": "Don Nelden Tongol",
+            "visit_date": "12/11/2025",
+            "organization": "Revival Home Health Care",
+            "patient_name": {
+              "full_name": "Cheryl Reece",
+              "last_name": "Reece",
+              "first_name": "Cheryl"
+            },
+            "form_type_selected": "OT Revisit"
+          },
+          "vitals": {
+            "pre_tx": {
+              "bp": "143/83",
+              "resp": "19",
+              "pulse": "78"
+            },
+            "post_tx": {
+              "bp": "142/82",
+              "resp": "20",
+              "pulse": "81"
+            }
+          },
+          "diagnosis": {
+            "other_diagnosis_code": "M62.81",
+            "referring_diagnosis_code": "M62.81",
+            "other_diagnosis_description": "Muscle weakness (generalized)",
+            "referring_diagnosis_description": "Muscle weakness (generalized)"
+          },
+          "file_name": "REECE CHERYL - OTRV 12.11.25.pdf",
+          "document_type": "OT Revisit (Revival Home Health Care)",
+          "chief_complaint": "I feel weak and in pain when walking",
+          "homebound_status": {
+            "homebound": "Yes",
+            "mental_status": [
+              "Alert",
+              "Oriented x3",
+              "HOH"
+            ],
+            "taxing_effort_to_leave_home_due_to": [
+              "Pain with ambulation",
+              "SOB with min exertion",
+              "Unsteady gait, requires assist to ambulate"
+            ]
+          },
+          "balance_assessment": {
+            "functional_reach_test": "N/A",
+            "sitting_balance_static": "Fair",
+            "standing_balance_static": "Fair"
+          },
+          "treatment_response": {
+            "narrative": "Patient was seen for OT today. Patient was alert, oriented x3, and denies pain. Patient did the following: BUE strengthening exercises with light resistance band x 10 reps x 3 sets to improve gross strength necessary for ADL participation. Reaching beyond arm's length x 10 reps x 3 sets to improve standing static and dynamic balance.",
+            "tolerance_and_participation": "100%"
+          },
+          "patient_demographics": {
+            "age": "67",
+            "sex": "Female",
+            "date_of_birth": "08/19/1958"
+          },
+          "treatment_rendered_checked": [
+            "Safety Instructions",
+            "Therapeutic Exercise",
+            "Gait Training",
+            "ADL training",
+            "HEP",
+            "Transfer Training"
+          ]
+        },
+        "email_body": {
+          "message": "Hello Therapy Depot\nYou told us 2 weeks ago that visits for this patient were missed\nTHERAPY DEPOT,OT\nREECE, CHERYL\n12/9/2025\nOT11\nSUBSEQUENT\nleft VM- No return call to schedule followup  visits\nTHERAPY DEPOT,OT\nREECE, CHERYL\n12/11/2025\nOT11\nS",
+          "visit_notes": [
+            {
+              "code": "OT11",
+              "note": "left VM- No return call to schedule followup visits",
+              "issue": "missed visits / unable to schedule follow-up",
+              "visit_date": "12/09/2025",
+              "visit_type": "SUBSEQUENT",
+              "patient_name": "Reece, Cheryl",
+              "agency_or_provider": "THERAPY DEPOT,OT"
+            },
+            {
+              "code": "OT11",
+              "note": null,
+              "visit_date": "12/11/2025",
+              "visit_type": "S",
+              "patient_name": "Reece, Cheryl",
+              "agency_or_provider": "THERAPY DEPOT,OT"
+            }
+          ]
+        },
+        "clinical_summary": {
+          "context": "This appears to be an adult home health OT revisit note (Revival Home Health Care) rather than a pediatric therapy referral.",
+          "patient_is_pediatric": false
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email indicates missed OT visits and inability to schedule follow-up (left VM, no return call). Document is an OT Revisit note from Revival Home Health Care for Cheryl Reece (DOB 08/19/1958), SOC 11/10/2025, visit 12/11/2025, therapist Don Nelden Tongol.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": "Home",
+        "ChildName": "Cheryl Reece",
+        "ProgramID": null,
+        "DateOfBirth": "08/19/1958",
+        "ServiceType": "OT",
+        "StaffedDate": "12/11/2025",
+        "StaffedName": "Don Nelden Tongol",
+        "CustomerName": null,
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot"
+      }
+    },
+    "createdAt": "2026-02-28T01:43:08.942Z",
+    "message": {
+      "subject": "RE: [External]Reece, Cheryl, 12/17/25, OT DC Oasis, Brooklyn",
+      "receivedAt": "2026-02-22T01:36:40.000Z",
+      "thread": {
+        "id": "cmm5nptod00h534uhfuckym4p",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5npu2s00ha34uhz00dgfw6",
+    "filename": "REECE CHERYL - OT DC visit and DC OASIS - 12.17.25.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "source": {
+          "email_body": "Hello Therapy Depot\r\nYou told us 2 weeks ago that visits for this patient were missed\r\nTHERAPY DEPOT,OT\r\nREECE, CHERYL\r\n12/9/2025\r\nOT11\r\nSUBSEQUENT\r\nleft VM- No return call to schedule followup  visits\r\nTHERAPY DEPOT,OT\r\nREECE, CHERYL\r\n12/11/2025\r\nOT11\r\nS",
+          "document_type": "OT discharge visit note + OASIS-E1 Discharge (DC) form",
+          "attachment_filename": "REECE CHERYL - OT DC visit and DC OASIS - 12.17.25.pdf"
+        },
+        "patient": {
+          "sex": "Female",
+          "name": {
+            "full": "Cheryl Reece",
+            "last": "Reece",
+            "first": "Cheryl"
+          },
+          "diagnoses": {
+            "other_diagnosis_codes": [
+              "M62.81"
+            ],
+            "referring_diagnosis_codes": [
+              "M62.81"
+            ]
+          },
+          "age_reported": "67 yr, 3",
+          "date_of_birth": "08/19/1958"
+        },
+        "therapy": {
+          "time_in": "02:00 PM",
+          "soc_date": "11/10/2025",
+          "time_out": "02:30 PM",
+          "therapist": {
+            "name": "Don Nelden Tongol",
+            "credentials": "MS, OTR/L"
+          },
+          "visit_date": "12/17/2025",
+          "visit_type": "OT/DC Summary",
+          "service_type": "OT",
+          "chief_complaint": "I feel weak and in pain when walking",
+          "duration_minutes": 30,
+          "homebound_status": {
+            "homebound": true,
+            "reasons_checked": [
+              "Pain with ambulation",
+              "SOB with min exertion"
+            ]
+          },
+          "missed_visits_notes": [
+            {
+              "code": "OT11",
+              "date": "12/09/2025",
+              "note": "left VM- No return call to schedule followup visits",
+              "label": "SUBSEQUENT"
+            },
+            {
+              "code": "OT11",
+              "date": "12/11/2025",
+              "note": "Entry truncated in email body (shows 'S')"
+            }
+          ],
+          "dme_equipment_at_home": [
+            "Walker",
+            "Reacher"
+          ],
+          "prior_level_of_function": "Patient is independent with all ADLs/self-care and IADLs (per OT note text; narrative contains a conflicting '67 y/o male' statement but patient demographics indicate female)."
+        },
+        "oasis_dc": {
+          "instrument": "OASIS-E1 Discharge (DC) Effective 01/01/2025",
+          "discharge_date": "12/17/2025",
+          "inpatient_admission": "No inpatient facility admission (NA)",
+          "discharge_disposition": "Patient remained in the community without skilled services from a Medicare Certified HHA or non-institutional hospice (code 1)",
+          "reason_for_assessment": "Discharge from agency (code 9)",
+          "emergent_care_since_soc": "No (code 0)",
+          "assessment_completed_date": "12/17/2025",
+          "discipline_of_person_completing_assessment": "OT (code 4)"
+        },
+        "provider_agency": {
+          "name": "Revival Home Health Care",
+          "discipline": "OT"
+        },
+        "referral_context": {
+          "notes": "This appears to be an OT discharge visit/OASIS discharge documentation for an adult home health patient, not a new pediatric therapy referral.",
+          "is_pediatric_referral": false
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email indicates missed OT visits (12/09/2025: left VM no return call to schedule follow-up). OT/DC Summary + OASIS-E1 discharge completed 12/17/2025. SOC date 11/10/2025. Discharge reason code 9 (discharge from agency). Provider/agency listed: Revival Home Health Care. DME at home includes walker and reacher.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": "Home",
+        "ChildName": "Cheryl Reece",
+        "ProgramID": null,
+        "DateOfBirth": "08/19/1958",
+        "ServiceType": "OT",
+        "StaffedDate": "12/17/2025",
+        "StaffedName": "Don Nelden Tongol",
+        "CustomerName": null,
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot"
+      }
+    },
+    "createdAt": "2026-02-28T01:43:08.931Z",
+    "message": {
+      "subject": "RE: [External]Reece, Cheryl, 12/17/25, OT DC Oasis, Brooklyn",
+      "receivedAt": "2026-02-22T01:36:40.000Z",
+      "thread": {
+        "id": "cmm5nptod00h534uhfuckym4p",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5npu2h00h934uhttkgffo7",
+    "filename": "REECE CHERYL - OTRV 12.12.25.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "attachment": {
+          "pain": {
+            "location": "N/A",
+            "pain_level": null
+          },
+          "plan": {
+            "next_visit_date": "12/15/2025",
+            "rehab_prognosis": "Good",
+            "planned_visit_frequency_duration": "assessment and reassessment only (no specific frequency/minutes visible)"
+          },
+          "visit": {
+            "time_in": "11:00 AM",
+            "soc_date": "11/10/2025",
+            "time_out": "11:30 AM",
+            "therapist": "Don Nelden Tongol",
+            "visit_date": "12/12/2025",
+            "visit_type": "OT Revisit"
+          },
+          "vitals": {
+            "pre_tx": {
+              "bp": "152/83",
+              "resp": 19,
+              "pulse": 78
+            },
+            "post_tx": {
+              "bp": "148/82",
+              "resp": 20,
+              "pulse": 81
+            }
+          },
+          "patient": {
+            "age": "67",
+            "sex": "Female",
+            "name": {
+              "full": "Cheryl Reece",
+              "last": "Reece",
+              "first": "Cheryl"
+            },
+            "date_of_birth": "08/19/1958"
+          },
+          "filename": "REECE CHERYL - OTRV 12.12.25.pdf",
+          "diagnoses": {
+            "other_diagnosis": [
+              {
+                "code": "M62.81",
+                "description": null
+              }
+            ],
+            "referring_diagnosis": [
+              {
+                "code": "M62.81",
+                "description": null
+              }
+            ]
+          },
+          "document_type": "Revival Home Health Care - OT Revisit (visit note)",
+          "chief_complaint": "I feel weak and in pain when walking",
+          "homebound_status": {
+            "factors": [
+              "Pain with ambulation",
+              "SOB with min exertion",
+              "Unsteady gait, requires assist to ambulate"
+            ],
+            "homebound": true
+          },
+          "session_response": "Patient was seen for OT today. Patient was alert, oriented x3, and denies pain. -BUE strengthening exercises with light resistance band x 10 reps x 3 sets to improve gross strength necessary for ADL participation. -Gait training using rollator x 100 ft.",
+          "treatment_rendered": [
+            "Safety instructions",
+            "Therapeutic exercise",
+            "ADL training"
+          ],
+          "pediatric_section_note": "Form includes a pediatric developmental assessment section, but patient is an adult; pediatric checklist not applicable.",
+          "instructions_supervision_provided_to": [
+            "Patient",
+            "Family"
+          ]
+        },
+        "email_body": {
+          "notes": [
+            {
+              "code": "OT11",
+              "date": "12/09/2025",
+              "comment": "left VM- No return call to schedule followup visits",
+              "visit_type": "SUBSEQUENT",
+              "patient_name": "Reece, Cheryl",
+              "discipline_or_dept": "OT"
+            },
+            {
+              "code": "OT11",
+              "date": "12/11/2025",
+              "comment": "S (truncated in email body)",
+              "visit_type": null,
+              "patient_name": "Reece, Cheryl",
+              "discipline_or_dept": "OT"
+            }
+          ],
+          "message": "Hello Therapy Depot\nYou told us 2 weeks ago that visits for this patient were missed\nTHERAPY DEPOT,OT\nREECE, CHERYL\n12/9/2025\nOT11\nSUBSEQUENT\nleft VM- No return call to schedule followup visits\nTHERAPY DEPOT,OT\nREECE, CHERYL\n12/11/2025\nOT11\nS",
+          "issue_summary": "Referrer indicates missed visits and inability to schedule follow-up due to no return call after voicemail."
+        },
+        "referral_context": {
+          "key_notes": [
+            "Email references missed visits and inability to schedule follow-up (left voicemail, no return call).",
+            "Attachment is an OT revisit note from Revival Home Health Care for Cheryl Reece."
+          ],
+          "service_discipline": "OT",
+          "referral_or_case_type": "Home Health / OT visit documentation (not a pediatric therapy referral)"
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email states visits were missed and follow-up could not be scheduled: left voicemail with no return call. Attachment: Revival Home Health Care OT Revisit note; SOC 11/10/2025; visit 12/12/2025 11:00-11:30; Dx M62.81; chief complaint weakness/pain when walking; homebound yes; gait training with rollator; next visit date 12/15/2025.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": "Home",
+        "ChildName": "Cheryl Reece",
+        "ProgramID": null,
+        "DateOfBirth": "08/19/1958",
+        "ServiceType": "OT",
+        "StaffedDate": "12/12/2025",
+        "StaffedName": "Don Nelden Tongol",
+        "CustomerName": null,
+        "ReferralType": "Home Health",
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot"
+      }
+    },
+    "createdAt": "2026-02-28T01:43:08.919Z",
+    "message": {
+      "subject": "RE: [External]Reece, Cheryl, 12/17/25, OT DC Oasis, Brooklyn",
+      "receivedAt": "2026-02-22T01:36:40.000Z",
+      "thread": {
+        "id": "cmm5nptod00h534uhfuckym4p",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nptb400h434uh2hrk8p0k",
+    "filename": "Semel, Holly - OT visit - 12.11.25.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "pain": {
+          "location": "B/L LE"
+        },
+        "visit": {
+          "time_in": "2:17 PM",
+          "provider": {
+            "therapist_name": "Vilma Digilio"
+          },
+          "soc_date": "09/02/2025",
+          "time_out": "2:47 PM",
+          "note_type": "OT Revisit",
+          "discipline": "OT",
+          "visit_date": "12/11/2025"
+        },
+        "source": {
+          "attachment": {
+            "type": "OT visit note (Revival Home Health Care form)",
+            "pages": 4,
+            "filename": "Semel, Holly - OT visit - 12.11.25.pdf"
+          },
+          "email_body": "Hello Therapy Depot\r\nYou just submitted a visit note for 12/11 visit, but you told us a couple of weeks ago that this visit was missed. And we already notified the doctor that the visit was missed.\r\nPlease clarify\r\nTHERAPY DEPOT,OT\r\nSEMEL, HOLLY\r\n12/9/202"
+        },
+        "vitals": {
+          "pre_tx": {
+            "bp": "143/98",
+            "resp": 19,
+            "pulse": 79
+          },
+          "post_tx": {
+            "bp": "129/77",
+            "resp": 19,
+            "pulse": 81
+          }
+        },
+        "patient": {
+          "age": "66",
+          "sex": "Female",
+          "name": {
+            "full": "Semel, Holly",
+            "last": "Semel",
+            "first": "Holly"
+          },
+          "date_of_birth": "03/22/1959",
+          "chief_complaint": "I FEEL WEAK WHEN WALKING.",
+          "homebound_status": true
+        },
+        "diagnoses": {
+          "other_diagnosis": [
+            {
+              "code": "M62.81",
+              "description": "Muscle weakness (generalized)"
+            }
+          ],
+          "referring_diagnosis": [
+            {
+              "code": "M62.81",
+              "description": "Muscle weakness (generalized)"
+            }
+          ]
+        },
+        "plan_goals": {
+          "next_visit_date": "12/13/2025",
+          "rehab_prognosis": "Good"
+        },
+        "administrative": {
+          "form_header_company": "Revival Home Health Care"
+        },
+        "referral_context": {
+          "type": "visit note clarification / discrepancy",
+          "issue": "Customer states OT visit note was submitted for 12/11/2025, but they believed the visit was missed and they already notified the doctor it was missed; requesting clarification."
+        },
+        "treatment_rendered": {
+          "checked_items_on_form": [
+            "Safety Instructions",
+            "Ther. Ex",
+            "Balance/Coordination Exercises"
+          ],
+          "reported_in_narrative": [
+            "TherEx with 1 lb dumbbells (3 sets of 15 reps) for shoulder flexion/extension, chest press, bicep curls",
+            "Neuro re-education: PNF patterns (D1/D2) for upper extremities, 3 sets of 20 reps with red Theraband; verbal cues provided",
+            "Functional balance/coordination: sit-to-stand transfers without upper extremity support; required verbal cues and additional time"
+          ]
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email requests clarification: visit note submitted for 12/11/2025, but customer reports OT previously stated the visit was missed and doctor was already notified it was missed. Attachment is an OT Revisit note (Revival Home Health Care) for patient Holly Semel (DOB 03/22/1959) with therapist Vilma Digilio; time in 2:17 PM, time out 2:47 PM; Dx M62.81; vitals pre 143/98 P79 R19, post 129/77 P81 R19; chief complaint 'I feel weak when walking.'",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": "Home",
+        "ChildName": "Semel, Holly",
+        "ProgramID": null,
+        "DateOfBirth": "03/22/1959",
+        "ServiceType": "OT",
+        "StaffedDate": "12/11/2025",
+        "StaffedName": "Vilma Digilio",
+        "CustomerName": null,
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": null
+      }
+    },
+    "createdAt": "2026-02-28T01:43:07.935Z",
+    "message": {
+      "subject": "Semel, Holly",
+      "receivedAt": "2026-02-22T02:03:41.000Z",
+      "thread": {
+        "id": "cmm5npsx200h034uhipozw5on",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5npbrn00dt34uhee3znu6i",
+    "filename": "Outlook-lpcwgyww",
+    "mimeType": "image/jpg",
+    "extractedJson": {
+      "extracted": {
+        "patient": null,
+        "referral": {
+          "notes": "No child/patient details present in the provided email body context or attachment; appears to be an internal/admin note request.",
+          "is_referral": false
+        },
+        "referrer": {
+          "name": "William Dease",
+          "email": "therapydepot@therapydepotonline.com",
+          "phone": "(631) 600-3027",
+          "title": "Executive/Clinical Director",
+          "company": "Therapy Depot"
+        },
+        "email_body": {
+          "message": "Good Morning Abyr,\n\nPlease see below and update ProviderSoft , Post the Visit Note.\n\nBest Regards,\n\nWilliam Dease\n\nExecutive/Clinical Director\n\nMob: (631) 600-3027\n\nEm: therapydepot@therapydepotonline.com\n\n“There Are 7 Days In The Wee",
+          "request_type": "Administrative request (update ProviderSoft / post visit note)",
+          "recipient_name_mentioned": "Abyr"
+        },
+        "attachments": [
+          {
+            "filename": "Outlook-lpcwgyww",
+            "content_type": "image/jpg",
+            "extracted_text": "THERAPY DEPOT\nLET US BUILD YOUR TEAM!"
+          }
+        ]
+      },
+      "confidence": 0.62,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email requests updating ProviderSoft and posting the visit note. No child/referral details included in provided content.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "William Dease",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "therapydepot@therapydepotonline.com",
+        "CustomerPhone": "(631) 600-3027",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot"
+      }
+    },
+    "createdAt": "2026-02-28T01:42:45.201Z",
+    "message": {
+      "subject": "Fw: Reassessment",
+      "receivedAt": "2026-02-21T13:21:48.000Z",
+      "thread": {
+        "id": "cmm5npbdu00do34uh8ehfs2j8",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5npbrc00ds34uhww29xoni",
+    "filename": "Document_2026-02-19_220613(2026_2018_Nussbaum, Leah_1305029_EXT STRA).pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Good Morning Abyr,\r\n\r\nPlease see below and update ProviderSoft , Post the Visit Note.\r\n\r\n\r\nBest Regards,\r\n\r\nWilliam Dease\r\n\r\nExecutive/Clinical Director\r\n\r\nMob: ‪(631) 600-3027\r\n\r\nEm: therapydepot@therapydepotonline.com\r\n\r\n\r\n\r\n“There Are 7 Days In The Wee",
+          "request": "Update ProviderSoft and post the visit note.",
+          "sender_signature": {
+            "name": "William Dease",
+            "email": "therapydepot@therapydepotonline.com",
+            "title": "Executive/Clinical Director",
+            "mobile_phone": "(631) 600-3027"
+          }
+        },
+        "notes": [
+          "Attachment appears to be an OT note/assessment and visit documentation for Leah Nussbaum with Patient ID 1305029 and visit date 02/18/2026.",
+          "No patient address/caregiver contact/language was visible in the provided pages."
+        ],
+        "documents": [
+          {
+            "type": "OT visit note / Professional Activity Report (Extended Home Care)",
+            "filename": "Document_2026-02-19_220613(2026_2018_Nussbaum, Leah_1305029_EXT STRA).pdf",
+            "extracted_fields": {
+              "visit": {
+                "icd10": [
+                  {
+                    "code": "F84.0",
+                    "description": "Referring diagnosis / other diagnosis listed as F84.0"
+                  }
+                ],
+                "time_in": "7:45 PM",
+                "time_out": "8:30 PM",
+                "visit_date": "02/18/2026",
+                "note_attached": "Yes"
+              },
+              "address": null,
+              "patient": {
+                "age": "6 y/o (noted as 6 y/5 on form)",
+                "dob": "03/17/2019",
+                "sex": "Female",
+                "name": {
+                  "full": "Nussbaum, Leah",
+                  "last": "Nussbaum",
+                  "first": "Leah"
+                },
+                "patient_id": "1305029"
+              },
+              "language": null,
+              "provider": {
+                "discipline": "OT",
+                "form_company": "Extended Home Care",
+                "therapist_name": "Aurlica Thomas"
+              },
+              "caregiver": null,
+              "plan_frequency": "3w8 (as written; unclear formatting—likely 3x/week for 8 weeks or similar)",
+              "medical_history": {
+                "past_medical_surgical_history": "Unspecified speech disturbance (as written on form)"
+              },
+              "next_visit_date": "02/23/2026 (appears written)",
+              "location_of_service": null
+            }
+          }
+        ]
+      },
+      "confidence": 0.78,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email requests updating ProviderSoft and posting visit note. OT visit note: Visit date 02/18/2026, time in 7:45 PM, time out 8:30 PM. Patient ID 1305029. Dx includes F84.0. Past medical history notes unspecified speech disturbance.",
+        "State": null,
+        "County": null,
+        "Mandate": "3w8",
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": "Leah Nussbaum",
+        "ProgramID": "1305029",
+        "DateOfBirth": "03/17/2019",
+        "ServiceType": "OT",
+        "StaffedDate": "02/18/2026",
+        "StaffedName": "Aurlica Thomas",
+        "CustomerName": "William Dease",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "therapydepot@therapydepotonline.com",
+        "CustomerPhone": "(631) 600-3027",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot (therapydepotonline.com)"
+      }
+    },
+    "createdAt": "2026-02-28T01:42:45.190Z",
+    "message": {
+      "subject": "Fw: Reassessment",
+      "receivedAt": "2026-02-21T13:21:48.000Z",
+      "thread": {
+        "id": "cmm5npbdu00do34uh8ehfs2j8",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5npb1f00dn34uhena2o1gp",
+    "filename": "Outlook-xfa33xnf",
+    "mimeType": "image/jpg",
+    "extractedJson": {
+      "extracted": {
+        "sender": {
+          "name": "William Dease",
+          "email": "therapydepot@therapydepotonline.com",
+          "title": "Executive/Clinical Director",
+          "company": "Therapy Depot",
+          "phone_mobile": "(631) 600-3027"
+        },
+        "referral": {
+          "type": null,
+          "notes": "No child/patient referral details present in the provided email body/context or attachment image. Email references 'see below' but that content is not included.",
+          "patient": null,
+          "mandate_frequency": null,
+          "services_requested": null
+        },
+        "email_body": {
+          "text": "Good Morning Abyr,\n\nPlease see below and update ProviderSoft , Post the Visit Note.\n\nBest Regards,\n\nWilliam Dease\n\nExecutive/Clinical Director\n\nMob: (631) 600-3027\n\nEm: therapydepot@therapydepotonline.com\n\n“There Are 7 Days In The W",
+          "request": "Update ProviderSoft and post the visit note (details referenced as 'see below' not included in provided content).",
+          "recipient_or_internal_contact": "Abyr"
+        },
+        "attachments": [
+          {
+            "filename": "Outlook-xfa33xnf",
+            "contentType": "image/jpg",
+            "description": "Therapy Depot logo image; no patient/referral details visible."
+          }
+        ]
+      },
+      "confidence": 0.42,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email asks to update ProviderSoft and post a visit note; the referenced details ('see below') are missing from the provided content. Attachment is only a Therapy Depot logo.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "William Dease",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "therapydepot@therapydepotonline.com",
+        "CustomerPhone": "(631) 600-3027",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot"
+      }
+    },
+    "createdAt": "2026-02-28T01:42:44.257Z",
+    "message": {
+      "subject": "Fw: Reassessment",
+      "receivedAt": "2026-02-21T13:22:25.000Z",
+      "thread": {
+        "id": "cmm5npanw00di34uhhzn3efti",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5npb1100dm34uh3939q2u1",
+    "filename": "Document_2026-02-19_220232(2026_0218_Nussbaum, Javier_1305041_EXT STRA).pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Good Morning Abyr,\n\nPlease see below and update ProviderSoft , Post the Visit Note.\n\nBest Regards,\n\nWilliam Dease\n\nExecutive/Clinical Director\n\nMob: (631) 600-3027\n\nEm: therapydepot@therapydepotonline.com",
+          "sender": {
+            "name": "William Dease",
+            "email": "therapydepot@therapydepotonline.com",
+            "phone": "(631) 600-3027",
+            "title": "Executive/Clinical Director",
+            "company": "Therapy Depot (therapydepotonline.com)"
+          },
+          "request": "Update ProviderSoft and post the visit note."
+        },
+        "attachment": {
+          "visit": {
+            "date": "02/18/2026",
+            "time_in": "08:35 PM",
+            "time_out": "09:20 PM",
+            "visit_code": "RA",
+            "note_attached": "Yes"
+          },
+          "patient": {
+            "age": "6 yrs",
+            "sex": "Male",
+            "name": {
+              "full": "Nussbaum, Javier",
+              "last": "Nussbaum",
+              "first": "Javier"
+            },
+            "patient_id": "1305041",
+            "date_of_birth": "03/17/2019"
+          },
+          "filename": "Document_2026-02-19_220232(2026_0218_Nussbaum, Javier_1305041_EXT STRA).pdf",
+          "provider": {
+            "discipline": "OT",
+            "therapist_name": "Aulrica Thomas"
+          },
+          "signatures": {
+            "credentials": "OTR/L",
+            "signature_date": "02/18/2026",
+            "therapist_signature_name": "Aulrica Thomas"
+          },
+          "vitals_pain": {
+            "pain": "No c/o pain noted/indicated (pain scale not clearly marked beyond note)",
+            "pre_tx_vitals": "unable to do vitals"
+          },
+          "plan_of_care": {
+            "effective_as_of": "02/18/2026",
+            "next_visit_date": "02/23/2026",
+            "rehab_prognosis": "Fair",
+            "planned_visit_frequency_duration": "3w8 (as written on form; unclear formatting)"
+          },
+          "document_type": "OT Visit Note / Professional Activity Report (Extended Homecare)",
+          "home_environment": {
+            "living_situation": "Child is a 5 y/o male who lives with his parents and sibling in a private house. Parents assist with ADLs."
+          },
+          "diagnosis_history": {
+            "past_medical_surgical_history": [
+              "Unspecified hearing loss left ear",
+              "Unspecified asthma"
+            ]
+          },
+          "agency_header_locations": [
+            "360 West 31st St, Suite 304, New York, NY 10001",
+            "2617 East 16th St, 2nd Floor, Brooklyn, NY 11235",
+            "900 South Ave, Suite 301, Staten Island, NY 10314"
+          ],
+          "response_progress_notes": "Handwritten note indicates child is a 6 y/o male receiving skilled OT services to maximize ADLs; participated in treatment session and has shown some improvement; will require maximum cues for task segmentation and focus on tasks. (Handwriting partially unclear.)",
+          "treatment_rendered_checked": [
+            "Safety Instructions",
+            "Cognitive Training",
+            "HEP",
+            "Neuromuscular reeducation"
+          ]
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email requests updating ProviderSoft and posting visit note. OT visit note for Javier Nussbaum (DOB 03/17/2019), visit on 02/18/2026 8:35 PM-9:20 PM. Therapist: Aulrica Thomas OTR/L. Past history: unspecified hearing loss (left ear) and asthma. Prognosis noted as Fair. Next visit date 02/23/2026.",
+        "State": null,
+        "County": null,
+        "Mandate": "3w8 (unclear; written in Planned Visit Frequency and Duration field)",
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": "Javier Nussbaum",
+        "ProgramID": "1305041",
+        "DateOfBirth": "03/17/2019",
+        "ServiceType": "OT",
+        "StaffedDate": "02/18/2026",
+        "StaffedName": "Aulrica Thomas",
+        "CustomerName": "William Dease",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "therapydepot@therapydepotonline.com",
+        "CustomerPhone": "(631) 600-3027",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Therapy Depot"
+      }
+    },
+    "createdAt": "2026-02-28T01:42:44.244Z",
+    "message": {
+      "subject": "Fw: Reassessment",
+      "receivedAt": "2026-02-21T13:22:25.000Z",
+      "thread": {
+        "id": "cmm5npanw00di34uhhzn3efti",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5noov8009p34uhdcs51sb4",
+    "filename": "NOTE- Pediatric Fall Assessment Tool.docx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Good morning\n\nThank you for the RA. We just need the recertification forms filled out by the OT.\nI will provide them for you. Please and thank you!\n\nThank you,\nNicole Prota RN\nRehab Manager Peds Division\n212-356-4200 ext 3434\nFax 917-725-8968\nNP",
+          "request_summary": "Sender indicates they need recertification forms filled out by the OT (occupational therapist).",
+          "sender_signature": {
+            "fax": "917-725-8968",
+            "name": "Nicole Prota",
+            "phone": "212-356-4200 ext 3434",
+            "title": "Rehab Manager Peds Division",
+            "initials": "NP",
+            "credentials": "RN"
+          }
+        },
+        "entities": {
+          "patient": null,
+          "customer": {
+            "fax": "917-725-8968",
+            "name": "Nicole Prota",
+            "role": "Rehab Manager Peds Division",
+            "phone": "212-356-4200 ext 3434",
+            "credentials": "RN"
+          }
+        },
+        "referral": {
+          "reason": "Email is an administrative request for OT recertification forms; no child/patient identifying or service referral details provided.",
+          "is_referral": false
+        },
+        "attachment": {
+          "type": "docx",
+          "filename": "NOTE- Pediatric Fall Assessment Tool.docx",
+          "clinical_content_note": "Attachment content appears to be a clinical assessment tool/template, but patient-specific fields (name/DOB/address) were not reliably readable from the provided extraction.",
+          "extracted_text_quality": "poor/binary-docx-content (not cleanly readable)",
+          "apparent_document_title": "Pediatric Fall Assessment Tool (NOTE)"
+        }
+      },
+      "confidence": 0.62,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Administrative request: recertification forms need to be filled out by the OT. Sender: Nicole Prota RN, Rehab Manager Peds Division. Fax: 917-725-8968.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": "OT",
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nicole Prota",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": "212-356-4200 ext 3434",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": null
+      }
+    },
+    "createdAt": "2026-02-28T01:42:15.523Z",
+    "message": {
+      "subject": "Re: PINOVICIOSO, STEPHANIE",
+      "receivedAt": "2026-02-26T14:27:30.000Z",
+      "thread": {
+        "id": "cmm5noohk009k34uh0tgl7me0",
+        "department": "CASE_MANAGEMENT"
+      }
+    }
+  },
+  {
+    "id": "cmm5nooux009o34uhq06su8xv",
+    "filename": "NOTE COMPREHENSIVE PED ASSESSMENT (FOLLOW UP).pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Good morning\n\nThank you for the RA. We just need the recertification forms filled out by the OT.\nI will provide them for you. Please and thank you!\n\nThank you,\nNicole Prota RN\nRehab Manager Peds Division\n212-356-4200 ext 3434\nFax 917-725-8968\nNP",
+          "request_summary": "Requesting recertification forms to be filled out by the OT; sender will provide the forms.",
+          "sender_signature": {
+            "fax": "917-725-8968",
+            "name": "Nicole Prota",
+            "phone": "212-356-4200 ext 3434",
+            "title": "Rehab Manager Peds Division",
+            "credentials": "RN"
+          }
+        },
+        "service": {
+          "documents_requested": "Recertification forms (to be completed by OT)",
+          "discipline_requested": "OT"
+        },
+        "referral": {
+          "reason": "Email is an administrative request for OT recertification forms; attached PDF appears to be an unfilled assessment template with no patient-specific information.",
+          "is_referral": false
+        },
+        "attachments": [
+          {
+            "pages": 6,
+            "filename": "NOTE COMPREHENSIVE PED ASSESSMENT (FOLLOW UP).pdf",
+            "document_type": "Therapy Comprehensive Pediatric Assessment (blank form/template)",
+            "patient_identifiers_found": false,
+            "notable_fields_present_but_not_filled": [
+              "Patient Name",
+              "Patient ID Number",
+              "Patient Date of Birth",
+              "Gender",
+              "Start of Care Date",
+              "Ethnicity",
+              "Primary Caregiver Name/Phone",
+              "Alternate Caregiver Name/Phone",
+              "Physician Name/Phone",
+              "Diagnoses",
+              "Therapy Frequency",
+              "Other disciplines needed (SN/PT/ST/OT/MSW/HHA)",
+              "Goals/Discharge Plan/Rehab Potential"
+            ]
+          }
+        ]
+      },
+      "confidence": 0.66,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Administrative request: recertification forms need to be filled out by OT. Attached document appears to be a blank Therapy Comprehensive Pediatric Assessment template with no patient identifiers.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": "OT",
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nicole Prota",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": null,
+        "CustomerPhone": "212-356-4200 ext 3434",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": null
+      }
+    },
+    "createdAt": "2026-02-28T01:42:15.512Z",
+    "message": {
+      "subject": "Re: PINOVICIOSO, STEPHANIE",
+      "receivedAt": "2026-02-26T14:27:30.000Z",
+      "thread": {
+        "id": "cmm5noohk009k34uh0tgl7me0",
+        "department": "CASE_MANAGEMENT"
+      }
+    }
+  },
+  {
+    "id": "cmm5no4x8006834uhdhpbbvaq",
+    "filename": "Patient Information Report -VOGT, CLARITA D.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "source": {
+          "email_body": "Sure, here is the face sheet. Inform me if any providers cam help with this case, ty!\r\n\r\nFrom: Excellent TDP <excellent@therapydepotonline.com>\r\nSent: Monday, February 23, 2026 2:45 PM\r\nTo: Cassandra Acevedo <cassandra.acevedo@ehcny.org>\r\nSubject: Re: VOG",
+          "attachments": [
+            {
+              "type": "Patient Information Report / face sheet",
+              "system": "Homecare Homebase",
+              "filename": "Patient Information Report -VOGT, CLARITA D.pdf",
+              "printed_by": "ACEVEDO, CASSANDRA",
+              "printed_datetime": "02/24/2026 10:22:00 AM"
+            }
+          ]
+        },
+        "patient": {
+          "dob": "09/10/1943",
+          "name": {
+            "full": "CLARITA D VOGT",
+            "last": "VOGT",
+            "first": "CLARITA",
+            "middle_or_initial": "D"
+          },
+          "gender": "FEMALE",
+          "contact": {
+            "email": null,
+            "address": {
+              "zip": "11432-",
+              "city": "JAMAICA",
+              "state": "NY",
+              "county": "QUEENS",
+              "street": "159-04 GRAND CENTRAL PARKWAY PVT HOUSE"
+            },
+            "alt_phone": null,
+            "primary_phone": "(347)783-9638"
+          },
+          "identifiers": {
+            "mr_no": "EHC00005660701",
+            "ssn_last4": "6789",
+            "patient_id": "56607",
+            "legacy_mr_no": null
+          },
+          "preferred_language": null
+        },
+        "clinical": {
+          "allergies": [
+            {
+              "description": "NKA",
+              "date_entered": "02/17/2026 5:56:06 PM"
+            }
+          ],
+          "diagnoses_icd10": [
+            {
+              "code": "J44.9",
+              "o_e_date": "02/17/2026",
+              "description": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE, UNSPECIFIED"
+            },
+            {
+              "code": "M81.0",
+              "o_e_date": "02/17/2026",
+              "description": "AGE-RELATED OSTEOPOROSIS W/O CURRENT PATHOLOGICAL FRACTURE"
+            },
+            {
+              "code": "M16.0",
+              "o_e_date": "02/17/2026",
+              "description": "BILATERAL PRIMARY OSTEOARTHRITIS OF HIP"
+            },
+            {
+              "code": "M19.011",
+              "o_e_date": "02/17/2026",
+              "description": "PRIMARY OSTEOARTHRITIS, RIGHT SHOULDER"
+            },
+            {
+              "code": "M19.012",
+              "o_e_date": "02/17/2026",
+              "description": "PRIMARY OSTEOARTHRITIS, LEFT SHOULDER"
+            },
+            {
+              "code": "M47.816",
+              "o_e_date": "02/17/2026",
+              "description": "SPONDYLOSIS W/O MYELOPATHY OR RADICULOPATHY, LUMBAR REGION"
+            },
+            {
+              "code": "I10",
+              "o_e_date": "02/17/2026",
+              "description": "ESSENTIAL (PRIMARY) HYPERTENSION"
+            },
+            {
+              "code": "E78.5",
+              "o_e_date": "02/17/2026",
+              "description": "HYPERLIPIDEMIA, UNSPECIFIED"
+            },
+            {
+              "code": "R41.81",
+              "o_e_date": "02/17/2026",
+              "description": "AGE-RELATED COGNITIVE DECLINE"
+            },
+            {
+              "code": "R41.3",
+              "o_e_date": "02/17/2026",
+              "description": "OTHER AMNESIA"
+            },
+            {
+              "code": "Z74.1",
+              "o_e_date": "02/11/2026",
+              "description": "NEED FOR ASSISTANCE WITH PERSONAL CARE"
+            },
+            {
+              "code": "Z79.2",
+              "o_e_date": "02/17/2026",
+              "description": "LONG TERM (CURRENT) USE OF ANTIBIOTICS"
+            },
+            {
+              "code": "Z79.51",
+              "o_e_date": "02/17/2026",
+              "description": "LONG TERM (CURRENT) USE OF INHALED STEROIDS"
+            },
+            {
+              "code": "Z55.6",
+              "o_e_date": "02/17/2026",
+              "description": "Problems related to health literacy"
+            },
+            {
+              "code": "Z59.82",
+              "o_e_date": "02/17/2026",
+              "description": "TRANSPORTATION INSECURITY"
+            }
+          ]
+        },
+        "contacts": [
+          {
+            "name": "ROBERTA FLORENTINO",
+            "phones": {
+              "home": null,
+              "primary": null,
+              "alternate": null
+            },
+            "address": null,
+            "contact_type": "EMERGENCY",
+            "relationship": "DAUGHTER"
+          }
+        ],
+        "referral": {
+          "care_type": "MED SURG",
+          "referral_date": "02/04/2026",
+          "referral_type": "NEW ADMISSION",
+          "service_location": {
+            "type": "CLIENT'S HOME/RESIDENCE",
+            "phone": "(347) 783-9638",
+            "address": {
+              "zip": "11432-",
+              "city": "JAMAICA",
+              "state": "NY",
+              "county": "QUEENS",
+              "street": "159-04 GRAND CENTRAL PARKWAY PVT HOUSE"
+            }
+          },
+          "referral_taken_by": "DRACH, MARIIA",
+          "referral_source_type": "PHYSICIAN",
+          "care_effective_start_date": "02/17/2026"
+        },
+        "care_team": {
+          "case_manager": "JONATHAN COHEN, RN",
+          "team_members": [
+            "RACHEL SADYKOVA, RN"
+          ],
+          "assigned_team": "MNG CARE 3",
+          "assigned_branch": "EXCELLENT HOME CARE SERVICES"
+        },
+        "insurance": {
+          "primary": {
+            "payor": "UNITED HEALTHCARE MEDICARE HMO",
+            "insured_id": "117977754",
+            "payor_type": "HMO",
+            "hmo_hhcahps": "N",
+            "medicare_no": null
+          },
+          "secondary": {
+            "payor": "MEDICAID EPS",
+            "payor_type": "MEDICAID EPS",
+            "hmo_hhcahps": "N",
+            "medicaid_no": "YM31087B"
+          },
+          "informational": {
+            "payor": "MEDICARE PDGM",
+            "medicare_no": "3CP7PV6JX20"
+          }
+        },
+        "physician": {
+          "primary_physician": {
+            "fax": "(718)577-5916",
+            "npi": "1013527258",
+            "name": "DESGRAVES, EDWIDGE",
+            "phone": "(718)633-7828",
+            "address": "491 ROUTE 208, MONROE, NY 10950-",
+            "practice_name": "MEDISTAT HOME MEDICAL CARE"
+          }
+        },
+        "requested_evaluations": {
+          "add_on_discipline": "PT",
+          "completed_soc_visit": "Y",
+          "admitting_discipline": "SN",
+          "requested_date_of_evaluation": "02/17/2026",
+          "requested_add_on_evaluation_date": "02/18/2026"
+        },
+        "authorizations_or_budgets": [
+          {
+            "active": "Y",
+            "end_date": "02/28/2026",
+            "unit_type": "VISITS",
+            "start_date": "02/12/2026",
+            "budget_type": "DISCIPLINES",
+            "obtained_by": "KASSANDRA QUINTANA",
+            "billing_code": "SN",
+            "program_name": "ROUTINE S CODES",
+            "authorization_no": "999",
+            "obtained_datetime": "02/12/2026 10:23:49 AM",
+            "quantity_per_period": "2"
+          },
+          {
+            "active": "Y",
+            "end_date": "02/28/2026",
+            "unit_type": "VISITS",
+            "start_date": "02/12/2026",
+            "budget_type": "DISCIPLINES",
+            "obtained_by": "KASSANDRA QUINTANA",
+            "billing_code": "PT",
+            "program_name": "ROUTINE S CODES",
+            "authorization_no": "999",
+            "obtained_datetime": "02/12/2026 10:23:54 AM",
+            "quantity_per_period": "5"
+          },
+          {
+            "active": "Y",
+            "end_date": "02/28/2026",
+            "unit_type": "VISITS",
+            "start_date": "02/12/2026",
+            "budget_type": "DISCIPLINES",
+            "obtained_by": "KASSANDRA QUINTANA",
+            "billing_code": "OT",
+            "program_name": "ROUTINE S CODES",
+            "authorization_no": "999",
+            "obtained_datetime": "02/12/2026 10:23:58 AM",
+            "quantity_per_period": "5"
+          },
+          {
+            "active": "Y",
+            "end_date": "02/28/2026",
+            "unit_type": "VISITS",
+            "start_date": "02/12/2026",
+            "budget_type": "DISCIPLINES",
+            "obtained_by": "KASSANDRA QUINTANA",
+            "billing_code": "ST",
+            "program_name": "ROUTINE S CODES",
+            "authorization_no": "999",
+            "obtained_datetime": "02/12/2026 10:24:02 AM",
+            "quantity_per_period": "5"
+          },
+          {
+            "active": "Y",
+            "end_date": "04/17/2026",
+            "unit_type": "VISITS",
+            "start_date": "02/17/2026",
+            "budget_type": "DISCIPLINES",
+            "obtained_by": "KASSANDRA QUINTANA",
+            "program_name": "PPS PROGRAM",
+            "obtained_datetime": "02/19/2026 12:35:59 PM",
+            "billing_code_quantities": {
+              "SN": "8",
+              "HHA": "999"
+            }
+          }
+        ]
+      },
+      "confidence": 0.86,
+      "sharepoint_mapping": {
+        "City": "JAMAICA",
+        "Notes": "Email: 'here is the face sheet... Inform me if any providers can help with this case.' Assigned Branch: EXCELLENT HOME CARE SERVICES. Primary physician: EDWIDGE DESGRAVES, NPI 1013527258. Primary phone for patient/home: (347) 783-9638. Case manager: JONATHAN COHEN, RN. Requested eval: 02/17/2026 (SN); add-on eval 02/18/2026 (PT).",
+        "State": "NY",
+        "County": "QUEENS",
+        "Mandate": "SN:2 visits (02/12/2026-02/28/2026); PT:5 visits (02/12/2026-02/28/2026); OT:5 visits (02/12/2026-02/28/2026); ST:5 visits (02/12/2026-02/28/2026); PPS: HHA 999 & SN 8 (02/17/2026-04/17/2026)",
+        "ZipCode": "11432-",
+        "Language": null,
+        "Location": "Home",
+        "ChildName": "CLARITA D VOGT",
+        "ProgramID": "56607",
+        "DateOfBirth": "09/10/1943",
+        "ServiceType": "SN/PT/OT/ST/HHA",
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Excellent TDP",
+        "ReferralType": "NEW ADMISSION",
+        "CaregiverName": "ROBERTA FLORENTINO",
+        "CustomerEmail": "excellent@therapydepotonline.com",
+        "CustomerPhone": null,
+        "StreetAddress": "159-04 GRAND CENTRAL PARKWAY PVT HOUSE",
+        "CaregiverPhone": null,
+        "CustomerCompany": "Excellent TDP"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:49.674Z",
+    "message": {
+      "subject": "RE: VOGT, CLARITA (adult)",
+      "receivedAt": "2026-02-24T15:22:52.000Z",
+      "thread": {
+        "id": "cmm5no4jt006434uh49xesj25",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5no47b006334uhvy6mb9bk",
+    "filename": "Patient Information Report -IRTIZA, AZLAN.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "payer": {
+          "primary": {
+            "payor_type": "HMO",
+            "payor_source": "HEALTHFIRST MEDICAID HMO",
+            "payor_source_type": "PRIMARY"
+          },
+          "informational": {
+            "payor_type": "MEDICAID FFS",
+            "payor_source": "MEDICAID FFS",
+            "payor_source_type": "INFORMATIONAL"
+          }
+        },
+        "source": {
+          "email_body": "Sorry, please see attached face sheet and inform me of eval date to schedule, ty !\r\n\r\nFrom: Excellent TDP <excellent@therapydepotonline.com>\r\nSent: Tuesday, February 24, 2026 9:39 AM\r\nTo: Cassandra Acevedo <cassandra.acevedo@ehcny.org>\r\nSubject: Re: CORRE",
+          "attachments": [
+            {
+              "type": "Patient Information Report / facesheet (Homecare Homebase)",
+              "filename": "Patient Information Report -IRTIZA, AZLAN.pdf",
+              "pages_parsed": 4
+            }
+          ]
+        },
+        "patient": {
+          "dob": "03/01/2020",
+          "name": {
+            "full": "AZLAN IRTIZA",
+            "last": "IRTIZA",
+            "first": "AZLAN"
+          },
+          "email": null,
+          "gender": "MALE",
+          "address": {
+            "zip": "10462",
+            "city": "BRONX",
+            "state": "NY",
+            "county": "BRONX",
+            "street": "1480 PARKCHESTER ROAD APT. 3E",
+            "zip_raw": "10462-"
+          },
+          "identifiers": {
+            "mr_no": "EHP00004166501",
+            "insured_id": "UW48153P",
+            "patient_id": "41665",
+            "legacy_mr_no": null,
+            "ssn_partial_or_masked": "XXX-XX-4106"
+          },
+          "phone_numbers": {
+            "alt_phone": null,
+            "primary_phone": "9294189157",
+            "other_listed_phone": "(347)280-4832"
+          },
+          "service_location": {
+            "type": "CLIENT'S HOME/RESIDENCE",
+            "phone": "(347)280-4832",
+            "address": {
+              "zip": "10462",
+              "city": "BRONX",
+              "state": "NY",
+              "county": "BRONX",
+              "street": "1480 PARKCHESTER ROAD APT. 3E",
+              "zip_raw": "10462-"
+            }
+          },
+          "preferred_language": null
+        },
+        "clinical": {
+          "allergies": [
+            {
+              "description": "NKA",
+              "date_entered": "01/27/2026 6:40:29 PM"
+            }
+          ],
+          "case_manager": "KENDREA MORRIS, RN",
+          "team_members": [
+            "ESTHER BORUKHOVA, RN"
+          ],
+          "diagnoses_icd10": [
+            {
+              "code": "G80.0",
+              "o_e_date": "01/21/2026",
+              "description": "SPASTIC QUADRIPLEGIC CEREBRAL PALSY"
+            },
+            {
+              "code": "G40.814",
+              "o_e_date": "01/21/2026",
+              "description": "LENNOX-GASTAUT SYNDROME, INTRACTABLE, W/O STATUS EPILEPTICUS"
+            },
+            {
+              "code": "F88",
+              "o_e_date": "01/21/2026",
+              "description": "OTHER DISORDERS OF PSYCHOLOGICAL DEVELOPMENT"
+            },
+            {
+              "code": "F71",
+              "o_e_date": "01/21/2026",
+              "description": "MODERATE INTELLECTUAL DISABILITIES"
+            },
+            {
+              "code": "J45.20",
+              "o_e_date": "01/21/2026",
+              "description": "MILD INTERMITTENT ASTHMA, UNCOMPLICATED"
+            },
+            {
+              "code": "Q02",
+              "o_e_date": "01/21/2026",
+              "description": "MICROCEPHALY"
+            },
+            {
+              "code": "R13.10",
+              "o_e_date": "01/21/2026",
+              "description": "DYSPHAGIA, UNSPECIFIED"
+            },
+            {
+              "code": "M62.461",
+              "o_e_date": "01/21/2026",
+              "description": "CONTRACTURE OF MUSCLE, RIGHT LOWER LEG"
+            },
+            {
+              "code": "M62.462",
+              "o_e_date": "01/21/2026",
+              "description": "CONTRACTURE OF MUSCLE, LEFT LOWER LEG"
+            },
+            {
+              "code": "Q31.5",
+              "o_e_date": "01/21/2026",
+              "description": "CONGENITAL LARYNGOMALACIA"
+            },
+            {
+              "code": "Z93.1",
+              "o_e_date": "01/21/2026",
+              "description": "GASTROSTOMY STATUS"
+            }
+          ]
+        },
+        "referral": {
+          "care_type": "PEDIATRIC",
+          "email_request": "Sender asks to be informed of eval date to schedule.",
+          "referral_date": "01/21/2026",
+          "referral_type": "READMISSION",
+          "referral_source": {
+            "type": "FACILITY",
+            "facility_name": "CHILDREN'S HOSPITAL OF MONTEFIORE",
+            "facility_contact": null
+          },
+          "referral_taken_by": "DRACH, MARIIA",
+          "admitting_discipline": "SN",
+          "care_effective_dates": {
+            "end": null,
+            "start": "01/27/2026",
+            "primary": true
+          },
+          "requested_evaluation_date": "01/27/2026"
+        },
+        "physician": {
+          "primary_physician": {
+            "fax": "(718)405-5260",
+            "npi": "1023101250",
+            "name": "RONALD SAMUELS",
+            "phone": "(718)741-2507",
+            "address": "3415 BAINBRIDGE AVE., BRONX, NY 10467"
+          }
+        },
+        "agency_internal": {
+          "printed_by": "ACEVEDO, CASSANDRA",
+          "assigned_team": "MNG CARE 1",
+          "assigned_branch": "EXCELLENT HOME CARE SERVICES - PEDIATRIC",
+          "report_printed_datetime": "02/24/2026 10:26:18 AM"
+        },
+        "caregiver_contacts": [
+          {
+            "name": "ROKSANA PARVIN",
+            "phone": "(347) 280-4832",
+            "contact_type": "EMERGENCY",
+            "relationship": "OTHER"
+          }
+        ],
+        "authorizations_programs": [
+          {
+            "active": true,
+            "end_date": "01/28/2026",
+            "unit_type": "VISITS",
+            "start_date": "01/21/2026",
+            "billing_code": "RN",
+            "program_name": "EVALUATION-STANDARD",
+            "qty_per_year": 1,
+            "obtained_date_time": "01/22/2026 11:06:55 AM",
+            "authorization_number": "OP0731615060",
+            "obtained_by_authorized_by": "KASSANDRA QUINTANA"
+          },
+          {
+            "active": true,
+            "end_date": "02/04/2026",
+            "start_date": "01/21/2026",
+            "disciplines": [
+              "MSW",
+              "OT",
+              "SN"
+            ],
+            "program_name": "ROUTINE VISITS",
+            "obtained_date_time": "01/22/2026 11:07:15 AM",
+            "authorization_number": "OP0731615060",
+            "qty_per_year_each_listed": 1,
+            "obtained_by_authorized_by": "KASSANDRA QUINTANA"
+          },
+          {
+            "active": true,
+            "end_date": "02/14/2026",
+            "start_date": "01/27/2026",
+            "disciplines": [
+              "PT"
+            ],
+            "program_name": "ROUTINE VISITS",
+            "obtained_date_time": "02/04/2026 12:19:48 PM",
+            "authorization_number": "OP0731615060",
+            "qty_per_year_each_listed": 1,
+            "obtained_by_authorized_by": "EBONY CAMPBELL"
+          },
+          {
+            "note": "Obtained by shown as 'online' on document.",
+            "active": true,
+            "end_date": "03/27/2026",
+            "start_date": "02/11/2026",
+            "disciplines": [
+              "PT"
+            ],
+            "program_name": "ROUTINE VISITS",
+            "obtained_date_time": "02/13/2026 12:23:35 PM",
+            "authorization_number": "OP0731615060",
+            "qty_per_year_each_listed": 34,
+            "obtained_by_authorized_by": "EBONY CAMPBELL"
+          }
+        ]
+      },
+      "confidence": 0.82,
+      "sharepoint_mapping": {
+        "City": "BRONX",
+        "Notes": "Email: 'please see attached face sheet and inform me of eval date to schedule'. Referral date 01/21/2026; referral type READMISSION; source facility Children's Hospital of Montefiore. Current service location client's home/residence. Primary payor Healthfirst Medicaid HMO. Requested date of evaluation 01/27/2026 (admitting discipline SN). Authorizations show disciplines including OT/SN/MSW and PT; latest PT routine visits quantity per year listed as 34 (02/11/2026-03/27/2026).",
+        "State": "NY",
+        "County": "BRONX",
+        "Mandate": null,
+        "ZipCode": "10462",
+        "Language": null,
+        "Location": "Home",
+        "ChildName": "AZLAN IRTIZA",
+        "ProgramID": "41665",
+        "DateOfBirth": "03/01/2020",
+        "ServiceType": "PT",
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Excellent TDP",
+        "ReferralType": "TDP",
+        "CaregiverName": "ROKSANA PARVIN",
+        "CustomerEmail": "excellent@therapydepotonline.com",
+        "CustomerPhone": null,
+        "StreetAddress": "1480 PARKCHESTER ROAD APT. 3E",
+        "CaregiverPhone": "(347) 280-4832",
+        "CustomerCompany": "Excellent TDP"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:48.742Z",
+    "message": {
+      "subject": "RE: CORRECTION: IRTIZA, AZLAN ",
+      "receivedAt": "2026-02-24T15:27:03.000Z",
+      "thread": {
+        "id": "cmm5nny1o004q34uhxqlf26ny",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnyth004w34uh1cv647o3",
+    "filename": "2026-02-25_Irtiza, Azlan_EHP00004166501_EHC OT EVAL.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "to": [
+            {
+              "name": "Cassandra Acevedo",
+              "email": "cassandra.acevedo@ehcny.org"
+            }
+          ],
+          "body": "Faigy please verify eval, ty!\r\n________________________________\r\nFrom: Excellent TDP <excellent@therapydepotonline.com>\r\nSent: Thursday, February 26, 2026 5:16 PM\r\nTo: Cassandra Acevedo <cassandra.acevedo@ehcny.org>\r\nSubject: Re: CORRECTION: IRTIZA, AZLAN",
+          "from": {
+            "name": "Excellent TDP",
+            "email": "excellent@therapydepotonline.com"
+          },
+          "subject": "Re: CORRECTION: IRTIZA, AZLAN",
+          "mentions": [
+            {
+              "name": "Faigy",
+              "context": "Faigy please verify eval, ty!"
+            }
+          ],
+          "sent_datetime": "2026-02-26 17:16"
+        },
+        "entities": {
+          "therapist": [
+            {
+              "name": "Kwaku Frimpong-Boateng",
+              "discipline": "OT"
+            }
+          ],
+          "provider_org": [
+            {
+              "name": "Excellent Home Care / Excellent TDP",
+              "evidence": [
+                "Email From: Excellent TDP <excellent@therapydepotonline.com>",
+                "Logo on OT note: Excellent Home Care"
+              ]
+            }
+          ]
+        },
+        "attachments": [
+          {
+            "type": "pdf",
+            "patient": {
+              "sex": "Male",
+              "name": {
+                "full": "Irtiza, Azlan",
+                "last": "Irtiza",
+                "first": "Azlan"
+              },
+              "age_at_visit": "5 yr, 11 mo",
+              "date_of_birth": "03/01/2020",
+              "diagnosis_codes": [
+                {
+                  "code": "F88",
+                  "type": "referring/other (as listed on form)",
+                  "description": null
+                }
+              ]
+            },
+            "therapy": {
+              "time_in": "3:30 PM",
+              "soc_date": "02/25/2026",
+              "time_out": "4:15 PM",
+              "discipline": "OT",
+              "visit_date": "02/25/2026",
+              "plan_of_care": {
+                "effective_as_of": "03/01/2026",
+                "next_visit_date": "03/02/2026",
+                "rehab_prognosis": "Fair",
+                "discharge_plan_notes": [
+                  "Discharge plan section indicates patient to be discharged from OT when goals met / maximum potential achieved / independent with HEP (standard checkbox items on form)."
+                ],
+                "planned_visit_frequency_duration": "3w9 (as written on form)"
+              },
+              "therapist_name": "Kwaku Frimpong-Boateng",
+              "treatments_rendered_checked": [
+                "Safety Instructions",
+                "Bed Mobility Ex",
+                "Gait Training",
+                "Stump Wrapping",
+                "Sensory integration techniques",
+                "Cognitive Training",
+                "HEP",
+                "Balance/Coordination Exercises",
+                "Stair Training",
+                "W/C Training",
+                "ADL training",
+                "Transfer Training"
+              ]
+            },
+            "filename": "2026-02-25_Irtiza, Azlan_EHP00004166501_EHC OT EVAL.pdf",
+            "functional_notes": {
+              "precautions": "Safety Precautions",
+              "patient_chief_complaint": "ADLs, UB strength, Bed mobility & transfers",
+              "prior_level_of_function": "Child lives with family, requires assistance with ADL performance, bed mobility & transfers"
+            },
+            "document_type_inferred": "OT Initial Assessment / OT Evaluation"
+          }
+        ]
+      },
+      "confidence": 0.83,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "OT Initial Assessment/Eval dated 02/25/2026 for Azlan Irtiza (DOB 03/01/2020), male. Diagnosis code listed: F88. Therapist: Kwaku Frimpong-Boateng. Visit time 3:30 PM-4:15 PM. Email note: 'Faigy please verify eval, ty!' Subject indicates correction.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": "Azlan Irtiza",
+        "ProgramID": "EHP00004166501",
+        "DateOfBirth": "03/01/2020",
+        "ServiceType": "OT",
+        "StaffedDate": "02/25/2026",
+        "StaffedName": "Kwaku Frimpong-Boateng",
+        "CustomerName": "Excellent TDP",
+        "ReferralType": "TDP",
+        "CaregiverName": null,
+        "CustomerEmail": "excellent@therapydepotonline.com",
+        "CustomerPhone": null,
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Excellent Home Care"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:41.761Z",
+    "message": {
+      "subject": "Re: CORRECTION: IRTIZA, AZLAN ",
+      "receivedAt": "2026-02-27T16:42:11.000Z",
+      "thread": {
+        "id": "cmm5nny1o004q34uhxqlf26ny",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnau7000m34uh4foff8dz",
+    "filename": "Alexander Rodriguez - PT - BX.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "email": {
+          "body": "Hello,\r\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\r\nTY\r\n\r\n\r\n\r\n\r\nNelia Markovtsii\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3486\r\nE. nmarkovtsii@americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY",
+          "notes": "Email mentions facesheets for both kids; only Alexander Rodriguez document content provided here.",
+          "sender": {
+            "name": "Nelia Markovtsii",
+            "email": "nmarkovtsii@americareny.com",
+            "phone": "718-535-3100 ext 3486",
+            "title": "Pediatric Therapy Liaison",
+            "company": "Americare"
+          }
+        },
+        "documents": [
+          {
+            "patient": {
+              "dob": "01/11/2020",
+              "name": {
+                "full": "Alexander Rodriguez",
+                "last": "Rodriguez",
+                "first": "Alexander"
+              },
+              "phone": "(917) 515-8787",
+              "gender": "Male",
+              "address": {
+                "zip": "10469",
+                "city": "BRONX",
+                "state": "NY",
+                "county": "BRONX",
+                "street": "2455 WILLIAMSBRIDGE RD APT 6C"
+              },
+              "clinical": {
+                "allergies": [
+                  {
+                    "description": "NKA",
+                    "date_entered": "12/09/2023 7:09:20 PM"
+                  }
+                ],
+                "diagnoses_icd10": [
+                  {
+                    "code": "F84.0",
+                    "onset_date": "11/29/2023",
+                    "description": "Autistic disorder"
+                  },
+                  {
+                    "code": "R48.8",
+                    "onset_date": "12/04/2023",
+                    "description": "Other symbolic dysfunctions"
+                  },
+                  {
+                    "code": "R47.9",
+                    "onset_date": "12/04/2023",
+                    "description": "Unspecified speech disturbances"
+                  },
+                  {
+                    "code": "R26.89",
+                    "onset_date": "12/04/2023",
+                    "description": "Other abnormalities of gait and mobility"
+                  },
+                  {
+                    "code": "M62.81",
+                    "onset_date": "12/16/2023",
+                    "description": "Muscle weakness (generalized)"
+                  }
+                ]
+              },
+              "contacts": [
+                {
+                  "name": "RODRIGUEZ MS",
+                  "phone": "(917) 515-8787",
+                  "contact_type": "Emergency",
+                  "relationship": "Mother",
+                  "relationship_type": "Primary Caregiver"
+                }
+              ],
+              "referral": {
+                "referral_date": "11/29/2023",
+                "referral_type": "RECERTIFICATION",
+                "admission_source": "PHYSICIAN REFERRAL",
+                "referral_taken_by": "WILSON, CAROL",
+                "referring_physician": {
+                  "name": "ANDES, SCOTT"
+                },
+                "referring_physician_contact": "SCOTT RAFFERTY"
+              },
+              "care_team": {
+                "case_manager": "OGONNAYA NDIDIAMAKA, RN",
+                "team_members": [
+                  {
+                    "name": "AMERICARE INC., AIDE",
+                    "discipline": "HHA"
+                  },
+                  {
+                    "name": "NAHOMI DIAZ, ADMN",
+                    "discipline": "NA"
+                  },
+                  {
+                    "name": "THERAPY DEPOT OT, OT",
+                    "discipline": "OT"
+                  },
+                  {
+                    "name": "SANGHYUN LEE, PT",
+                    "discipline": "PT"
+                  }
+                ]
+              },
+              "insurance": {
+                "payor_type": "MEDICAID",
+                "primary_payor": "MEDICAID FFS",
+                "in_hmo_hhcahps": "N"
+              },
+              "physicians": {
+                "primary": {
+                  "npi": "1659828044",
+                  "name": "JONES, RYAN",
+                  "phone": "(718) 223-5820",
+                  "address": "711B SEAGIRT BLVD A, FAR ROCKAWAY, NY 11691"
+                },
+                "secondary": {
+                  "name": "ANDES, SCOTT"
+                }
+              },
+              "identifiers": {
+                "mr_no": "P0200012371701",
+                "insured_id": "XN38712E",
+                "patient_id": "123717",
+                "medicaid_id": "XN38712E"
+              },
+              "service_location": {
+                "type": "CLIENT'S HOME/RESIDENCE",
+                "phone": "(917) 515-8787",
+                "address": {
+                  "zip": "10469",
+                  "city": "BRONX",
+                  "state": "NY",
+                  "county": "BRONX",
+                  "street": "2455 WILLIAMSBRIDGE RD APT 6C"
+                }
+              },
+              "preferred_language": "English",
+              "authorizations_programs": [
+                {
+                  "active": "Y",
+                  "end_date": "03/27/2026",
+                  "quantities": [
+                    {
+                      "unit_type": "VISITS",
+                      "budget_type": "DISCIPLINES",
+                      "billing_code": "HHA",
+                      "qty_per_year": "52"
+                    },
+                    {
+                      "unit_type": "VISITS",
+                      "budget_type": "DISCIPLINES",
+                      "billing_code": "OT",
+                      "qty_per_year": "27"
+                    },
+                    {
+                      "unit_type": "VISITS",
+                      "budget_type": "DISCIPLINES",
+                      "billing_code": "SN",
+                      "qty_per_year": "2"
+                    }
+                  ],
+                  "start_date": "01/27/2026",
+                  "program_name": "ALL VISIT G CODES",
+                  "authorized_by": "SAUVETA SURPRISE RN",
+                  "obtained_date": "02/06/2026 3:41:15 PM"
+                }
+              ]
+            },
+            "filename": "Alexander Rodriguez - PT - BX.pdf",
+            "document_type": "Patient Information Report / facesheet"
+          }
+        ]
+      },
+      "confidence": 0.9,
+      "sharepoint_mapping": {
+        "City": "BRONX",
+        "Notes": "Patient Information Report (facesheet). Medicaid FFS. Current service location: client's home/residence. Primary caregiver listed as mother (RODRIGUEZ MS). Diagnoses include autism disorder (F84.0) and gait/mobility abnormalities.",
+        "State": "NY",
+        "County": "BRONX",
+        "Mandate": null,
+        "ZipCode": "10469",
+        "Language": "English",
+        "Location": "Home",
+        "ChildName": "Alexander Rodriguez",
+        "ProgramID": "123717",
+        "DateOfBirth": "01/11/2020",
+        "ServiceType": "PT",
+        "StaffedDate": null,
+        "StaffedName": "SANGHYUN LEE, PT",
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": "RECERTIFICATION",
+        "CaregiverName": "RODRIGUEZ MS",
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": "2455 WILLIAMSBRIDGE RD APT 6C",
+        "CaregiverPhone": "(917) 515-8787",
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.686Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnatx000l34uhwvsbi6fo",
+    "filename": "Angel Rodriguez - OT - BX.pdf",
+    "mimeType": "application/pdf",
+    "extractedJson": {
+      "extracted": {
+        "source": {
+          "email_body": "Hello,\r\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\r\nTY\r\n\r\nNelia Markovtsii\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3486\r\nE. nmarkovtsii@americareny.com\r\n\r\nCONFIDENTIALITY",
+          "attachments": [
+            {
+              "type": "facesheet/patient_information_report",
+              "filename": "Angel Rodriguez - OT - BX.pdf",
+              "pages_parsed": 3
+            }
+          ]
+        },
+        "patient": {
+          "dob": "10/14/2017",
+          "name": {
+            "full": "ANGEL A RODRIGUEZ",
+            "last": "RODRIGUEZ",
+            "first": "ANGEL",
+            "middle_or_initial": "A"
+          },
+          "phone": {
+            "primary": "(917) 515-8787"
+          },
+          "gender": "FEMALE",
+          "contacts": [
+            {
+              "name": "RODRIGUEZ MS",
+              "phone": "(917) 515-8787",
+              "contact_type": "EMERGENCY",
+              "relationship": "MOTHER",
+              "relationship_type": "PRIMARY CAREGIVER"
+            }
+          ],
+          "allergies": [
+            {
+              "description": "NKA",
+              "date_entered": "05/01/2024"
+            }
+          ],
+          "insurance": {
+            "primary_payor": "MEDICAID FFS",
+            "medicaid_effective": "04/01/2024"
+          },
+          "physicians": {
+            "primary": {
+              "fax": "(718)547-2610",
+              "npi": "1366640286",
+              "name": "MOYLAN, JULIANA",
+              "phone": "(718)920-5161",
+              "address": "3400 BAINBRIDGE AVE 8TH FLOOR BRONX NY 10467",
+              "last_seen": "12/01/2023"
+            },
+            "referring": {
+              "name": "ANDES, SCOTT"
+            }
+          },
+          "identifiers": {
+            "mr_no": "P0200014833701",
+            "patient_id": "148337",
+            "medicaid_id": "YZ14458K"
+          },
+          "diagnoses_icd10": [
+            {
+              "code": "F84.0",
+              "o_e_date": "04/26/2024",
+              "description": "AUTISTIC DISORDER"
+            },
+            {
+              "code": "F80.9",
+              "o_e_date": "04/26/2024",
+              "description": "DEVELOPMENTAL DISORDER OF SPEECH AND LANGUAGE, UNSPECIFIED"
+            },
+            {
+              "code": "J45.909",
+              "o_e_date": "04/26/2024",
+              "description": "UNSPECIFIED ASTHMA, UNCOMPLICATED"
+            }
+          ],
+          "primary_address": {
+            "zip": "10469",
+            "city": "BRONX",
+            "state": "NY",
+            "county": "BRONX",
+            "street": "2455 WILLIAMS BRIDGE ROAD APT 6C"
+          },
+          "preferred_language": "ENGLISH"
+        },
+        "referral": {
+          "team": "PEDS 1",
+          "branch": "BX - PEDIATRICS",
+          "case_manager": "OGONNAYA NDIDIAMAKA, RN",
+          "referral_date": "04/26/2024",
+          "referral_type": "RECERTIFICATION",
+          "admission_source": "PHYSICIAN REFERRAL",
+          "service_location": {
+            "type": "CLIENT'S HOME/RESIDENCE",
+            "phone": "(917) 515-8787",
+            "address": {
+              "zip": "10469",
+              "city": "BRONX",
+              "state": "NY",
+              "county": "BRONX",
+              "street": "2455 WILLIAMS BRIDGE ROAD APT 6C"
+            }
+          },
+          "referral_taken_by": "WILSON, CAROL",
+          "care_type_effective_dates": [
+            {
+              "code": "HIE",
+              "primary": true,
+              "description": "UNKNOWN",
+              "effective_start_date": "02/16/2026"
+            },
+            {
+              "code": "S",
+              "primary": false,
+              "description": "SURPRISE",
+              "effective_start_date": "02/16/2026"
+            },
+            {
+              "code": "NEED",
+              "primary": false,
+              "description": "ST",
+              "effective_start_date": "02/16/2026"
+            },
+            {
+              "code": "N",
+              "primary": false,
+              "description": "CIRIACO",
+              "effective_start_date": "02/16/2026"
+            }
+          ],
+          "staffing_team_members_listed": [
+            {
+              "name": "THERAPY DEPOT OT, OT",
+              "discipline": "OT"
+            },
+            {
+              "name": "ATS PT, PT",
+              "discipline": "PT"
+            },
+            {
+              "name": "AMERICARE INC., AIDE",
+              "discipline": "HHA"
+            }
+          ]
+        },
+        "customer_referrer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "Americare"
+        },
+        "therapy_requested": {
+          "notes": "Facesheet indicates current service location is client's home/residence. Care type list includes 'NEED ST' but attachment filename suggests OT referral. No explicit OT mandate/frequency found in parsed pages.",
+          "service_type_from_filename": "OT"
+        }
+      },
+      "confidence": 0.86,
+      "sharepoint_mapping": {
+        "City": "Bronx",
+        "Notes": "Medicaid FFS (ID: YZ14458K). Primary phone (917) 515-8787. Referral date 04/26/2024. Dx: F84.0 Autism; F80.9 Dev speech/lang disorder; J45.909 asthma. Current service location: client's home/residence. Primary physician: Juliana Moylan, NPI 1366640286. Attachment also lists care type 'NEED ST' (02/16/2026 effective) but no mandate frequency found.",
+        "State": "NY",
+        "County": "Bronx",
+        "Mandate": null,
+        "ZipCode": "10469",
+        "Language": "English",
+        "Location": "Home",
+        "ChildName": "ANGEL A RODRIGUEZ",
+        "ProgramID": "148337",
+        "DateOfBirth": "10/14/2017",
+        "ServiceType": "OT",
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": "RECERTIFICATION",
+        "CaregiverName": "RODRIGUEZ MS",
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": "2455 WILLIAMS BRIDGE ROAD APT 6C",
+        "CaregiverPhone": "(917) 515-8787",
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.675Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnatn000k34uhyj1nurw9",
+    "filename": "correctedno-logo-bg_86c267e1-f2f7-489a-bbcd-b119afc48d99.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "referral": {
+          "children": [
+            {},
+            {}
+          ],
+          "documents_mentioned": [
+            "facesheets"
+          ],
+          "number_of_children_referred": 2
+        },
+        "email_body": {
+          "text": "Hello,\r\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\r\nTY\r\n\r\n\r\n\r\n\r\nNelia Markovtsii\r\nPediatric Therapy Liaison\r\nP. 718-535-3100 ext: 3486\r\nE. nmarkovtsii@americareny.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nCONFIDENTIALITY ",
+          "summary": "Sender indicates facesheets for two children are attached; asks if anything else is needed."
+        },
+        "attachments": [
+          {
+            "filename": "correctedno-logo-bg_86c267e1-f2f7-489a-bbcd-b119afc48d99.png",
+            "content_type": "image/png",
+            "extracted_text": "The Americare Companies\namericareny.com"
+          }
+        ],
+        "customer_referrer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "The Americare Companies",
+          "website": "americareny.com"
+        }
+      },
+      "confidence": 0.63,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Facesheets for two children were attached per sender; no child-specific details present in email body.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "The Americare Companies"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.666Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnatc000j34uhezmus6oc",
+    "filename": "instagram_32x32_fa157eca-2fd4-4a1a-8450-716fc67477bc.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "children": [
+          {
+            "notes": "Facesheet referenced in email body but not present/legible in provided attachment.",
+            "address": null,
+            "language": null,
+            "caregiver": null,
+            "child_name": null,
+            "program_id": null,
+            "date_of_birth": null,
+            "mandate_frequency": null,
+            "services_requested": null
+          },
+          {
+            "notes": "Facesheet referenced in email body but not present/legible in provided attachment.",
+            "address": null,
+            "language": null,
+            "caregiver": null,
+            "child_name": null,
+            "program_id": null,
+            "date_of_birth": null,
+            "mandate_frequency": null,
+            "services_requested": null
+          }
+        ],
+        "referrer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext: 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "Americare"
+        },
+        "email_body": {
+          "message": "Hello,\r\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\r\nTY",
+          "referral_summary": {
+            "attachments_mentioned": "facesheets for both kids",
+            "number_of_children_referred": 2
+          }
+        },
+        "attachments": [
+          {
+            "type": "image/png",
+            "notes": "Image appears to be a small icon (32x32). No facesheet/referral details readable from this attachment.",
+            "filename_provided": "instagram_32x32_fa157eca-2fd4-4a1a-8450-716fc67477bc.png"
+          }
+        ]
+      },
+      "confidence": 0.62,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Referrer indicated facesheets for two children were attached, but the only provided attachment is a 32x32 icon image with no referral details. Child demographics/services not available in email body.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext: 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.655Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnat1000i34uhk2yezrlz",
+    "filename": "x_32x32_31c3918e-1e33-4378-be76-478bd3e795d5.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "referrer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "Americare"
+        },
+        "email_body": {
+          "message": "Hello,\r\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\r\nTY",
+          "referral_context": "Facesheets attached for two children (not provided/readable in the uploaded image)."
+        },
+        "attachments": [
+          {
+            "type": "image/png",
+            "notes": "Image is 32x32 and contains no extractable facesheet/referral data.",
+            "filename": "x_32x32_31c3918e-1e33-4378-be76-478bd3e795d5.png"
+          }
+        ],
+        "children_referred": {
+          "children": [],
+          "count_mentioned": 2
+        }
+      },
+      "confidence": 0.55,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Referrer states facesheets for two kids are attached; no child details were included in the email body and the provided attachment is not readable/does not contain facesheet data.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.644Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnasr000h34uhri9oissl",
+    "filename": "facebook_32x32_13ad2ad2-648a-4291-be82-61ec3e148b39.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "referral": {
+          "children": [],
+          "children_referred_count_mentioned": 2
+        },
+        "email_body": {
+          "notes": "Facesheets for both kids are referenced but not included in the provided attachment content.",
+          "message": "Hello,\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\nTY",
+          "sender_signature": {
+            "name": "Nelia Markovtsii",
+            "email": "nmarkovtsii@americareny.com",
+            "phone": "718-535-3100 ext 3486",
+            "title": "Pediatric Therapy Liaison"
+          }
+        },
+        "attachments": [
+          {
+            "filename": "facebook_32x32_13ad2ad2-648a-4291-be82-61ec3e148b39.png",
+            "contentType": "image/png",
+            "description": "Small Facebook icon image; does not contain referral/clinical data."
+          }
+        ]
+      },
+      "confidence": 0.54,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email states facesheets for both kids are attached; provided attachment is only a Facebook icon image and contains no patient data.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare (americareny.com)"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.633Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnasf000g34uh3iof04n4",
+    "filename": "linkedin_32x32_a0e02d9a-ecec-4f98-a8ac-7e33d538f069.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "referral": {
+          "children": [
+            {
+              "notes": "Facesheet referenced in email body but not included in provided attachment.",
+              "address": null,
+              "language": null,
+              "caregiver": {
+                "name": null,
+                "phone": null
+              },
+              "child_name": null,
+              "program_id": null,
+              "date_of_birth": null,
+              "mandate_frequency": null,
+              "services_requested": null,
+              "location_of_services": null
+            },
+            {
+              "notes": "Facesheet referenced in email body but not included in provided attachment.",
+              "address": null,
+              "language": null,
+              "caregiver": {
+                "name": null,
+                "phone": null
+              },
+              "child_name": null,
+              "program_id": null,
+              "date_of_birth": null,
+              "mandate_frequency": null,
+              "services_requested": null,
+              "location_of_services": null
+            }
+          ],
+          "children_referred_count": 2
+        },
+        "email_body": {
+          "notes": "Facesheets attached for two children (details not present in email body).",
+          "message": "Hello,\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\nTY",
+          "sender_signature": {
+            "name": "Nelia Markovtsii",
+            "email": "nmarkovtsii@americareny.com",
+            "phone": "718-535-3100 ext 3486",
+            "title": "Pediatric Therapy Liaison",
+            "company": "Americare (americareny.com)"
+          }
+        },
+        "attachments": [
+          {
+            "filename": "linkedin_32x32_a0e02d9a-ecec-4f98-a8ac-7e33d538f069.png",
+            "contentType": "image/png",
+            "description": "LinkedIn icon image; no referral/patient data contained."
+          }
+        ]
+      },
+      "confidence": 0.63,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Referrer states facesheets are attached for two children, but the only provided attachment is a LinkedIn icon image and contains no patient/referral details.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.622Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnas4000f34uh4n2eyz7z",
+    "filename": "newlogo-logo-americarehighrespngfile_03b67aeb-bdb6-4e3e-a34f-070fe5ea28f4.jpg",
+    "mimeType": "image/jpeg",
+    "extractedJson": {
+      "extracted": {
+        "sender": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "Americare"
+        },
+        "patients": [
+          {
+            "note": "Facesheets referenced in email, but not provided here; patient details unavailable."
+          },
+          {
+            "note": "Facesheets referenced in email, but not provided here; patient details unavailable."
+          }
+        ],
+        "email_body": {
+          "message": "Hello,\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\nTY",
+          "referral_summary": "Sender indicates facesheets are attached for two children, but no child-specific details are present in the email body."
+        },
+        "attachments": [
+          {
+            "filename": "newlogo-logo-americarehighrespngfile_03b67aeb-bdb6-4e3e-a34f-070fe5ea28f4.jpg",
+            "description": "Americare logo image; no patient/referral data present.",
+            "content_type": "image/jpeg"
+          }
+        ]
+      },
+      "confidence": 0.62,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email states facesheets are attached for two children; only Americare logo image was included here, so child-specific referral details (name/DOB/services/address/mandate) are not available.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.610Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnars000e34uhll8fpag6",
+    "filename": "newlogo-logo-americarehighrespngfile_78b481c4-3332-43ab-a49a-f586bd2a488e.jpg",
+    "mimeType": "image/jpeg",
+    "extractedJson": {
+      "extracted": {
+        "patients": [
+          {
+            "note": "Facesheet referenced but not provided in the visible content; no child details extractable.",
+            "child_index": 1
+          },
+          {
+            "note": "Facesheet referenced but not provided in the visible content; no child details extractable.",
+            "child_index": 2
+          }
+        ],
+        "referrer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "Americare"
+        },
+        "email_body": {
+          "notes": "Referral details for two children are indicated to be in attached facesheets, but no child-specific clinical/demographic data is present in the email body provided.",
+          "message": "Hello,\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\nTY"
+        },
+        "attachments": [
+          {
+            "filename": "newlogo-logo-americarehighrespngfile_78b481c4-3332-43ab-a49a-f586bd2a488e.jpg",
+            "contentType": "image/jpeg",
+            "observed_content": "Americare logo image; no facesheet/referral details visible in this attachment."
+          }
+        ]
+      },
+      "confidence": 0.58,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Referrer states facesheets for both kids are attached; provided attachment appears to be an Americare logo image and does not contain patient facesheet data.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.598Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnarg000d34uh97d82c7g",
+    "filename": "correctedno-logo-bg_86c267e1-f2f7-489a-bbcd-b119afc48d99.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "referrer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "The Americare Companies",
+          "website": "americareny.com"
+        },
+        "email_body": {
+          "notes": "Facesheets for two children referenced, but child details are not present in the provided email body text.",
+          "message": "Hello,\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\nTY"
+        },
+        "attachments": [
+          {
+            "type": "image/png",
+            "filename": "correctedno-logo-bg_86c267e1-f2f7-489a-bbcd-b119afc48d99.png",
+            "extracted_text": "The Americare Companies\ramericareny.com"
+          }
+        ],
+        "children_referred": {
+          "children": [],
+          "count_mentioned": 2
+        }
+      },
+      "confidence": 0.74,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Referrer states facesheets are attached for two children, but child demographics/services are not included in the provided email body content.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "The Americare Companies"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.587Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnar4000c34uhrbojynin",
+    "filename": "instagram_32x32_fa157eca-2fd4-4a1a-8450-716fc67477bc.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "referrals": {
+          "children": [],
+          "children_referred_count_mentioned": 2
+        },
+        "email_body": {
+          "notes": [
+            "Referrer states facesheets for two children were attached, but only an image icon was provided here and no facesheet data was available to extract."
+          ],
+          "message": "Hello,\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\nTY",
+          "sender_signature": {
+            "name": "Nelia Markovtsii",
+            "email": "nmarkovtsii@americareny.com",
+            "phone": "718-535-3100 ext 3486",
+            "title": "Pediatric Therapy Liaison",
+            "company": "Americare NY (inferred from email domain)"
+          }
+        },
+        "attachments": [
+          {
+            "type": "image/png",
+            "description": "Small 32x32 image (appears to be an icon); contains no referral/clinical information.",
+            "filename_provided": "instagram_32x32_fa157eca-2fd4-4a1a-8450-716fc67477bc.png"
+          }
+        ]
+      },
+      "confidence": 0.66,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Referrer indicates facesheets for two children were attached, but no facesheet data was available in the provided content. Please provide the facesheets (PDF/image) to extract child details.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare NY"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.574Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnaqr000b34uhvoe7p2ib",
+    "filename": "x_32x32_31c3918e-1e33-4378-be76-478bd3e795d5.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "customer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": "718-535-3100 ext 3486",
+          "title": "Pediatric Therapy Liaison",
+          "company": "Americare"
+        },
+        "referral": {
+          "children": [
+            {},
+            {}
+          ],
+          "documents": [
+            {
+              "type": "facesheets",
+              "count": 2,
+              "status": "referenced_in_email_body_only_not_provided_here"
+            }
+          ]
+        },
+        "email_body": {
+          "message": "Hello,\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\nTY",
+          "mentions_attachments": true,
+          "children_referred_count_text": "both kids"
+        }
+      },
+      "confidence": 0.46,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email states facesheets for both kids are attached, but the provided attachment image contains no readable facesheet data.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.561Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnaqf000a34uhesmpya9y",
+    "filename": "facebook_32x32_13ad2ad2-648a-4291-be82-61ec3e148b39.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "referral": {
+          "children": [
+            {
+              "dob": null,
+              "name": null,
+              "notes": null,
+              "address": null,
+              "mandate": null,
+              "language": null,
+              "location": null,
+              "caregiver": {
+                "name": null,
+                "phone": null
+              },
+              "program_id": null,
+              "services_requested": null
+            },
+            {
+              "dob": null,
+              "name": null,
+              "notes": null,
+              "address": null,
+              "mandate": null,
+              "language": null,
+              "location": null,
+              "caregiver": {
+                "name": null,
+                "phone": null
+              },
+              "program_id": null,
+              "services_requested": null
+            }
+          ],
+          "number_of_children_referred": 2
+        },
+        "email_body": {
+          "notes": "Facesheets for two children are referenced but not included/readable in the provided attachment (image appears to be a small Facebook icon).",
+          "message": "Hello,\r\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\r\nTY",
+          "sender_signature": {
+            "name": "Nelia Markovtsii",
+            "email": "nmarkovtsii@americareny.com",
+            "phone": "718-535-3100 ext 3486",
+            "title": "Pediatric Therapy Liaison",
+            "company": "Americare (americareny.com)"
+          }
+        },
+        "attachments": [
+          {
+            "filename": "facebook_32x32_13ad2ad2-648a-4291-be82-61ec3e148b39.png",
+            "contentType": "image/png",
+            "description": "Icon image (Facebook logo); does not contain facesheet/referral details."
+          }
+        ]
+      },
+      "confidence": 0.55,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Email states facesheets for two kids are attached, but the only provided attachment is a small Facebook icon image and contains no referral details.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.548Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnaq2000934uhiij0h20f",
+    "filename": "linkedin_32x32_a0e02d9a-ecec-4f98-a8ac-7e33d538f069.png",
+    "mimeType": "image/png",
+    "extractedJson": {
+      "extracted": {
+        "patients": {
+          "details": [],
+          "count_referenced": 2
+        },
+        "referrer": {
+          "name": "Nelia Markovtsii",
+          "email": "nmarkovtsii@americareny.com",
+          "phone": {
+            "number": "718-535-3100",
+            "extension": "3486"
+          },
+          "title": "Pediatric Therapy Liaison",
+          "company": "Americare"
+        },
+        "email_body": {
+          "message": "Hello,\r\nI have attached the facesheets for both kids, please let me know if you need anything else on my end.\r\nTY\r\n\r\nCONFIDENTIALITY",
+          "attachments_mentioned": [
+            {
+              "type": "facesheets",
+              "count": 2,
+              "notes": "Facesheets for both kids are referenced but not included in the provided content."
+            }
+          ]
+        },
+        "files_received": [
+          {
+            "notes": "Icon image only; no referral/clinical data detected.",
+            "filename": "linkedin_32x32_a0e02d9a-ecec-4f98-a8ac-7e33d538f069.png",
+            "content_type": "image/png"
+          }
+        ]
+      },
+      "confidence": 0.52,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Referrer states facesheets for two children were attached, but only an icon image was provided here. No child demographics, services, mandates, or address details available in email body.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.536Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  },
+  {
+    "id": "cmm5nnapq000834uh7d3zesay",
+    "filename": "newlogo-logo-americarehighrespngfile_03b67aeb-bdb6-4e3e-a34f-070fe5ea28f4.jpg",
+    "mimeType": "image/jpeg",
+    "extractedJson": {
+      "extracted": {
+        "referral": {
+          "patients": [
+            {
+              "notes": "Email mentions facesheets for both kids, but no child-identifying or clinical details are included in the email body and no facesheet content is available in the provided attachment.",
+              "details": null,
+              "patient_count_mentioned": 2
+            }
+          ]
+        },
+        "email_body": {
+          "summary": "Sender states facesheets for both kids are attached and offers to provide anything else needed.",
+          "sender_signature": {
+            "name": "Nelia Markovtsii",
+            "email": "nmarkovtsii@americareny.com",
+            "phone": "718-535-3100 ext 3486",
+            "title": "Pediatric Therapy Liaison",
+            "company": "Americare"
+          }
+        },
+        "attachments": [
+          {
+            "type": "image/jpeg",
+            "notes": "Appears to be an Americare logo image; no referral/patient facesheet data visible.",
+            "filename": "newlogo-logo-americarehighrespngfile_03b67aeb-bdb6-4e3e-a34f-070fe5ea28f4.jpg"
+          }
+        ]
+      },
+      "confidence": 0.58,
+      "sharepoint_mapping": {
+        "City": null,
+        "Notes": "Sender indicates facesheets for two children are attached, but the only provided attachment is a logo image and contains no patient/referral details.",
+        "State": null,
+        "County": null,
+        "Mandate": null,
+        "ZipCode": null,
+        "Language": null,
+        "Location": null,
+        "ChildName": null,
+        "ProgramID": null,
+        "DateOfBirth": null,
+        "ServiceType": null,
+        "StaffedDate": null,
+        "StaffedName": null,
+        "CustomerName": "Nelia Markovtsii",
+        "ReferralType": null,
+        "CaregiverName": null,
+        "CustomerEmail": "nmarkovtsii@americareny.com",
+        "CustomerPhone": "718-535-3100 ext 3486",
+        "StreetAddress": null,
+        "CaregiverPhone": null,
+        "CustomerCompany": "Americare"
+      }
+    },
+    "createdAt": "2026-02-28T01:41:10.523Z",
+    "message": {
+      "subject": "Re: ALEXANDER and ANGEL  RODRIGUEZ OT AUTH",
+      "receivedAt": "2026-02-27T19:16:09.000Z",
+      "thread": {
+        "id": "cmm5nna8l000434uhl97907zj",
+        "department": "STAFFING"
+      }
+    }
+  }
+]

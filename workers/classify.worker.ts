@@ -35,6 +35,7 @@
 import "dotenv/config";
 import { prisma } from "@/lib/db";
 import { classifyThread } from "@/services/classification.service";
+import { SharePointService } from "@/services/sharepoint.service";
 
 async function sleep(ms: number) {
     return new Promise((r) => setTimeout(r, ms));
@@ -61,6 +62,30 @@ async function main() {
 
             for (const thread of threads) {
                 await classifyThread(thread.id);
+
+                // Re-read thread after classification to check isStaffingRequest
+                const classified = await prisma.thread.findUnique({
+                    where: { id: thread.id },
+                    select: { department: true, metadata: true },
+                });
+                const meta = (classified?.metadata ?? {}) as Record<string, unknown>;
+                const isRequest = meta.isStaffingRequest === true;
+
+                // Only sync to SharePoint if this is a genuine staffing request
+                // (customer asking about provider availability for a case)
+                if (classified?.department === "STAFFING" && isRequest) {
+                    try {
+                        const result = await SharePointService.syncThread(thread.id);
+                        if (result.synced) {
+                            console.log(`[classify] SharePoint synced staffing request ${thread.id}`);
+                        }
+                    } catch (spErr) {
+                        // Never let SharePoint errors break the classify pipeline
+                        console.error("[classify] SharePoint sync error (non-fatal):", spErr);
+                    }
+                } else if (classified?.department === "STAFFING") {
+                    console.log(`[classify] Skipping SharePoint sync for ${thread.id} (isStaffingRequest=false)`);
+                }
             }
         } catch (e: unknown) {
             if (e instanceof Error) console.error("[classify] error", e.message);

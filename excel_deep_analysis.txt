@@ -1,0 +1,268 @@
+Sheet: UNSTAFFED REFERRALS 12.4.25
+Total Rows (incl header): 1919
+Columns: 26
+
+=== FIRST 10 DATA ROWS ===
+
+--- Row 1 ---
+  UniqueIdentifier: Alexander OT35-29 98th St
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Phillip Gresbach
+  CustomerPhone: 718-535-3100 ext: 3433 
+  CustomerEmail: pgresbach@Americareny.com 
+  CustomerCompany: The Americare Companies
+  ReferralType: TDP
+  Status: Open
+  ChildName: Alexander 
+  ServiceType: OT
+  Notes: OT is available as case 3808
+  StreetAddress: 35-29 98th St
+  City: Queens
+  ZipCode: 11368
+
+--- Row 2 ---
+  UniqueIdentifier: Alexander ST35-29 98th St
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Phillip Gresbach
+  CustomerPhone: 718-535-3100 ext: 3433 
+  CustomerEmail: pgresbach@Americareny.com 
+  CustomerCompany: The Americare Companies
+  ReferralType: TDP
+  Status: Open
+  ChildName: Alexander 
+  ServiceType: ST
+  Notes: ST is available as case 3809
+  StreetAddress: 35-29 98th St
+  City: Queens
+  ZipCode: 11368
+
+--- Row 3 ---
+  UniqueIdentifier: Bastone, J. A ST?334 E 108 St, NY NY
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Bastone, J. A 
+  ServiceType: ST
+  DateOfBirth: 37 Y/O
+  StreetAddress: ?334 E 108 St, NY NY
+  ZipCode: 10029
+
+--- Row 4 ---
+  UniqueIdentifier: Bastone, J. AOT334 E 108 St, NY NY
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Bastone, J. A
+  ServiceType: OT
+  DateOfBirth: 37 Y/O
+  StreetAddress: 334 E 108 St, NY NY
+  ZipCode: 10029
+
+--- Row 5 ---
+  UniqueIdentifier: Cleckley, S. ZOT1760 Madison Ave, NY NY
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Cleckley, S. Z
+  ServiceType: OT
+  DateOfBirth: 9 Y/O
+  StreetAddress: 1760 Madison Ave, NY NY
+  ZipCode: 10029
+
+--- Row 6 ---
+  UniqueIdentifier: Duran Jr, D.ST3071 Park Ave, BX NY
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Duran Jr, D.
+  ServiceType: ST
+  DateOfBirth: 19 Y/O
+  StreetAddress: 3071 Park Ave, BX NY
+  ZipCode: 10451
+
+--- Row 7 ---
+  UniqueIdentifier: Fernandez, M. X OT71 Columbia St, NY NY
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Fernandez, M. X 
+  ServiceType: OT
+  DateOfBirth: 12 Y/O
+  StreetAddress: 71 Columbia St, NY NY
+  ZipCode: 10002
+
+--- Row 8 ---
+  UniqueIdentifier: Fernandez, M. XST71 Columbia St, NY NY 
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Fernandez, M. X
+  ServiceType: ST
+  DateOfBirth: 12 Y/O
+  StreetAddress: 71 Columbia St, NY NY 
+  ZipCode: 10002
+
+--- Row 9 ---
+  UniqueIdentifier: Gutowski, T. S ST523 E 14th st, NY NY
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Gutowski, T. S 
+  ServiceType: ST
+  DateOfBirth: 26Y/O
+  StreetAddress: 523 E 14th st, NY NY
+  ZipCode: 10009
+
+--- Row 10 ---
+  UniqueIdentifier: Gutowski, T. SOT523 E 14th st, NY NY
+  EntryDate: 45660
+  ReferralDate: 45659
+  CustomerName: Nick Kim Son
+  CustomerPhone: 212-356-4200 x3331
+  CustomerEmail: nkimson@extendedhc.net
+  CustomerCompany: Extended Home Care
+  ReferralType: TDP
+  Status: Open
+  ChildName: Gutowski, T. S
+  ServiceType: OT
+  DateOfBirth: 26 Y/O
+  StreetAddress: 523 E 14th st, NY NY
+  ZipCode: 10009
+
+
+=== COLUMN VALUE ANALYSIS ===
+
+ReferralType (2 unique values):
+  "TDP": 325
+  "T2G": 214
+
+Status (2 unique values):
+  "Open": 538
+  "OPEN": 1
+
+ServiceType (30 unique values):
+  "ST": 175
+  "OT": 172
+  "PT": 74
+  "SI": 23
+  "ST/OT": 19
+  "OT/ST": 19
+  "SLP": 8
+  "ST/OT/PT": 5
+  "STE": 5
+  "OTE": 5
+  "PT/OT/ST": 4
+  "PT/OT": 4
+  "ABA": 3
+  "OT/PT/ST": 3
+  "_": 3
+  ... and 15 more
+
+Mandate (17 unique values):
+  "2*30": 83
+  "_": 74
+  "3*30": 17
+  "1*30": 9
+  "2x30": 8
+  "Pending": 3
+  "1*60": 3
+  "pending": 3
+  "2*60": 3
+  "5*60": 2
+  "18 HOURS": 1
+  "3*60": 1
+  "3x30": 1
+  "5x60": 1
+  "20*60": 1
+  ... and 2 more
+
+Language (11 unique values):
+  "_": 100
+  "English": 13
+  "SPANISH": 3
+  "Bilingual Spanish": 2
+  "Monolingual": 1
+  "Bilingual": 1
+  "Spanish": 1
+  "spanish": 1
+  "English/Spanish": 1
+  "Bilingual/Spanish": 1
+  "english": 1
+
+County (8 unique values):
+  "Bronx": 26
+  "BRONX": 17
+  "_": 13
+  "New York": 11
+  "Queens": 8
+  "NEW YORK": 7
+  "Kings": 2
+  "bronx": 2
+
+
+=== COLUMN FILL RATE ===
+  UniqueIdentifier: 539/1918 (28.1%)
+  EntryDate: 539/1918 (28.1%)
+  ReferralDate: 539/1918 (28.1%)
+  CustomerName: 539/1918 (28.1%)
+  CustomerPhone: 536/1918 (27.9%)
+  CustomerEmail: 539/1918 (28.1%)
+  CustomerCompany: 539/1918 (28.1%)
+  ReferralType: 539/1918 (28.1%)
+  Status: 539/1918 (28.1%)
+  StaffedName: 22/1918 (1.1%)
+  StaffedDate: 22/1918 (1.1%)
+  ChildName: 534/1918 (27.8%)
+    Program ID: 192/1918 (10.0%)
+  ServiceType: 539/1918 (28.1%)
+  Mandate: 212/1918 (11.1%)
+  Language: 125/1918 (6.5%)
+  DateOfBirth: 419/1918 (21.8%)
+  Notes: 130/1918 (6.8%)
+  StreetAddress: 510/1918 (26.6%)
+  City: 220/1918 (11.5%)
+  NY: 58/1918 (3.0%)
+  ZipCode: 535/1918 (27.9%)
+  County: 86/1918 (4.5%)
+  CaregiverName: 132/1918 (6.9%)
+  PhoneNumber: 155/1918 (8.1%)
+  Location: 13/1918 (0.7%)
+
+Done.

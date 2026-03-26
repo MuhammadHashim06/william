@@ -1,0 +1,135 @@
+﻿[db] db.ts loaded from: file:///D:/Xavinex/William/william%20fixed/william/src/lib/db.ts
+[db] Using PrismaMariaDb adapter (matching seed.ts implementation)
+
+=== EXTRACTED ATTACHMENTS (5) ===
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5nqarn00k434uh3cyvo93x | Dept: STAFFING
+Subject: Steven Levy Speech Therapy visit 2/17
+File: db814c83-807c-4e03-a474-c294a9b31348 (2).pdf
+  sharepoint_mapping:
+    ChildName: Steven Levy
+    ServiceType: ST
+    StreetAddress: (null)
+    City: (null)
+    CustomerName: (null)
+    Mandate: (null)
+    ProgramID: (null)
+    DateOfBirth: 04/29/2021
+    CaregiverName: (null)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5nqa0m00jz34uhlekad9hg | Dept: STAFFING
+Subject: Re: ThomasFelix, Alisha, 02/07/26
+File: 2026_0207_EXT_THOMASFELIX, ALISHA_04732294_COTAVISIT.pdf
+  sharepoint_mapping:
+    ChildName: Alisha ThomasFelix
+    ServiceType: OT
+    StreetAddress: (null)
+    City: (null)
+    CustomerName: Vilma L. DiGilio
+    Mandate: (null)
+    ProgramID: 04732294
+    DateOfBirth: 11/13/2003
+    CaregiverName: (null)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5nq78q00jb34uhwpk3m01m | Dept: STAFFING
+Subject: Fw: Neri, Aaron, 02/08/26
+File: 2026_0208NERI, AARON895571EI (2).pdf
+  sharepoint_mapping:
+    ChildName: Neri, Aaron
+    ServiceType: OT
+    StreetAddress: (null)
+    City: (null)
+    CustomerName: Amit
+    Mandate: 1*30
+    ProgramID: 895571
+    DateOfBirth: 08/09/2023
+    CaregiverName: (null)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5nq78q00jb34uhwpk3m01m | Dept: STAFFING
+Subject: Fw: Neri, Aaron, 02/08/26
+File: image.png
+  sharepoint_mapping:
+    ChildName: Aaron Neri
+    ServiceType: OT (COTA)
+    StreetAddress: (null)
+    City: (null)
+    CustomerName: Amit
+    Mandate: (null)
+    ProgramID: 895571
+    DateOfBirth: (null)
+    CaregiverName: (null)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5nq39700ie34uh1w44ammr | Dept: STAFFING
+Subject: Aulrica Thomas OTR/L (invoice for co-signing COTA notes)
+File: Invoice for co-signing COTO notes.pdf
+  sharepoint_mapping:
+    ChildName: (null)
+    ServiceType: OT
+    StreetAddress: (null)
+    City: (null)
+    CustomerName: Aulrica Thomas, OTR/L
+    Mandate: (null)
+    ProgramID: (null)
+    DateOfBirth: (null)
+    CaregiverName: (null)
+
+
+=== RECENTLY SYNCED STAFFING THREADS ===
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5no2zv005t34uh72lmn582
+Subject: Toro, Aiden
+Stage: FOLLOWING_UP
+isStaffingRequest: true
+sharepointSynced: true
+skippedReason: (none)
+Body preview: Hi,
+
+CT/OT revisits approved to be seen as follows as per order: New cert 2.24.2026-4.24.2026
+
+
+  *   CT/OT 2x a week revisit valid 2.24.2026 to 4.24.2026
+
+Please complete OT RA visits scheduled for 3.24.26.
+
+Reminder: Please make sure to complet
+Attachments extracted: 0
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5no1hc005h34uh6s125ur1
+Subject: Re: CASE AVAILABILITY - PT
+Stage: FOLLOWING_UP
+isStaffingRequest: true
+sharepointSynced: true
+skippedReason: (none)
+Body preview: Hi, we are not doing any telehealth visits. Sorry. Ty!
+________________________________
+From: Excellent TDP <excellent@therapydepotonline.com>
+Sent: Tuesday, February 24, 2026 6:14 PM
+To: Cassandra Acevedo <cassandra.acevedo@ehcny.org>
+Subject: CASE 
+Attachments extracted: 0
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Thread: cmm5nnuib004l34uhqipadwc0
+Subject: Re: OLIVER VARGAS ST
+Stage: FOLLOWING_UP
+isStaffingRequest: true
+sharepointSynced: true
+skippedReason: (none)
+Body preview: Continue ST 2x wk from 02/25/2026 - 04/25/2026
+
+Thank you
+
+
+Marvin Jake Villanueva
+Pediatric Quality Reviewer RN
+P. 718-535-3100 ext: 3431
+E. mvillanueva@Americareny.com
+
+
+
+
+
+
+CONFIDENTIALITY NOTICE: This e-mail/fax and its attachments may 
+Attachments extracted: 0

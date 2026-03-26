@@ -17,6 +17,8 @@ export enum StaffingStage {
     ContactInfoSent = "CONTACT_INFO_SENT",
     ProviderScheduled = "PROVIDER_SCHEDULED",
     Staffed = "STAFFED",
+    FollowingUp = "FOLLOWING_UP",
+    Complete = "COMPLETE",
 }
 
 export enum CaseManagementStage {
@@ -40,6 +42,8 @@ export const STAGES_BY_DEPARTMENT = {
         StaffingStage.ContactInfoSent,
         StaffingStage.ProviderScheduled,
         StaffingStage.Staffed,
+        StaffingStage.FollowingUp,
+        StaffingStage.Complete,
     ],
     [Department.CaseManagement]: [
         CaseManagementStage.FollowingUp,
@@ -110,9 +114,9 @@ export function getStagesForDepartment(department: Department): readonly AnyStag
 
 export type StageForDepartment<D extends Department> =
     D extends Department.Staffing ? StaffingStage :
-        D extends Department.CaseManagement ? CaseManagementStage :
-            D extends Department.Billing ? BillingStage :
-                never;
+    D extends Department.CaseManagement ? CaseManagementStage :
+    D extends Department.Billing ? BillingStage :
+    never;
 
 export type StagesByDepartment = typeof STAGES_BY_DEPARTMENT;
 

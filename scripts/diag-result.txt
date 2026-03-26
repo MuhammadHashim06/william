@@ -1,0 +1,78 @@
+[dotenv@17.2.4] injecting env (27) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+╔════════════════════════════════════════════════╗
+║   SharePoint Diagnostics                      ║
+╚════════════════════════════════════════════════╝
+
+📋 Credentials:
+   TENANT_ID:     f89dd7fa-38b2-4dcc-8b3e-8b94e9b37c32
+   CLIENT_ID:     54793fe5-24de-4ab6-a8ed-15ef676199c3
+   CLIENT_SECRET: ***GbTi
+   SP_HOSTNAME:   therapydepotonline.sharepoint.com
+   SP_SITE_PATH:  /sites/2026STAFFING
+------------------------------------------------------------
+
+🔐 Step 1: Acquiring token...
+   ✅ Token acquired successfully
+------------------------------------------------------------
+
+🔑 Step 2: Testing Graph API permissions...
+   ⚠️  /organization → 403 (OK — this permission may not be granted)
+   ✅ /sites/root → Therapy Depot, Inc Team Site (https://therapydepotonline.sharepoint.com)
+------------------------------------------------------------
+
+🌐 Step 3: Discovering SharePoint sites...
+   Trying direct path: GET /sites/therapydepotonline.sharepoint.com:/sites/2026STAFFING
+   ❌ Direct path failed (404): itemNotFound
+
+   Trying alternate path: GET /sites/therapydepotonline.sharepoint.com:/sites/THERAPYDEPOTTEAMSITE
+   ✅ Alternate site found: "THERAPY DEPOT TEAM SITE" (ID: therapydepotonline.sharepoint.com,9991c999-3633-42be-96bd-e564f75285e4,331df759-f6f6-40c0-a82e-82363aa82cd5)
+
+   🔍 Searching for all sites...
+   Found 20 site(s):
+     • "Human Resources" — https://therapydepotonline.sharepoint.com/sites/HR
+       ID: therapydepotonline.sharepoint.com,afb987af-8648-4ef3-a892-f75af52dfda0,d05a112b-a8ce-42a1-84c8-e5d86e50522f
+     • "Designer" — https://therapydepotonline.sharepoint.com/contentstorage/coJsE0OdIkqu2uEOCncHOZIT-w1qi0tIiIDKtJd_RR0
+       ID: therapydepotonline.sharepoint.com,91158bdf-b922-416b-9b3b-9e8247e74e08,a1130631-568c-493f-8eef-fda4eca01717
+     • "My workspace" — https://therapydepotonline.sharepoint.com/contentstorage/x8FNO-xtskuCRX2_fMTHLZIT-w1qi0tIiIDKtJd_RR0
+       ID: therapydepotonline.sharepoint.com,15a56f9b-97ec-459d-a739-5f08ffba1458,a1130631-568c-493f-8eef-fda4eca01717
+     • "3dbc7852-0ed5-4a56-a367-2b502e213601" — https://therapydepotonline.sharepoint.com/contentstorage/x8FNO-xtskuCRX2_fMTHLUnTJtO80C9DtZKkmh86b9w
+       ID: therapydepotonline.sharepoint.com,ec5f17c2-3feb-42e4-923d-a96c6ee8004c,d573e864-9147-4728-a4de-ed981d80c898
+     • "Designer" — https://therapydepotonline.sharepoint.com/contentstorage/coJsE0OdIkqu2uEOCncHOUnTJtO80C9DtZKkmh86b9w
+       ID: therapydepotonline.sharepoint.com,bd12420c-2dc1-4667-be9a-0e4ee3b21f8e,d573e864-9147-4728-a4de-ed981d80c898
+     • "Designer" — https://therapydepotonline.sharepoint.com/contentstorage/coJsE0OdIkqu2uEOCncHORmV1rOZOOJFsh_TaCFhxGU
+       ID: therapydepotonline.sharepoint.com,54efcaa5-b1c5-46e3-9527-6e900ed62a8d,b21ce967-ed07-421f-8209-fa22e153a487
+     • "Designer" — https://therapydepotonline.sharepoint.com/contentstorage/coJsE0OdIkqu2uEOCncHOcTr3qaw57lHlGlNWZUeNDU
+       ID: therapydepotonline.sharepoint.com,72a4fb67-d5a1-4b54-a79a-4ded45e78ce3,b21ce967-ed07-421f-8209-fa22e153a487
+     • "My workspace" — https://therapydepotonline.sharepoint.com/contentstorage/x8FNO-xtskuCRX2_fMTHLcTr3qaw57lHlGlNWZUeNDU
+       ID: therapydepotonline.sharepoint.com,563c086f-69da-4a30-b699-1e629f9422c1,b21ce967-ed07-421f-8209-fa22e153a487
+     • "My workspace" — https://therapydepotonline.sharepoint.com/contentstorage/x8FNO-xtskuCRX2_fMTHLQnE2ODeoghIkF43RcrT6uQ
+       ID: therapydepotonline.sharepoint.com,7f010918-6f6a-4860-a5b8-bb0fc8682d66,b21ce967-ed07-421f-8209-fa22e153a487
+     • "Little Peoples Promises" — https://therapydepotonline.sharepoint.com/sites/LittlePeoplesPromises2
+       ID: therapydepotonline.sharepoint.com,367f7e4a-39ac-42ab-b0f8-6671de5fb5b0,bbb8d237-c5ca-478f-b4c2-c7b9c3b1e5b6
+     • "Therapy Depot, Inc Team Site" — https://therapydepotonline.sharepoint.com
+       ID: therapydepotonline.sharepoint.com,6a2b3fcd-ca47-4362-929b-fabbf66c938d,75747d78-f9d2-4b40-8033-906a2a6eb7a7
+     • "All Company" — https://therapydepotonline.sharepoint.com/sites/AllCompany.3435844.payoruru
+       ID: therapydepotonline.sharepoint.com,3b53f02b-3944-492d-98a0-740b79979d1d,5eb48955-7925-4d66-862b-fd7da0098f60
+     • "Group for Answers in Viva Engage – DO NOT DELETE 3435844" — https://therapydepotonline.sharepoint.com/sites/groupforanswersinvivaengagedonotdelete3435844273
+       ID: therapydepotonline.sharepoint.com,f9335b31-012b-4396-a2b9-9d2cc2c2500f,f02d85c5-b66a-45cf-8638-5c46c6bd91da
+     • "THERAPY DEPOT TEAM SITE" — https://therapydepotonline.sharepoint.com/sites/THERAPYDEPOTTEAMSITE
+       ID: therapydepotonline.sharepoint.com,9991c999-3633-42be-96bd-e564f75285e4,331df759-f6f6-40c0-a82e-82363aa82cd5
+     • "Meeting" — https://therapydepotonline.sharepoint.com/sites/Meeting
+       ID: therapydepotonline.sharepoint.com,836495c5-3d55-4106-9b33-3aee6ef6c2fd,63ec8259-b53b-4edb-9b50-3475968a7c2a
+     • "Email Krista" — https://therapydepotonline.sharepoint.com/sites/EmailKrista
+       ID: therapydepotonline.sharepoint.com,cf3055b5-906c-4d75-8e50-2a6d5f712407,ba444f15-7bde-4ee2-8ec0-9038f59ff910
+     • "Demo" — https://therapydepotonline.sharepoint.com/sites/Demo
+       ID: therapydepotonline.sharepoint.com,54370c12-fc32-4d10-ba73-a7d390b501fd,7537a705-e945-4fac-a089-828506e51d14
+     • "Team Site" — https://therapydepotonline.sharepoint.com/sites/contentTypeHub
+       ID: therapydepotonline.sharepoint.com,febe1c2c-662d-40ae-b088-4b30c9388de4,288c7fad-58e0-44e0-9340-cce1053b493f
+     • "Community" — https://therapydepotonline.sharepoint.com/portals/Community
+       ID: therapydepotonline.sharepoint.com,2f51d474-01cb-4986-8bef-278f00ff3f9d,f0d91399-fde5-414d-8924-ee01ab814b0a
+     • "PointPublishing Hub Site" — https://therapydepotonline.sharepoint.com/portals/hub
+       ID: therapydepotonline.sharepoint.com,84921f9f-08ad-4ab0-88e3-1ea1ddd42479,c99d1b81-1446-4b30-98f7-58d887d3523b
+
+   👉 Use the webUrl above to determine the correct SP_SITE_PATH in your .env
+------------------------------------------------------------
+------------------------------------------------------------
+
+✅ Diagnostics complete.
+
